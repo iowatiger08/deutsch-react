@@ -16,6 +16,20 @@ infra/
 Reuses the existing `tigersndragons.com` setup: hosted zone `Z1WSE25C5PWLRP`,
 app region **us-west-2** (CloudFront certs must be in **us-east-1**).
 
+## Live resources
+
+The app is provisioned and live at **https://deutsch.tigersndragons.com/**
+(S3 bucket, CloudFront distribution, `deutsch-api` Lambda in us-west-2, ACM cert
+in us-east-1). The concrete account id / bucket / distribution id / Lambda URL /
+cert ARN are kept out of this public repo — see the owner's private deployment
+notes. Deploy with `BUCKET=<bucket> DISTRIBUTION=<dist-id> ./infra/deploy.sh`.
+
+**Note — Lambda auth:** this account blocks *public* Function URLs (`AuthType
+NONE` → 403), so the URL uses **`AWS_IAM`** and CloudFront signs requests via an
+**Origin Access Control** (origin type `lambda`). The Lambda resource policy
+grants `cloudfront.amazonaws.com` (scoped to the distribution ARN) — so the raw
+Function URL is not directly callable; it only works *through* CloudFront.
+
 ---
 
 ## One-time setup
@@ -36,15 +50,19 @@ aws lambda create-function \
   --role arn:aws:iam::$ACCOUNT:role/<lambda-basic-exec-role> \
   --timeout 15 --memory-size 256 --region us-west-2
 
-# Public Function URL (CloudFront fronts it; no auth on the URL itself)
+# Function URL signed by CloudFront (this account blocks public URLs).
 aws lambda create-function-url-config \
-  --function-name deutsch-api --auth-type NONE --region us-west-2
+  --function-name deutsch-api --auth-type AWS_IAM --region us-west-2
+# Grant CloudFront (scoped to the distribution created in step 4) permission:
 aws lambda add-permission --function-name deutsch-api \
-  --statement-id fnurl --action lambda:InvokeFunctionUrl \
-  --principal '*' --function-url-auth-type NONE --region us-west-2
+  --statement-id cloudfront-oac --action lambda:InvokeFunctionUrl \
+  --principal cloudfront.amazonaws.com --function-url-auth-type AWS_IAM \
+  --source-arn arn:aws:cloudfront::$ACCOUNT:distribution/<dist-id> --region us-west-2
 ```
 
-Smoke-test: `curl <function-url>/api/wetter` and `.../api/nachrichten`.
+The raw URL returns 403 by design; smoke-test the code with a direct invoke:
+`aws lambda invoke --function-name deutsch-api --payload '{"rawPath":"/api/wetter"}' out.json`
+(or curl it *through* CloudFront once step 4 is live).
 
 ### 2. S3 bucket (private, served only via CloudFront/OAC)
 
@@ -70,7 +88,8 @@ Add the returned CNAME to zone `Z1WSE25C5PWLRP` and wait for `ISSUED`.
 - **Default origin**: the S3 bucket via **Origin Access Control (OAC)**; then
   attach the generated bucket policy so only this distribution can read it.
 - **Second origin**: the Lambda **Function URL** host (origin type = custom,
-  HTTPS-only).
+  HTTPS-only) with its own **OAC** (origin type `lambda`, sign `always`) so
+  CloudFront SigV4-signs the `AWS_IAM` Function URL.
 - **Default behavior** → S3 origin. Cache: hashed assets `immutable`;
   `index.html` / `sw.js` short TTL (the deploy script sets these headers).
 - **`/api/*` behavior** → the Lambda origin; disable caching (or very short TTL)
