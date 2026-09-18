@@ -25,17 +25,6 @@ export default function About() {
           quiz, and weather/news practice. Everything here is plain study material: word lists and
           explanations, nothing more.
         </p>
-        <p>
-          Einzelne Bereiche enthalten Wortschatz für Erwachsene (18+) und sind ausdrücklich als
-          Sprachreferenz für erwachsene Lernende gedacht. Sie beschreiben ausschließlich
-          einvernehmliches Verhalten zwischen Erwachsenen und stellen weder Pornografie noch eine
-          Anleitung dar.
-        </p>
-        <p className="gloss">
-          Some sections contain adult (18+) vocabulary and are intended strictly as a language
-          reference for adult learners. They describe only consensual activity between adults and are
-          neither pornography nor instructional content.
-        </p>
       </section>
     </main>
   );
