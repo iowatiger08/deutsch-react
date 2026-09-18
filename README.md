@@ -41,8 +41,11 @@ Migration in progress:
 - [x] Wetter (`/wetter`) — weather + news cards fetching same-origin `/api/*`,
       degrading gracefully when offline / no backend.
 - [x] About (`/about`) — educational-purpose disclaimer.
-- [ ] PWA offline service worker + installable manifest.
-- [ ] `/api/*` weather + news Lambda; S3 + CloudFront deploy.
+- [x] PWA — `vite-plugin-pwa`: precache app shell + seed + 33 grammar PNGs,
+      NetworkFirst runtime cache for `/api/*`, installable manifest + icons.
+- [x] `/api/*` weather + news Lambda (`infra/lambda/`) — ports WeatherService +
+      NewsService; verified against live Open-Meteo + RSS feeds.
+- [ ] AWS provisioning + deploy (scripts + runbook in `infra/`; needs credentials).
 
 ## Architecture
 
