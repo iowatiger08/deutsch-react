@@ -339,6 +339,11 @@ table.chart .ending { color: var(--accent-2); font-family: ui-monospace, Menlo, 
 }
 td.sw { width: 26px; }
 
+/* About page */
+.about-panel p { margin: 0 0 12px; line-height: 1.6; }
+.about-panel p:last-child { margin-bottom: 0; }
+.about-panel .lead { font-size: 1.05rem; }
+
 .grammar h2 { font-size: 1.4rem; margin: 0 0 4px; }
 .grammar-grid {
     display: grid;

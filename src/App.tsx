@@ -4,6 +4,9 @@ import AppHeader from './components/AppHeader';
 import Search from './routes/Search';
 import Vokabeln from './routes/Vokabeln';
 import Quiz from './routes/Quiz';
+import Grammar from './routes/Grammar';
+import Wetter from './routes/Wetter';
+import About from './routes/About';
 import Placeholder from './routes/Placeholder';
 
 function Shell() {
@@ -20,9 +23,9 @@ function Shell() {
           <Route path="/" element={<Search />} />
           <Route path="/vokabeln" element={<Vokabeln />} />
           <Route path="/quiz" element={<Quiz />} />
-          <Route path="/grammar" element={<Placeholder title="Grammatik" />} />
-          <Route path="/wetter" element={<Placeholder title="Wetter & Nachrichten" />} />
-          <Route path="/about" element={<Placeholder title="Über" />} />
+          <Route path="/grammar" element={<Grammar />} />
+          <Route path="/wetter" element={<Wetter />} />
+          <Route path="/about" element={<About />} />
           <Route path="*" element={<Placeholder title="Not found" />} />
         </Routes>
       )}

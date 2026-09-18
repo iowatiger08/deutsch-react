@@ -36,7 +36,11 @@ Migration in progress:
       and the sticky anchor menubar.
 - [x] Quiz (`/quiz`) — flashcards from the local store: shuffle, flip, grade,
       practice-missed, keyboard 1/2/Space, direction + category filter.
-- [ ] Grammar, Wetter (stubbed, ported in later steps).
+- [x] Grammar (`/grammar`) — conjugation/declension charts, chart-nav jump menu,
+      33-page study-sheet gallery with click-to-enlarge lightbox.
+- [x] Wetter (`/wetter`) — weather + news cards fetching same-origin `/api/*`,
+      degrading gracefully when offline / no backend.
+- [x] About (`/about`) — educational-purpose disclaimer.
 - [ ] PWA offline service worker + installable manifest.
 - [ ] `/api/*` weather + news Lambda; S3 + CloudFront deploy.
 
