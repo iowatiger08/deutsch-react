@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/appheader.tsx","./src/lib/normalize.ts","./src/lib/search.ts","./src/lib/store.ts","./src/lib/types.ts","./src/routes/placeholder.tsx","./src/routes/search.tsx","./src/store/storecontext.tsx"],"errors":true,"version":"5.7.3"}

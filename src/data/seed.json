@@ -1,0 +1,9134 @@
+[
+  {
+    "german": "Ab morgen",
+    "english": "from tomorrow on",
+    "category": "Sayings",
+    "sourcePage": 27
+  },
+  {
+    "german": "Abends",
+    "english": "around",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Aber stressig",
+    "english": "but stressful",
+    "category": "Sayings",
+    "sourcePage": 2
+  },
+  {
+    "german": "Abfarhen",
+    "english": "depart",
+    "category": "Verbs",
+    "sourcePage": 14
+  },
+  {
+    "german": "Abholen",
+    "english": "pick up",
+    "category": "Verbs",
+    "sourcePage": 13
+  },
+  {
+    "german": "Absturz",
+    "english": "crash",
+    "category": "Sayings",
+    "sourcePage": 25
+  },
+  {
+    "german": "Agypten",
+    "english": "egypt",
+    "category": "Places",
+    "sourcePage": 5
+  },
+  {
+    "german": "Aktivitäten",
+    "english": "activities",
+    "category": "Nouns / people / things",
+    "sourcePage": 20
+  },
+  {
+    "german": "Alle einladen",
+    "english": "invite everyone",
+    "category": "Sayings",
+    "sourcePage": 15
+  },
+  {
+    "german": "Allein",
+    "english": "alone",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Alles",
+    "english": "everything",
+    "category": "Sayings",
+    "sourcePage": 9
+  },
+  {
+    "german": "Alles Gute",
+    "english": "take care",
+    "category": "Sayings",
+    "sourcePage": 8
+  },
+  {
+    "german": "Alles über",
+    "english": "everything",
+    "category": "Sayings",
+    "sourcePage": 12
+  },
+  {
+    "german": "Alt",
+    "english": "old",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "Alterer",
+    "english": "elderly",
+    "category": "Sayings",
+    "sourcePage": 22
+  },
+  {
+    "german": "Am Schalter",
+    "english": "at the counter",
+    "category": "Nouns / people / things",
+    "sourcePage": 3
+  },
+  {
+    "german": "Am Telefon",
+    "english": "onthe phone",
+    "category": "Sayings",
+    "sourcePage": 17
+  },
+  {
+    "german": "Am Wochenende",
+    "english": "the weekend",
+    "category": "Sayings",
+    "sourcePage": 4
+  },
+  {
+    "german": "Am abend",
+    "english": "in the evening",
+    "category": "Sayings",
+    "sourcePage": 24
+  },
+  {
+    "german": "Am besten",
+    "english": "the best",
+    "category": "Sayings",
+    "sourcePage": 13
+  },
+  {
+    "german": "Am nächsten Tag",
+    "english": "the next day",
+    "category": "Sayings",
+    "sourcePage": 24
+  },
+  {
+    "german": "Am teuersten",
+    "english": "most expensive",
+    "category": "Sayings",
+    "sourcePage": 23
+  },
+  {
+    "german": "An der kasse",
+    "english": "at the ticket office",
+    "category": "Sayings",
+    "sourcePage": 7
+  },
+  {
+    "german": "Angriffen / angreifen",
+    "english": "attacks",
+    "category": "Verbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Angst",
+    "english": "fear",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 14
+  },
+  {
+    "german": "Anprobieren",
+    "english": "to try /on; try on",
+    "category": "Verbs",
+    "sourcePage": 23
+  },
+  {
+    "german": "Anstrengend",
+    "english": "exhausting; stressful",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 19
+  },
+  {
+    "german": "Apfelkuchen",
+    "english": "apple cake",
+    "category": "Food",
+    "sourcePage": 2
+  },
+  {
+    "german": "Apfelsaft",
+    "english": "apple juice",
+    "category": "Food",
+    "sourcePage": 5
+  },
+  {
+    "german": "Arbeiten",
+    "english": "to work",
+    "category": "Verbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "Arbeitskollegen",
+    "english": "co- worker",
+    "category": "Nouns / people / things",
+    "sourcePage": 14
+  },
+  {
+    "german": "Arbeitslos",
+    "english": "unemployed",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 13
+  },
+  {
+    "german": "Arzt/arztin",
+    "english": "doctor",
+    "category": "Nouns / people / things",
+    "sourcePage": 2
+  },
+  {
+    "german": "Auf Gleis",
+    "english": "on track",
+    "category": "Nouns / people / things",
+    "sourcePage": 6
+  },
+  {
+    "german": "Auf Jeden Fall",
+    "english": "definitely",
+    "category": "Sayings",
+    "sourcePage": 8
+  },
+  {
+    "german": "Auf Wiedersehen",
+    "english": "good bye - see you again",
+    "category": "Sayings",
+    "sourcePage": 1
+  },
+  {
+    "german": "Auf dem Bauernhof",
+    "english": "on the farm",
+    "category": "Sayings",
+    "sourcePage": 25
+  },
+  {
+    "german": "Auf dem campus",
+    "english": "on campus",
+    "category": "Sayings",
+    "sourcePage": 17
+  },
+  {
+    "german": "Auf dem flohmarkt",
+    "english": "flea market",
+    "category": "Sayings",
+    "sourcePage": 23
+  },
+  {
+    "german": "Auf dem…",
+    "english": "on the",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "Aufgeben / gebe auf",
+    "english": "give up",
+    "category": "Verbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "Aufgeregt",
+    "english": "exciting; excited",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "Aufregend",
+    "english": "exciting",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 12
+  },
+  {
+    "german": "Aufregend aufgerect",
+    "english": "exciting",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Aufstehe… / stehe… auf",
+    "english": "get up",
+    "category": "Verbs",
+    "sourcePage": 24
+  },
+  {
+    "german": "Augen",
+    "english": "eyes",
+    "category": "Nouns / people / things",
+    "sourcePage": 9
+  },
+  {
+    "german": "Ausgehen",
+    "english": "go out",
+    "category": "Verbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "Ausmachen",
+    "english": "turn off",
+    "category": "Verbs",
+    "sourcePage": 24
+  },
+  {
+    "german": "Ausrede",
+    "english": "excuse",
+    "category": "Nouns / people / things",
+    "sourcePage": 20
+  },
+  {
+    "german": "Austauschstud ent",
+    "english": "exchange student",
+    "category": "Nouns / people / things",
+    "sourcePage": 27
+  },
+  {
+    "german": "Austauschstud entin",
+    "english": "foreign exchange",
+    "category": "Nouns / people / things",
+    "sourcePage": 26
+  },
+  {
+    "german": "Austria",
+    "english": "österreich",
+    "category": "Places",
+    "sourcePage": 1
+  },
+  {
+    "german": "Ausverkauft",
+    "english": "sold out",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Ausweis",
+    "english": "id card",
+    "category": "Nouns / people / things",
+    "sourcePage": 13
+  },
+  {
+    "german": "Backerin",
+    "english": "baker",
+    "category": "Food",
+    "sourcePage": 5
+  },
+  {
+    "german": "Badehose",
+    "english": "swim shorts",
+    "category": "Nouns / people / things",
+    "sourcePage": 4
+  },
+  {
+    "german": "Badewanne",
+    "english": "bathtub",
+    "category": "Nouns / people / things",
+    "sourcePage": 25
+  },
+  {
+    "german": "Balkon",
+    "english": "balcony",
+    "category": "Nouns / people / things",
+    "sourcePage": 12
+  },
+  {
+    "german": "Bar",
+    "english": "cash",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "Basketballspiel er",
+    "english": "",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "Basteln",
+    "english": "to do arts and crafts",
+    "category": "Verbs",
+    "sourcePage": 5
+  },
+  {
+    "german": "Bauchschmerzen",
+    "english": "stomach ache",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "Bauernhof",
+    "english": "farm",
+    "category": "Places",
+    "sourcePage": 24
+  },
+  {
+    "german": "Beamter.",
+    "english": "civil servant",
+    "category": "Nouns / people / things",
+    "sourcePage": 13
+  },
+  {
+    "german": "Beförderung",
+    "english": "promotion",
+    "category": "Nouns / people / things",
+    "sourcePage": 21
+  },
+  {
+    "german": "Bei",
+    "english": "at; on; with",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 12
+  },
+  {
+    "german": "Bei unserem ersten Treffen",
+    "english": "on our first date",
+    "category": "Sayings",
+    "sourcePage": 21
+  },
+  {
+    "german": "Beliebt",
+    "english": "popular",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Benzin",
+    "english": "gasoline",
+    "category": "Sayings",
+    "sourcePage": 23
+  },
+  {
+    "german": "Beruf",
+    "english": "profession",
+    "category": "Nouns / people / things",
+    "sourcePage": 1
+  },
+  {
+    "german": "Berühren",
+    "english": "touch",
+    "category": "Verbs",
+    "sourcePage": 0
+  },
+  {
+    "german": "Besichtigen",
+    "english": "tour",
+    "category": "Verbs",
+    "sourcePage": 14
+  },
+  {
+    "german": "Besser",
+    "english": "better",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Bestellen",
+    "english": "to order",
+    "category": "Verbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "Bester",
+    "english": "best",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Bestimmt",
+    "english": "disappointed",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Besuch",
+    "english": "visitors",
+    "category": "Nouns / people / things",
+    "sourcePage": 20
+  },
+  {
+    "german": "Bezahlt",
+    "english": "to pay",
+    "category": "Verbs",
+    "sourcePage": 5
+  },
+  {
+    "german": "Bin…geboren",
+    "english": "born",
+    "category": "Verbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "Bis bald",
+    "english": "See you soon",
+    "category": "Sayings",
+    "sourcePage": 1
+  },
+  {
+    "german": "Bis gleich",
+    "english": "See you soon",
+    "category": "Sayings",
+    "sourcePage": 8
+  },
+  {
+    "german": "Bis später",
+    "english": "See you later",
+    "category": "Sayings",
+    "sourcePage": 1
+  },
+  {
+    "german": "Bis wann ?",
+    "english": "until when",
+    "category": "Sayings",
+    "sourcePage": 6
+  },
+  {
+    "german": "Bis zum Hotel",
+    "english": "to the hotel",
+    "category": "Sayings",
+    "sourcePage": 8
+  },
+  {
+    "german": "Bisschen",
+    "english": "little; a little",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 5
+  },
+  {
+    "german": "Bist … gegangen",
+    "english": "went to / go to",
+    "category": "Verbs",
+    "sourcePage": 24
+  },
+  {
+    "german": "Bist ….geflogen",
+    "english": "flown",
+    "category": "Verbs",
+    "sourcePage": 24
+  },
+  {
+    "german": "Bist. … Geschwommen",
+    "english": "had or swam",
+    "category": "Verbs",
+    "sourcePage": 24
+  },
+  {
+    "german": "Blau",
+    "english": "blue",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "Bleiben",
+    "english": "stay",
+    "category": "Verbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "Bleistifte",
+    "english": "pencil",
+    "category": "Nouns / people / things",
+    "sourcePage": 10
+  },
+  {
+    "german": "Blumenladen",
+    "english": "flourist",
+    "category": "Places",
+    "sourcePage": 15
+  },
+  {
+    "german": "Brauche",
+    "english": "need",
+    "category": "Verbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Brav",
+    "english": "well- behaved",
+    "category": "Places",
+    "sourcePage": 27
+  },
+  {
+    "german": "Brezel",
+    "english": "pretzel",
+    "category": "Food",
+    "sourcePage": 4
+  },
+  {
+    "german": "Bringt…mit",
+    "english": "",
+    "category": "Verbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "Brunnen",
+    "english": "wells (water wells)",
+    "category": "Nouns / people / things",
+    "sourcePage": 13
+  },
+  {
+    "german": "Campen campe",
+    "english": "to camp",
+    "category": "Verbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Chef /in",
+    "english": "boss",
+    "category": "Nouns / people / things",
+    "sourcePage": 11
+  },
+  {
+    "german": "Circa",
+    "english": "approximately",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "Cocinar",
+    "english": "to cook",
+    "category": "Verbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "D/M/Eine Tante/Tochter/ Freundin",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 5
+  },
+  {
+    "german": "Da Druben",
+    "english": "over there",
+    "category": "Sayings",
+    "sourcePage": 1
+  },
+  {
+    "german": "Damit",
+    "english": "so that",
+    "category": "Sayings",
+    "sourcePage": 18
+  },
+  {
+    "german": "Dann",
+    "english": "then",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "Das /Mein Handy",
+    "english": "cellphone",
+    "category": "Nouns / people / things",
+    "sourcePage": 9
+  },
+  {
+    "german": "Das Abendessen",
+    "english": "dinner",
+    "category": "Food",
+    "sourcePage": 2
+  },
+  {
+    "german": "Das Attest",
+    "english": "note",
+    "category": "Nouns / people / things",
+    "sourcePage": 26
+  },
+  {
+    "german": "Das Auge",
+    "english": "eye",
+    "category": "Body / Körper",
+    "sourcePage": 13
+  },
+  {
+    "german": "Das Auto",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 13
+  },
+  {
+    "german": "Das Bier",
+    "english": "beer",
+    "category": "Food",
+    "sourcePage": 1
+  },
+  {
+    "german": "Das Brandenburger",
+    "english": "branden burg",
+    "category": "Places",
+    "sourcePage": 14
+  },
+  {
+    "german": "Das Bücherregal",
+    "english": "bookcase",
+    "category": "Nouns / people / things",
+    "sourcePage": 5
+  },
+  {
+    "german": "Das Büro",
+    "english": "office",
+    "category": "Places",
+    "sourcePage": 3
+  },
+  {
+    "german": "Das Dorf",
+    "english": "village",
+    "category": "Places",
+    "sourcePage": 4
+  },
+  {
+    "german": "Das Fahrrad",
+    "english": "bicycle",
+    "category": "Nouns / people / things",
+    "sourcePage": 15
+  },
+  {
+    "german": "Das Fitnessstudio",
+    "english": "gym",
+    "category": "Places",
+    "sourcePage": 4
+  },
+  {
+    "german": "Das Geld",
+    "english": "money",
+    "category": "Nouns / people / things",
+    "sourcePage": 5
+  },
+  {
+    "german": "Das Gemüse",
+    "english": "veggies",
+    "category": "Food",
+    "sourcePage": 4
+  },
+  {
+    "german": "Das Gepäck",
+    "english": "luggage",
+    "category": "Nouns / people / things",
+    "sourcePage": 17
+  },
+  {
+    "german": "Das Geschenk",
+    "english": "the gift",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "Das Geschirr",
+    "english": "dishes",
+    "category": "Nouns / people / things",
+    "sourcePage": 1
+  },
+  {
+    "german": "Das Gold",
+    "english": "gold",
+    "category": "Nouns / people / things",
+    "sourcePage": 2
+  },
+  {
+    "german": "Das Hemd / Sakko /t—shirt",
+    "english": "shirt /Suit jacket",
+    "category": "Nouns / people / things",
+    "sourcePage": 6
+  },
+  {
+    "german": "Das Hotel / Cafe",
+    "english": "",
+    "category": "Places",
+    "sourcePage": 1
+  },
+  {
+    "german": "Das Jobinterview",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 6
+  },
+  {
+    "german": "Das Kino",
+    "english": "movie theater",
+    "category": "Places",
+    "sourcePage": 1
+  },
+  {
+    "german": "Das Kleid",
+    "english": "dress",
+    "category": "Nouns / people / things",
+    "sourcePage": 6
+  },
+  {
+    "german": "Das Kunstwerk",
+    "english": "artwork",
+    "category": "Nouns / people / things",
+    "sourcePage": 12
+  },
+  {
+    "german": "Das Licht",
+    "english": "light",
+    "category": "Nouns / people / things",
+    "sourcePage": 9
+  },
+  {
+    "german": "Das Lieblingstier",
+    "english": "Favorite animal",
+    "category": "Nouns / people / things",
+    "sourcePage": 27
+  },
+  {
+    "german": "Das Lied",
+    "english": "the song",
+    "category": "Nouns / people / things",
+    "sourcePage": 21
+  },
+  {
+    "german": "Das Madchen",
+    "english": "girl",
+    "category": "Nouns / people / things",
+    "sourcePage": 9
+  },
+  {
+    "german": "Das Meer",
+    "english": "sea",
+    "category": "Places",
+    "sourcePage": 14
+  },
+  {
+    "german": "Das Modell",
+    "english": "model",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "Das Museum / Kunstmuseum (Stadt)",
+    "english": "art museum (City)",
+    "category": "Places",
+    "sourcePage": 2
+  },
+  {
+    "german": "Das Parkplatz",
+    "english": "",
+    "category": "Places",
+    "sourcePage": 3
+  },
+  {
+    "german": "Das Pferd",
+    "english": "horse",
+    "category": "Nouns / people / things",
+    "sourcePage": 16
+  },
+  {
+    "german": "Das Schwimmbad",
+    "english": "pool",
+    "category": "Nouns / people / things",
+    "sourcePage": 5
+  },
+  {
+    "german": "Das Sofa",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 11
+  },
+  {
+    "german": "Das Spiel",
+    "english": "a game/s",
+    "category": "Nouns / people / things",
+    "sourcePage": 20
+  },
+  {
+    "german": "Das Spiel/ Konzert",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 5
+  },
+  {
+    "german": "Das Spielzeug",
+    "english": "toy",
+    "category": "Nouns / people / things",
+    "sourcePage": 21
+  },
+  {
+    "german": "Das Stoppschild",
+    "english": "stop sign",
+    "category": "Nouns / people / things",
+    "sourcePage": 22
+  },
+  {
+    "german": "Das Studium",
+    "english": "studies",
+    "category": "Nouns / people / things",
+    "sourcePage": 25
+  },
+  {
+    "german": "Das Surfbrett",
+    "english": "surfboard",
+    "category": "Nouns / people / things",
+    "sourcePage": 25
+  },
+  {
+    "german": "Das Tagebuch",
+    "english": "diary",
+    "category": "Nouns / people / things",
+    "sourcePage": 13
+  },
+  {
+    "german": "Das Taxi",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 7
+  },
+  {
+    "german": "Das Videospiel /den videospielen",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 3
+  },
+  {
+    "german": "Das Wetter",
+    "english": "weather",
+    "category": "Nouns / people / things",
+    "sourcePage": 4
+  },
+  {
+    "german": "Das Wiesn",
+    "english": "cookie",
+    "category": "Food",
+    "sourcePage": 2
+  },
+  {
+    "german": "Das Zelt",
+    "english": "tent",
+    "category": "Nouns / people / things",
+    "sourcePage": 25
+  },
+  {
+    "german": "Das alte auto",
+    "english": "the old car",
+    "category": "Sayings",
+    "sourcePage": 19
+  },
+  {
+    "german": "Das baby/kind baby/child",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 9
+  },
+  {
+    "german": "Das bargeld",
+    "english": "money/cash",
+    "category": "Nouns / people / things",
+    "sourcePage": 4
+  },
+  {
+    "german": "Das darf nicht vergessen",
+    "english": "i must not forget",
+    "category": "Sayings",
+    "sourcePage": 22
+  },
+  {
+    "german": "Das fest",
+    "english": "festival",
+    "category": "Nouns / people / things",
+    "sourcePage": 23
+  },
+  {
+    "german": "Das flugzeug",
+    "english": "airplane",
+    "category": "Nouns / people / things",
+    "sourcePage": 24
+  },
+  {
+    "german": "Das formular",
+    "english": "form",
+    "category": "Nouns / people / things",
+    "sourcePage": 14
+  },
+  {
+    "german": "Das foto",
+    "english": "photo",
+    "category": "Nouns / people / things",
+    "sourcePage": 9
+  },
+  {
+    "german": "Das frühstück",
+    "english": "breakfast",
+    "category": "Nouns / people / things",
+    "sourcePage": 12
+  },
+  {
+    "german": "Das gebaude",
+    "english": "building",
+    "category": "Places",
+    "sourcePage": 15
+  },
+  {
+    "german": "Das geht",
+    "english": "that works",
+    "category": "Sayings",
+    "sourcePage": 6
+  },
+  {
+    "german": "Das geht nicht",
+    "english": "this doesn’t work",
+    "category": "Sayings",
+    "sourcePage": 4
+  },
+  {
+    "german": "Das gras",
+    "english": "grass",
+    "category": "Nouns / people / things",
+    "sourcePage": 13
+  },
+  {
+    "german": "Das kaninchen",
+    "english": "rabbits",
+    "category": "Nouns / people / things",
+    "sourcePage": 25
+  },
+  {
+    "german": "Das motorrad",
+    "english": "motorcycle",
+    "category": "Nouns / people / things",
+    "sourcePage": 13
+  },
+  {
+    "german": "Das obst",
+    "english": "fruit",
+    "category": "Food",
+    "sourcePage": 3
+  },
+  {
+    "german": "Das problem",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 14
+  },
+  {
+    "german": "Das regal",
+    "english": "Shelf",
+    "category": "Nouns / people / things",
+    "sourcePage": 10
+  },
+  {
+    "german": "Das schnitzel",
+    "english": "german patty",
+    "category": "Food",
+    "sourcePage": 1
+  },
+  {
+    "german": "Das studentenwoh nheim",
+    "english": "student dorm",
+    "category": "Nouns / people / things",
+    "sourcePage": 23
+  },
+  {
+    "german": "Das verstehe",
+    "english": "understand",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "Das/dem Bild",
+    "english": "painting",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "Dauert",
+    "english": "lasts",
+    "category": "Verbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "Dein Lieblingsessen",
+    "english": "your favorite food",
+    "category": "Food",
+    "sourcePage": 3
+  },
+  {
+    "german": "Den Baren",
+    "english": "bear",
+    "category": "Nouns / people / things",
+    "sourcePage": 12
+  },
+  {
+    "german": "Den Bergen",
+    "english": "mountains",
+    "category": "Nouns / people / things",
+    "sourcePage": 20
+  },
+  {
+    "german": "Den Zoo",
+    "english": "",
+    "category": "Places",
+    "sourcePage": 3
+  },
+  {
+    "german": "Den bioladen",
+    "english": "health food store",
+    "category": "Places",
+    "sourcePage": 15
+  },
+  {
+    "german": "Den ganzen Tag",
+    "english": "the whole day",
+    "category": "Sayings",
+    "sourcePage": 14
+  },
+  {
+    "german": "Den kofferraum",
+    "english": "trunk",
+    "category": "Nouns / people / things",
+    "sourcePage": 23
+  },
+  {
+    "german": "Den motorroller",
+    "english": "scooter",
+    "category": "Nouns / people / things",
+    "sourcePage": 22
+  },
+  {
+    "german": "Denn",
+    "english": "because",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "Der / Ins Krankenhaus",
+    "english": "hospital",
+    "category": "Places",
+    "sourcePage": 3
+  },
+  {
+    "german": "Der /den Nachtisch",
+    "english": "dessert",
+    "category": "Food",
+    "sourcePage": 2
+  },
+  {
+    "german": "Der Anzug",
+    "english": "suit",
+    "category": "Nouns / people / things",
+    "sourcePage": 18
+  },
+  {
+    "german": "Der Apfel",
+    "english": "",
+    "category": "Food",
+    "sourcePage": 5
+  },
+  {
+    "german": "Der Aufzug",
+    "english": "elevator /der Pullover - sweater",
+    "category": "Nouns / people / things",
+    "sourcePage": 6
+  },
+  {
+    "german": "Der Ausflug",
+    "english": "extract ?",
+    "category": "Places",
+    "sourcePage": 4
+  },
+  {
+    "german": "Der Badeanzug",
+    "english": "swim suit",
+    "category": "Nouns / people / things",
+    "sourcePage": 16
+  },
+  {
+    "german": "Der Bahnhof",
+    "english": "rail station",
+    "category": "Places",
+    "sourcePage": 1
+  },
+  {
+    "german": "Der Bankkaufmann /Bankkauffrau",
+    "english": "banker",
+    "category": "Nouns / people / things",
+    "sourcePage": 19
+  },
+  {
+    "german": "Der Boden",
+    "english": "floor",
+    "category": "Nouns / people / things",
+    "sourcePage": 6
+  },
+  {
+    "german": "Der Buchladen",
+    "english": "bookstore",
+    "category": "Places",
+    "sourcePage": 4
+  },
+  {
+    "german": "Der Bus/ Die Bushaltestelle",
+    "english": "bus stop",
+    "category": "Places",
+    "sourcePage": 3
+  },
+  {
+    "german": "Der Ehemann",
+    "english": "husband",
+    "category": "Nouns / people / things",
+    "sourcePage": 17
+  },
+  {
+    "german": "Der Fernseher",
+    "english": "TV",
+    "category": "Nouns / people / things",
+    "sourcePage": 12
+  },
+  {
+    "german": "Der Film Termin",
+    "english": "film date",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "Der Flughafen",
+    "english": "airpot",
+    "category": "Places",
+    "sourcePage": 3
+  },
+  {
+    "german": "Der Fuß",
+    "english": "foot",
+    "category": "Body / Körper",
+    "sourcePage": 17
+  },
+  {
+    "german": "Der Geldautomat",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 4
+  },
+  {
+    "german": "Der Geldbuetel",
+    "english": "wallet der buetel = bag / pouch",
+    "category": "Nouns / people / things",
+    "sourcePage": 17
+  },
+  {
+    "german": "Der Herbst oder Der Winter oder der Frühling / der Sommer",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 4
+  },
+  {
+    "german": "Der Hut",
+    "english": "hat",
+    "category": "Nouns / people / things",
+    "sourcePage": 3
+  },
+  {
+    "german": "Der Kassenzettel",
+    "english": "receipt",
+    "category": "Nouns / people / things",
+    "sourcePage": 16
+  },
+  {
+    "german": "Der Koffer",
+    "english": "suitcase",
+    "category": "Nouns / people / things",
+    "sourcePage": 14
+  },
+  {
+    "german": "Der Kuchen",
+    "english": "cake",
+    "category": "Food",
+    "sourcePage": 4
+  },
+  {
+    "german": "Der Künstler",
+    "english": "artist",
+    "category": "Nouns / people / things",
+    "sourcePage": 2
+  },
+  {
+    "german": "Der Laden",
+    "english": "video game store",
+    "category": "Nouns / people / things",
+    "sourcePage": 6
+  },
+  {
+    "german": "Der Löwe",
+    "english": "lion",
+    "category": "Nouns / people / things",
+    "sourcePage": 25
+  },
+  {
+    "german": "Der Marktplatz",
+    "english": "marketplace",
+    "category": "Places",
+    "sourcePage": 2
+  },
+  {
+    "german": "Der Nahe",
+    "english": "nearby",
+    "category": "Nouns / people / things",
+    "sourcePage": 2
+  },
+  {
+    "german": "Der Obstsalat",
+    "english": "fruit salad",
+    "category": "Food",
+    "sourcePage": 2
+  },
+  {
+    "german": "Der Opernsanger",
+    "english": "opera singer",
+    "category": "Nouns / people / things",
+    "sourcePage": 24
+  },
+  {
+    "german": "Der Pass",
+    "english": "passport",
+    "category": "Nouns / people / things",
+    "sourcePage": 12
+  },
+  {
+    "german": "Der Regenschirm",
+    "english": "umbrella",
+    "category": "Nouns / people / things",
+    "sourcePage": 4
+  },
+  {
+    "german": "Der Reis",
+    "english": "rice",
+    "category": "Food",
+    "sourcePage": 3
+  },
+  {
+    "german": "Der Rotwein",
+    "english": "red wine",
+    "category": "Food",
+    "sourcePage": 2
+  },
+  {
+    "german": "Der Rucken",
+    "english": "back",
+    "category": "Nouns / people / things",
+    "sourcePage": 20
+  },
+  {
+    "german": "Der Schal",
+    "english": "scarf - der Fluss - river",
+    "category": "Nouns / people / things",
+    "sourcePage": 4
+  },
+  {
+    "german": "Der Schnee",
+    "english": "snow",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "Der Schrank",
+    "english": "closet",
+    "category": "Nouns / people / things",
+    "sourcePage": 5
+  },
+  {
+    "german": "Der Schuldirektorin",
+    "english": "school director",
+    "category": "Nouns / people / things",
+    "sourcePage": 22
+  },
+  {
+    "german": "Der Schwarzwald",
+    "english": "Black Forest",
+    "category": "Places",
+    "sourcePage": 15
+  },
+  {
+    "german": "Der Sessel",
+    "english": "armchair",
+    "category": "Nouns / people / things",
+    "sourcePage": 12
+  },
+  {
+    "german": "Der Spargel",
+    "english": "asparagus",
+    "category": "Food",
+    "sourcePage": 5
+  },
+  {
+    "german": "Der Speisewagen",
+    "english": "dining car",
+    "category": "Nouns / people / things",
+    "sourcePage": 7
+  },
+  {
+    "german": "Der Spiegel",
+    "english": "mirror",
+    "category": "Nouns / people / things",
+    "sourcePage": 21
+  },
+  {
+    "german": "Der Stollen",
+    "english": "spazfruit cake",
+    "category": "Nouns / people / things",
+    "sourcePage": 21
+  },
+  {
+    "german": "Der Strand",
+    "english": "beach",
+    "category": "Places",
+    "sourcePage": 4
+  },
+  {
+    "german": "Der Tankers",
+    "english": "dance course",
+    "category": "Nouns / people / things",
+    "sourcePage": 5
+  },
+  {
+    "german": "Der Text",
+    "english": "lyrics",
+    "category": "Nouns / people / things",
+    "sourcePage": 21
+  },
+  {
+    "german": "Der Tisch",
+    "english": "table /die Couch",
+    "category": "Nouns / people / things",
+    "sourcePage": 2
+  },
+  {
+    "german": "Der Tisch (table)",
+    "english": "Der Teppich (carpet) - der Stühle",
+    "category": "Nouns / people / things",
+    "sourcePage": 5
+  },
+  {
+    "german": "Der Wald",
+    "english": "forest",
+    "category": "Places",
+    "sourcePage": 3
+  },
+  {
+    "german": "Der Wiese",
+    "english": "field",
+    "category": "Nouns / people / things",
+    "sourcePage": 23
+  },
+  {
+    "german": "Der Zahnarzt",
+    "english": "dentist",
+    "category": "Nouns / people / things",
+    "sourcePage": 21
+  },
+  {
+    "german": "Der Zoll",
+    "english": "customs",
+    "category": "Nouns / people / things",
+    "sourcePage": 14
+  },
+  {
+    "german": "Der Zucker",
+    "english": "sugar / das Bis - ice cream",
+    "category": "Food",
+    "sourcePage": 2
+  },
+  {
+    "german": "Der Zug",
+    "english": "train ICE (express)",
+    "category": "Nouns / people / things",
+    "sourcePage": 6
+  },
+  {
+    "german": "Der abflug",
+    "english": "departure",
+    "category": "Nouns / people / things",
+    "sourcePage": 17
+  },
+  {
+    "german": "Der angelausflug",
+    "english": "fishing trip",
+    "category": "Nouns / people / things",
+    "sourcePage": 24
+  },
+  {
+    "german": "Der arm",
+    "english": "",
+    "category": "Body / Körper",
+    "sourcePage": 1
+  },
+  {
+    "german": "Der baum",
+    "english": "tree",
+    "category": "Nouns / people / things",
+    "sourcePage": 23
+  },
+  {
+    "german": "Der berg",
+    "english": "mountain",
+    "category": "Nouns / people / things",
+    "sourcePage": 20
+  },
+  {
+    "german": "Der bierkrug",
+    "english": "beer mug",
+    "category": "Nouns / people / things",
+    "sourcePage": 23
+  },
+  {
+    "german": "Der bild",
+    "english": "painting",
+    "category": "Nouns / people / things",
+    "sourcePage": 12
+  },
+  {
+    "german": "Der dose",
+    "english": "can",
+    "category": "Nouns / people / things",
+    "sourcePage": 2
+  },
+  {
+    "german": "Der drogeriemarkt",
+    "english": "drug store",
+    "category": "Places",
+    "sourcePage": 21
+  },
+  {
+    "german": "Der döner",
+    "english": "",
+    "category": "Food",
+    "sourcePage": 1
+  },
+  {
+    "german": "Der everest",
+    "english": "",
+    "category": "Places",
+    "sourcePage": 4
+  },
+  {
+    "german": "Der familie / der Bus",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 6
+  },
+  {
+    "german": "Der film",
+    "english": "film",
+    "category": "Nouns / people / things",
+    "sourcePage": 16
+  },
+  {
+    "german": "Der garten",
+    "english": "",
+    "category": "Places",
+    "sourcePage": 3
+  },
+  {
+    "german": "Der horrorfilm",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 13
+  },
+  {
+    "german": "Der kugelscreiber",
+    "english": "pen",
+    "category": "Nouns / people / things",
+    "sourcePage": 14
+  },
+  {
+    "german": "Der laptop",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 14
+  },
+  {
+    "german": "Der markt / supermarkt",
+    "english": "market",
+    "category": "Places",
+    "sourcePage": 1
+  },
+  {
+    "german": "Der mond",
+    "english": "moon",
+    "category": "Nouns / people / things",
+    "sourcePage": 15
+  },
+  {
+    "german": "Der projekt",
+    "english": "project",
+    "category": "Nouns / people / things",
+    "sourcePage": 27
+  },
+  {
+    "german": "Der smartphone",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 27
+  },
+  {
+    "german": "Der stern",
+    "english": "the star",
+    "category": "Nouns / people / things",
+    "sourcePage": 20
+  },
+  {
+    "german": "Der umzug",
+    "english": "the move",
+    "category": "Nouns / people / things",
+    "sourcePage": 20
+  },
+  {
+    "german": "Der welt",
+    "english": "world",
+    "category": "Nouns / people / things",
+    "sourcePage": 27
+  },
+  {
+    "german": "Der wind",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 21
+  },
+  {
+    "german": "Der/einen Fisch",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 4
+  },
+  {
+    "german": "Die Abfahrt",
+    "english": "departure",
+    "category": "Nouns / people / things",
+    "sourcePage": 7
+  },
+  {
+    "german": "Die Anwältin / Anwalt",
+    "english": "lawyer",
+    "category": "Nouns / people / things",
+    "sourcePage": 3
+  },
+  {
+    "german": "Die Apfelshorle",
+    "english": "sparkling apple juice",
+    "category": "Food",
+    "sourcePage": 2
+  },
+  {
+    "german": "Die Arbeit",
+    "english": "work/ job",
+    "category": "Nouns / people / things",
+    "sourcePage": 1
+  },
+  {
+    "german": "Die Banane",
+    "english": "banana",
+    "category": "Food",
+    "sourcePage": 3
+  },
+  {
+    "german": "Die Baume",
+    "english": "trees",
+    "category": "Nouns / people / things",
+    "sourcePage": 18
+  },
+  {
+    "german": "Die Bestattung",
+    "english": "burial",
+    "category": "Nouns / people / things",
+    "sourcePage": 24
+  },
+  {
+    "german": "Die Bettdecke",
+    "english": "bedspread",
+    "category": "Nouns / people / things",
+    "sourcePage": 12
+  },
+  {
+    "german": "Die Bibliothek",
+    "english": "library",
+    "category": "Places",
+    "sourcePage": 1
+  },
+  {
+    "german": "Die Biogurken",
+    "english": "organic cucumbers",
+    "category": "Food",
+    "sourcePage": 4
+  },
+  {
+    "german": "Die Blumen",
+    "english": "flower",
+    "category": "Nouns / people / things",
+    "sourcePage": 11
+  },
+  {
+    "german": "Die Bucherei",
+    "english": "library",
+    "category": "Places",
+    "sourcePage": 2
+  },
+  {
+    "german": "Die Buhne",
+    "english": "stage",
+    "category": "Places",
+    "sourcePage": 5
+  },
+  {
+    "german": "Die Bäckerei",
+    "english": "bakery",
+    "category": "Places",
+    "sourcePage": 1
+  },
+  {
+    "german": "Die Bücher",
+    "english": "book",
+    "category": "Nouns / people / things",
+    "sourcePage": 10
+  },
+  {
+    "german": "Die Currywurst",
+    "english": "",
+    "category": "Food",
+    "sourcePage": 3
+  },
+  {
+    "german": "Die Dinosaurier",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 11
+  },
+  {
+    "german": "Die Ecke",
+    "english": "corner",
+    "category": "Nouns / people / things",
+    "sourcePage": 22
+  },
+  {
+    "german": "Die Ehefrau",
+    "english": "wife",
+    "category": "Nouns / people / things",
+    "sourcePage": 18
+  },
+  {
+    "german": "Die Eintrittskarte",
+    "english": "admission ticket",
+    "category": "Nouns / people / things",
+    "sourcePage": 5
+  },
+  {
+    "german": "Die Elefanten",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 12
+  },
+  {
+    "german": "Die Erde the earth",
+    "english": "",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 27
+  },
+  {
+    "german": "Die Fahrkarte",
+    "english": "ticket",
+    "category": "Nouns / people / things",
+    "sourcePage": 6
+  },
+  {
+    "german": "Die Farbstifte",
+    "english": "Colored pencils",
+    "category": "Nouns / people / things",
+    "sourcePage": 11
+  },
+  {
+    "german": "Die Formulare",
+    "english": "the forms",
+    "category": "Nouns / people / things",
+    "sourcePage": 19
+  },
+  {
+    "german": "Die Geige",
+    "english": "violin",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "Die Geschäfte",
+    "english": "stores",
+    "category": "Nouns / people / things",
+    "sourcePage": 14
+  },
+  {
+    "german": "Die Getränke",
+    "english": "drinks",
+    "category": "Food",
+    "sourcePage": 4
+  },
+  {
+    "german": "Die Gurke",
+    "english": "cucumber",
+    "category": "Food",
+    "sourcePage": 4
+  },
+  {
+    "german": "Die Hande",
+    "english": "hands",
+    "category": "Nouns / people / things",
+    "sourcePage": 21
+  },
+  {
+    "german": "Die Handschuhe",
+    "english": "gloves",
+    "category": "Nouns / people / things",
+    "sourcePage": 10
+  },
+  {
+    "german": "Die Hexe",
+    "english": "witch",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "Die Hin-und Rückfahrt",
+    "english": "round trip ticket",
+    "category": "Nouns / people / things",
+    "sourcePage": 6
+  },
+  {
+    "german": "Die Kamera",
+    "english": "camera",
+    "category": "Nouns / people / things",
+    "sourcePage": 14
+  },
+  {
+    "german": "Die Karte/n",
+    "english": "tickets",
+    "category": "Nouns / people / things",
+    "sourcePage": 27
+  },
+  {
+    "german": "Die Kasse",
+    "english": "cash register",
+    "category": "Nouns / people / things",
+    "sourcePage": 16
+  },
+  {
+    "german": "Die Katzen",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 19
+  },
+  {
+    "german": "Die Kinder",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 13
+  },
+  {
+    "german": "Die Kirche",
+    "english": "church",
+    "category": "Places",
+    "sourcePage": 1
+  },
+  {
+    "german": "Die Knodel",
+    "english": "dumplings",
+    "category": "Food",
+    "sourcePage": 4
+  },
+  {
+    "german": "Die Kreditkarte",
+    "english": "credit card",
+    "category": "Nouns / people / things",
+    "sourcePage": 7
+  },
+  {
+    "german": "Die Küche",
+    "english": "kitchen",
+    "category": "Nouns / people / things",
+    "sourcePage": 6
+  },
+  {
+    "german": "Die Leute",
+    "english": "people",
+    "category": "Nouns / people / things",
+    "sourcePage": 11
+  },
+  {
+    "german": "Die Mikrowelle",
+    "english": "microwave",
+    "category": "Nouns / people / things",
+    "sourcePage": 12
+  },
+  {
+    "german": "Die Musik / Band",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 11
+  },
+  {
+    "german": "Die Musiker",
+    "english": "musicians",
+    "category": "Nouns / people / things",
+    "sourcePage": 9
+  },
+  {
+    "german": "Die Nacht",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 11
+  },
+  {
+    "german": "Die Natur",
+    "english": "nature",
+    "category": "Places",
+    "sourcePage": 2
+  },
+  {
+    "german": "Die Nudeln",
+    "english": "noodles",
+    "category": "Food",
+    "sourcePage": 3
+  },
+  {
+    "german": "Die Orange",
+    "english": "",
+    "category": "Food",
+    "sourcePage": 4
+  },
+  {
+    "german": "Die Party hört nie auf!",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 18
+  },
+  {
+    "german": "Die Plane",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "Die Polizistin / Sie Polizist",
+    "english": "police",
+    "category": "Nouns / people / things",
+    "sourcePage": 2
+  },
+  {
+    "german": "Die Pommes",
+    "english": "fries",
+    "category": "Food",
+    "sourcePage": 3
+  },
+  {
+    "german": "Die Post",
+    "english": "",
+    "category": "Places",
+    "sourcePage": 15
+  },
+  {
+    "german": "Die Rechnung",
+    "english": "check",
+    "category": "Nouns / people / things",
+    "sourcePage": 1
+  },
+  {
+    "german": "Die Regale",
+    "english": "shelves",
+    "category": "Nouns / people / things",
+    "sourcePage": 22
+  },
+  {
+    "german": "Die Rezeption",
+    "english": "reception",
+    "category": "Places",
+    "sourcePage": 3
+  },
+  {
+    "german": "Die S-Bahn",
+    "english": "light rail",
+    "category": "Nouns / people / things",
+    "sourcePage": 18
+  },
+  {
+    "german": "Die Salami",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 25
+  },
+  {
+    "german": "Die Schildkrote",
+    "english": "turtle",
+    "category": "Nouns / people / things",
+    "sourcePage": 13
+  },
+  {
+    "german": "Die Schuhe",
+    "english": "shoes",
+    "category": "Nouns / people / things",
+    "sourcePage": 3
+  },
+  {
+    "german": "Die Schweiz",
+    "english": "Switzerland",
+    "category": "Places",
+    "sourcePage": 15
+  },
+  {
+    "german": "Die Sekunde",
+    "english": "second",
+    "category": "Nouns / people / things",
+    "sourcePage": 26
+  },
+  {
+    "german": "Die Sonne",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 10
+  },
+  {
+    "german": "Die Sonnencreme",
+    "english": "sunscreen",
+    "category": "Nouns / people / things",
+    "sourcePage": 4
+  },
+  {
+    "german": "Die Speisekarte",
+    "english": "menu",
+    "category": "Nouns / people / things",
+    "sourcePage": 1
+  },
+  {
+    "german": "Die Spielzeuge",
+    "english": "toys",
+    "category": "Nouns / people / things",
+    "sourcePage": 11
+  },
+  {
+    "german": "Die Steckdoe",
+    "english": "outlet",
+    "category": "Nouns / people / things",
+    "sourcePage": 18
+  },
+  {
+    "german": "Die Stiefel",
+    "english": "your boots",
+    "category": "Nouns / people / things",
+    "sourcePage": 28
+  },
+  {
+    "german": "Die Straßen",
+    "english": "streets",
+    "category": "Places",
+    "sourcePage": 3
+  },
+  {
+    "german": "Die Tasse",
+    "english": "cup",
+    "category": "Nouns / people / things",
+    "sourcePage": 10
+  },
+  {
+    "german": "Die Taxifahrt",
+    "english": "taxi ride/ Strasse /street",
+    "category": "Nouns / people / things",
+    "sourcePage": 7
+  },
+  {
+    "german": "Die Tiere",
+    "english": "animals",
+    "category": "Nouns / people / things",
+    "sourcePage": 25
+  },
+  {
+    "german": "Die Touristen",
+    "english": "tourists",
+    "category": "Nouns / people / things",
+    "sourcePage": 14
+  },
+  {
+    "german": "Die Trauben",
+    "english": "grapes",
+    "category": "Food",
+    "sourcePage": 5
+  },
+  {
+    "german": "Die Treppe",
+    "english": "stairs",
+    "category": "Nouns / people / things",
+    "sourcePage": 11
+  },
+  {
+    "german": "Die Turkei",
+    "english": "Turkey country",
+    "category": "Places",
+    "sourcePage": 15
+  },
+  {
+    "german": "Die Turnschuhe",
+    "english": "gym shoes",
+    "category": "Nouns / people / things",
+    "sourcePage": 15
+  },
+  {
+    "german": "Die Tür",
+    "english": "door",
+    "category": "Nouns / people / things",
+    "sourcePage": 5
+  },
+  {
+    "german": "Die U",
+    "english": "Bahnstation",
+    "category": "Places",
+    "sourcePage": 2
+  },
+  {
+    "german": "Die Universität",
+    "english": "university",
+    "category": "Places",
+    "sourcePage": 2
+  },
+  {
+    "german": "Die Vase",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 11
+  },
+  {
+    "german": "Die Vereinigten Staaten",
+    "english": "",
+    "category": "Places",
+    "sourcePage": 26
+  },
+  {
+    "german": "Die Wasserflasche",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 4
+  },
+  {
+    "german": "Die Werkstatt",
+    "english": "auto repair",
+    "category": "Nouns / people / things",
+    "sourcePage": 7
+  },
+  {
+    "german": "Die Wohnung",
+    "english": "the apartment",
+    "category": "Nouns / people / things",
+    "sourcePage": 5
+  },
+  {
+    "german": "Die Wurst",
+    "english": "sausage",
+    "category": "Food",
+    "sourcePage": 1
+  },
+  {
+    "german": "Die Zeitschriften",
+    "english": "magazine",
+    "category": "Nouns / people / things",
+    "sourcePage": 26
+  },
+  {
+    "german": "Die Zeitschrifthrifte n",
+    "english": "magazines",
+    "category": "Sayings",
+    "sourcePage": 22
+  },
+  {
+    "german": "Die Zeitung",
+    "english": "newspaper",
+    "category": "Nouns / people / things",
+    "sourcePage": 17
+  },
+  {
+    "german": "Die Zugtür",
+    "english": "train door",
+    "category": "Nouns / people / things",
+    "sourcePage": 7
+  },
+  {
+    "german": "Die ananas",
+    "english": "pineapple",
+    "category": "Nouns / people / things",
+    "sourcePage": 19
+  },
+  {
+    "german": "Die bank",
+    "english": "",
+    "category": "Places",
+    "sourcePage": 15
+  },
+  {
+    "german": "Die beine",
+    "english": "legs",
+    "category": "Nouns / people / things",
+    "sourcePage": 22
+  },
+  {
+    "german": "Die brille",
+    "english": "glasses",
+    "category": "Nouns / people / things",
+    "sourcePage": 14
+  },
+  {
+    "german": "Die butter",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 25
+  },
+  {
+    "german": "Die erde",
+    "english": "earth",
+    "category": "Nouns / people / things",
+    "sourcePage": 20
+  },
+  {
+    "german": "Die exfreundin",
+    "english": "ex-girlfriend",
+    "category": "Sayings",
+    "sourcePage": 21
+  },
+  {
+    "german": "Die familie",
+    "english": "family",
+    "category": "Nouns / people / things",
+    "sourcePage": 7
+  },
+  {
+    "german": "Die flasche",
+    "english": "bottle",
+    "category": "Nouns / people / things",
+    "sourcePage": 16
+  },
+  {
+    "german": "Die gaste",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 15
+  },
+  {
+    "german": "Die geburtstagpart y",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 15
+  },
+  {
+    "german": "Die giraffe",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 25
+  },
+  {
+    "german": "Die grillparty",
+    "english": "barbeque",
+    "category": "Nouns / people / things",
+    "sourcePage": 17
+  },
+  {
+    "german": "Die großEltern",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 13
+  },
+  {
+    "german": "Die hose",
+    "english": "pants",
+    "category": "Nouns / people / things",
+    "sourcePage": 23
+  },
+  {
+    "german": "Die hunde",
+    "english": "The dogs",
+    "category": "Sayings",
+    "sourcePage": 5
+  },
+  {
+    "german": "Die karotte",
+    "english": "",
+    "category": "Food",
+    "sourcePage": 4
+  },
+  {
+    "german": "Die kochin/ koch",
+    "english": "the cook",
+    "category": "Food",
+    "sourcePage": 5
+  },
+  {
+    "german": "Die luft",
+    "english": "air",
+    "category": "Nouns / people / things",
+    "sourcePage": 20
+  },
+  {
+    "german": "Die miete",
+    "english": "rent",
+    "category": "Nouns / people / things",
+    "sourcePage": 17
+  },
+  {
+    "german": "Die musikerin",
+    "english": "usicianm",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "Die sauna",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 25
+  },
+  {
+    "german": "Die schokolade",
+    "english": "chocolate",
+    "category": "Food",
+    "sourcePage": 3
+  },
+  {
+    "german": "Die schönecke",
+    "english": "snail",
+    "category": "Nouns / people / things",
+    "sourcePage": 10
+  },
+  {
+    "german": "Die socken",
+    "english": "socks",
+    "category": "Nouns / people / things",
+    "sourcePage": 16
+  },
+  {
+    "german": "Die stimmung",
+    "english": "atmosphere",
+    "category": "Nouns / people / things",
+    "sourcePage": 20
+  },
+  {
+    "german": "Die tasche",
+    "english": "bag",
+    "category": "Nouns / people / things",
+    "sourcePage": 16
+  },
+  {
+    "german": "Die tassen",
+    "english": "cups",
+    "category": "Nouns / people / things",
+    "sourcePage": 9
+  },
+  {
+    "german": "Die temperatures",
+    "english": "the temperatures",
+    "category": "Nouns / people / things",
+    "sourcePage": 20
+  },
+  {
+    "german": "Die toiletten/",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 6
+  },
+  {
+    "german": "Die umkleidekabin en",
+    "english": "dressing room",
+    "category": "Nouns / people / things",
+    "sourcePage": 23
+  },
+  {
+    "german": "Die Überraschung",
+    "english": "the surprise",
+    "category": "Nouns / people / things",
+    "sourcePage": 18
+  },
+  {
+    "german": "Die/eine Katze",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 4
+  },
+  {
+    "german": "Die/eine Schnecke",
+    "english": "snail",
+    "category": "Nouns / people / things",
+    "sourcePage": 4
+  },
+  {
+    "german": "Diese Anzüge",
+    "english": "these suits",
+    "category": "Sayings",
+    "sourcePage": 23
+  },
+  {
+    "german": "Dieses",
+    "english": "this",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "Dokufilme",
+    "english": "documentary",
+    "category": "Nouns / people / things",
+    "sourcePage": 19
+  },
+  {
+    "german": "Donnerstags",
+    "english": "on Thursdays",
+    "category": "Sayings",
+    "sourcePage": 24
+  },
+  {
+    "german": "Dort",
+    "english": "there",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 15
+  },
+  {
+    "german": "Du kannst das",
+    "english": "you can do it",
+    "category": "Sayings",
+    "sourcePage": 7
+  },
+  {
+    "german": "Du musst nicht allein gehen, i ch kann mit dir gehen.",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 19
+  },
+  {
+    "german": "Du möchtest",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 6
+  },
+  {
+    "german": "Du sprichst sehr schnell",
+    "english": "you speak very quickly",
+    "category": "Sayings",
+    "sourcePage": 6
+  },
+  {
+    "german": "Du sprights zu Schnell",
+    "english": "you speak too quickly",
+    "category": "Sayings",
+    "sourcePage": 5
+  },
+  {
+    "german": "Dunkel",
+    "english": "dark",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "Durch",
+    "english": "through",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "Durften",
+    "english": "to allow",
+    "category": "Verbs",
+    "sourcePage": 13
+  },
+  {
+    "german": "Durst",
+    "english": "thirsty are you",
+    "category": "Verbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "Egal",
+    "english": "it doesnt matter; it doesn’t matter",
+    "category": "Sayings",
+    "sourcePage": 23
+  },
+  {
+    "german": "Ein Aufseher",
+    "english": "attendant",
+    "category": "Nouns / people / things",
+    "sourcePage": 12
+  },
+  {
+    "german": "Ein Ballsport",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 10
+  },
+  {
+    "german": "Ein Bisschen",
+    "english": "a little",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "Ein Brötchen",
+    "english": "roll",
+    "category": "Food",
+    "sourcePage": 3
+  },
+  {
+    "german": "Ein Buch",
+    "english": "book",
+    "category": "Nouns / people / things",
+    "sourcePage": 15
+  },
+  {
+    "german": "Ein Bürogebäude",
+    "english": "office building",
+    "category": "Places",
+    "sourcePage": 5
+  },
+  {
+    "german": "Ein Genie",
+    "english": "genius",
+    "category": "Nouns / people / things",
+    "sourcePage": 12
+  },
+  {
+    "german": "Ein Hemd",
+    "english": "shirt",
+    "category": "Nouns / people / things",
+    "sourcePage": 3
+  },
+  {
+    "german": "Ein Herz",
+    "english": "heart",
+    "category": "Nouns / people / things",
+    "sourcePage": 3
+  },
+  {
+    "german": "Ein Hut",
+    "english": "hat",
+    "category": "Nouns / people / things",
+    "sourcePage": 10
+  },
+  {
+    "german": "Ein Kinderbuch",
+    "english": "child book",
+    "category": "Nouns / people / things",
+    "sourcePage": 17
+  },
+  {
+    "german": "Ein Kleid",
+    "english": "dress",
+    "category": "Nouns / people / things",
+    "sourcePage": 3
+  },
+  {
+    "german": "Ein Konto",
+    "english": "an account",
+    "category": "Nouns / people / things",
+    "sourcePage": 19
+  },
+  {
+    "german": "Ein Nickerchen",
+    "english": "a nap?",
+    "category": "Nouns / people / things",
+    "sourcePage": 26
+  },
+  {
+    "german": "Ein Praktikum",
+    "english": "internship",
+    "category": "Nouns / people / things",
+    "sourcePage": 12
+  },
+  {
+    "german": "Ein Problem",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 5
+  },
+  {
+    "german": "Ein Schatz",
+    "english": "sweetheart",
+    "category": "Nouns / people / things",
+    "sourcePage": 17
+  },
+  {
+    "german": "Ein Schlüssel",
+    "english": "key",
+    "category": "Nouns / people / things",
+    "sourcePage": 9
+  },
+  {
+    "german": "Ein Spielzeug",
+    "english": "toy",
+    "category": "Nouns / people / things",
+    "sourcePage": 4
+  },
+  {
+    "german": "Ein Stuck Kuchen (piece of cake)",
+    "english": "",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "Ein Stuck Schokolade",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 24
+  },
+  {
+    "german": "Ein Witz",
+    "english": "a joke",
+    "category": "Nouns / people / things",
+    "sourcePage": 21
+  },
+  {
+    "german": "Ein bisschen Ruhe",
+    "english": "a little peace",
+    "category": "Sayings",
+    "sourcePage": 20
+  },
+  {
+    "german": "Ein glas",
+    "english": "glass",
+    "category": "Nouns / people / things",
+    "sourcePage": 7
+  },
+  {
+    "german": "Ein instrument",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "Ein paar",
+    "english": "a few",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "Ein/Das Passfoto",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 19
+  },
+  {
+    "german": "Ein/der Himmel",
+    "english": "sky",
+    "category": "Nouns / people / things",
+    "sourcePage": 10
+  },
+  {
+    "german": "Eine Ausbildung als",
+    "english": "apprenticeship as",
+    "category": "Nouns / people / things",
+    "sourcePage": 27
+  },
+  {
+    "german": "Eine Ausrede",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 20
+  },
+  {
+    "german": "Eine Bitte",
+    "english": "request",
+    "category": "Nouns / people / things",
+    "sourcePage": 17
+  },
+  {
+    "german": "Eine Brille",
+    "english": "glasses / spectacles",
+    "category": "Nouns / people / things",
+    "sourcePage": 9
+  },
+  {
+    "german": "Eine EC-Karte",
+    "english": "debit card",
+    "category": "Nouns / people / things",
+    "sourcePage": 19
+  },
+  {
+    "german": "Eine Erkaltung",
+    "english": "common cold",
+    "category": "Nouns / people / things",
+    "sourcePage": 23
+  },
+  {
+    "german": "Eine Erkältung",
+    "english": "a cold",
+    "category": "Nouns / people / things",
+    "sourcePage": 20
+  },
+  {
+    "german": "Eine Fahrkart nach … bitte",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 7
+  },
+  {
+    "german": "Eine Frage",
+    "english": "question",
+    "category": "Nouns / people / things",
+    "sourcePage": 1
+  },
+  {
+    "german": "Eine Geburtstagska rte",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 16
+  },
+  {
+    "german": "Eine Genie",
+    "english": "genius",
+    "category": "Nouns / people / things",
+    "sourcePage": 27
+  },
+  {
+    "german": "Eine Idee",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 6
+  },
+  {
+    "german": "Eine Kette",
+    "english": "a necklace",
+    "category": "Nouns / people / things",
+    "sourcePage": 18
+  },
+  {
+    "german": "Eine Kommode",
+    "english": "dresser",
+    "category": "Nouns / people / things",
+    "sourcePage": 22
+  },
+  {
+    "german": "Eine Küche",
+    "english": "kitchen",
+    "category": "Nouns / people / things",
+    "sourcePage": 9
+  },
+  {
+    "german": "Eine Party",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 7
+  },
+  {
+    "german": "Eine Person",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 18
+  },
+  {
+    "german": "Eine Stadt",
+    "english": "a city",
+    "category": "Places",
+    "sourcePage": 1
+  },
+  {
+    "german": "Eine Tablette",
+    "english": "pill",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "Eine Tür",
+    "english": "door",
+    "category": "Nouns / people / things",
+    "sourcePage": 9
+  },
+  {
+    "german": "Eine Verspätung",
+    "english": "a delay",
+    "category": "Nouns / people / things",
+    "sourcePage": 7
+  },
+  {
+    "german": "Eineinhalb",
+    "english": "one and a half",
+    "category": "Places",
+    "sourcePage": 25
+  },
+  {
+    "german": "Einen Bart",
+    "english": "beard",
+    "category": "Nouns / people / things",
+    "sourcePage": 22
+  },
+  {
+    "german": "Einen Marathon",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 15
+  },
+  {
+    "german": "Einen Tüte",
+    "english": "bag",
+    "category": "Nouns / people / things",
+    "sourcePage": 16
+  },
+  {
+    "german": "Einen brief",
+    "english": "letter",
+    "category": "Nouns / people / things",
+    "sourcePage": 20
+  },
+  {
+    "german": "Einen moment",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 14
+  },
+  {
+    "german": "Einen schönen Tag noch",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 16
+  },
+  {
+    "german": "Einer",
+    "english": "“a”",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Einfach",
+    "english": "easy",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Einkaufen",
+    "english": "to shop",
+    "category": "Verbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "Einkaufszentru m",
+    "english": "shopping mall",
+    "category": "Places",
+    "sourcePage": 4
+  },
+  {
+    "german": "Einladen",
+    "english": "invite; to invite",
+    "category": "Verbs",
+    "sourcePage": 15
+  },
+  {
+    "german": "Einmal",
+    "english": "once",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Einschlafen",
+    "english": "all asleepf",
+    "category": "Verbs",
+    "sourcePage": 24
+  },
+  {
+    "german": "Eintrittskarten",
+    "english": "tickets",
+    "category": "Nouns / people / things",
+    "sourcePage": 18
+  },
+  {
+    "german": "Elegante",
+    "english": "",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "Elektroauto",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 23
+  },
+  {
+    "german": "Endet",
+    "english": "ended /s",
+    "category": "Verbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "Englisch / english",
+    "english": "",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "Enkelin",
+    "english": "granddaughter",
+    "category": "Nouns / people / things",
+    "sourcePage": 13
+  },
+  {
+    "german": "Entschuldigun g",
+    "english": "excuse me",
+    "category": "Sayings",
+    "sourcePage": 1
+  },
+  {
+    "german": "Entspanne",
+    "english": "relax",
+    "category": "Verbs",
+    "sourcePage": 15
+  },
+  {
+    "german": "Er / sie",
+    "english": "he / she",
+    "category": "Nouns / people / things",
+    "sourcePage": 2
+  },
+  {
+    "german": "Er isst ein Brotchen mit Schinken",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 11
+  },
+  {
+    "german": "Er ist suß",
+    "english": "cute",
+    "category": "Sayings",
+    "sourcePage": 14
+  },
+  {
+    "german": "Er trägt",
+    "english": "carrying",
+    "category": "Verbs",
+    "sourcePage": 19
+  },
+  {
+    "german": "Erdbeeren",
+    "english": "strawberries",
+    "category": "Food",
+    "sourcePage": 1
+  },
+  {
+    "german": "Erste/s",
+    "english": "first",
+    "category": "Sayings",
+    "sourcePage": 19
+  },
+  {
+    "german": "Ersten",
+    "english": "first; first of",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "Erwachsene",
+    "english": "adults; adult",
+    "category": "Nouns / people / things",
+    "sourcePage": 14
+  },
+  {
+    "german": "Es gibt",
+    "english": "there is; there is…",
+    "category": "Sayings",
+    "sourcePage": 7
+  },
+  {
+    "german": "Es past night",
+    "english": "it doesn’t fit",
+    "category": "Sayings",
+    "sourcePage": 7
+  },
+  {
+    "german": "Es tut mir lied",
+    "english": "Im sorry",
+    "category": "Sayings",
+    "sourcePage": 1
+  },
+  {
+    "german": "Essen",
+    "english": "food; to eat; eat",
+    "category": "Food",
+    "sourcePage": 1
+  },
+  {
+    "german": "Euch",
+    "english": "you; you all",
+    "category": "Sayings",
+    "sourcePage": 21
+  },
+  {
+    "german": "Euer",
+    "english": "your",
+    "category": "Sayings",
+    "sourcePage": 18
+  },
+  {
+    "german": "Eure",
+    "english": "your",
+    "category": "Sayings",
+    "sourcePage": 15
+  },
+  {
+    "german": "Fahrradfahren",
+    "english": "",
+    "category": "Verbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "Fahrradhelm",
+    "english": "bicycle helmet",
+    "category": "Nouns / people / things",
+    "sourcePage": 19
+  },
+  {
+    "german": "Fahrräder",
+    "english": "bicycles",
+    "category": "Sayings",
+    "sourcePage": 19
+  },
+  {
+    "german": "Fallt aus",
+    "english": "is cancelled",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "Fantastisch",
+    "english": "",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "Farbe",
+    "english": "color",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "Farbestifte",
+    "english": "colored pencil",
+    "category": "Nouns / people / things",
+    "sourcePage": 10
+  },
+  {
+    "german": "Fast",
+    "english": "almost",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Faul",
+    "english": "lazy",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "Feierabend",
+    "english": "end of the workday; end of workday",
+    "category": "Sayings",
+    "sourcePage": 13
+  },
+  {
+    "german": "Feiertag",
+    "english": "holiday",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "Fernsehserien",
+    "english": "tv shows; TV watching",
+    "category": "Nouns / people / things",
+    "sourcePage": 19
+  },
+  {
+    "german": "Fertig",
+    "english": "finish; done; finished",
+    "category": "Verbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "Fieber",
+    "english": "fever",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Finden",
+    "english": "find",
+    "category": "Verbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Findet…statt",
+    "english": "takes place",
+    "category": "Verbs",
+    "sourcePage": 27
+  },
+  {
+    "german": "Firma",
+    "english": "company",
+    "category": "Nouns / people / things",
+    "sourcePage": 24
+  },
+  {
+    "german": "Fix und fertig",
+    "english": "done",
+    "category": "Sayings",
+    "sourcePage": 22
+  },
+  {
+    "german": "Flaschen",
+    "english": "bottle",
+    "category": "Nouns / people / things",
+    "sourcePage": 13
+  },
+  {
+    "german": "Fliegst",
+    "english": "flying",
+    "category": "Verbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "Flug",
+    "english": "flight",
+    "category": "Nouns / people / things",
+    "sourcePage": 26
+  },
+  {
+    "german": "Flugnummer",
+    "english": "flight number",
+    "category": "Nouns / people / things",
+    "sourcePage": 14
+  },
+  {
+    "german": "Folgen",
+    "english": "to follow",
+    "category": "Verbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "Fragen",
+    "english": "ask",
+    "category": "Verbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "Französisch",
+    "english": "French",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 5
+  },
+  {
+    "german": "Frei",
+    "english": "free",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "Freitzeit",
+    "english": "freetime",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "Freundin",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 2
+  },
+  {
+    "german": "Freundinnen",
+    "english": "friends",
+    "category": "Nouns / people / things",
+    "sourcePage": 11
+  },
+  {
+    "german": "Freundlich",
+    "english": "friendly",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Freut",
+    "english": "pleased",
+    "category": "Verbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Freut mich",
+    "english": "nice to meet you",
+    "category": "Sayings",
+    "sourcePage": 3
+  },
+  {
+    "german": "Friseur",
+    "english": "hairdresser",
+    "category": "Nouns / people / things",
+    "sourcePage": 21
+  },
+  {
+    "german": "Früh",
+    "english": "early",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "Fuhrerschein",
+    "english": "drivers license",
+    "category": "Sayings",
+    "sourcePage": 15
+  },
+  {
+    "german": "Funktioniert",
+    "english": "function",
+    "category": "Verbs",
+    "sourcePage": 12
+  },
+  {
+    "german": "Fur",
+    "english": "for",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "Furchtbar",
+    "english": "awful; terrible",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "Futter",
+    "english": "food hundefutter",
+    "category": "Nouns / people / things",
+    "sourcePage": 27
+  },
+  {
+    "german": "Fußballspiel",
+    "english": "soccer game",
+    "category": "Nouns / people / things",
+    "sourcePage": 1
+  },
+  {
+    "german": "Fußballtraining",
+    "english": "soccer training",
+    "category": "Nouns / people / things",
+    "sourcePage": 7
+  },
+  {
+    "german": "Fängt …An",
+    "english": "does start",
+    "category": "Verbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "Fängt….an",
+    "english": "when does something start",
+    "category": "Verbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "Ganz bestimmt",
+    "english": "definitely coming",
+    "category": "Sayings",
+    "sourcePage": 16
+  },
+  {
+    "german": "Gebrochen",
+    "english": "broken",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Geburtsjahrs",
+    "english": "birth year",
+    "category": "Places",
+    "sourcePage": 26
+  },
+  {
+    "german": "Geburtsort",
+    "english": "birthday",
+    "category": "Places",
+    "sourcePage": 26
+  },
+  {
+    "german": "Geburtstag",
+    "english": "birthday",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "Gefallt/gefallen",
+    "english": "like",
+    "category": "Verbs",
+    "sourcePage": 21
+  },
+  {
+    "german": "Gefährlich",
+    "english": "dangerous",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 16
+  },
+  {
+    "german": "Gegen",
+    "english": "around",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "Geh nicht weg",
+    "english": "don’t leave",
+    "category": "Sayings",
+    "sourcePage": 6
+  },
+  {
+    "german": "Geh zum",
+    "english": "go to the…",
+    "category": "Sayings",
+    "sourcePage": 9
+  },
+  {
+    "german": "Gehen Sie rec hts und dann li nks",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 8
+  },
+  {
+    "german": "Gehst du ins …. Are you going to..",
+    "english": "",
+    "category": "Verbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "Gehst du zu Fuß ?",
+    "english": "are you walking/ go by foot",
+    "category": "Sayings",
+    "sourcePage": 7
+  },
+  {
+    "german": "Gelb",
+    "english": "yellow",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "Geldautomate n",
+    "english": "ATM",
+    "category": "Nouns / people / things",
+    "sourcePage": 23
+  },
+  {
+    "german": "Geldbeutel",
+    "english": "wallet",
+    "category": "Nouns / people / things",
+    "sourcePage": 26
+  },
+  {
+    "german": "Gemacht",
+    "english": "made; done",
+    "category": "Verbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Gemein",
+    "english": "mean",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "Gemutlich",
+    "english": "comfortable",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 22
+  },
+  {
+    "german": "Genau",
+    "english": "exactly",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "Genf",
+    "english": "geneva",
+    "category": "Places",
+    "sourcePage": 15
+  },
+  {
+    "german": "Gerade",
+    "english": "right/correct; right now",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "Geradeaus",
+    "english": "approximately; straight ahead",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "Gerauscht",
+    "english": "noise",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Gericht",
+    "english": "court",
+    "category": "Nouns / people / things",
+    "sourcePage": 17
+  },
+  {
+    "german": "Gern Geschehen",
+    "english": "your are welcome; your welcome",
+    "category": "Sayings",
+    "sourcePage": 3
+  },
+  {
+    "german": "Geschichte",
+    "english": "history",
+    "category": "Nouns / people / things",
+    "sourcePage": 9
+  },
+  {
+    "german": "Geschlossen",
+    "english": "closed",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 13
+  },
+  {
+    "german": "Geschwister",
+    "english": "sibllings/ Großeltern = grandparents",
+    "category": "Nouns / people / things",
+    "sourcePage": 12
+  },
+  {
+    "german": "Geschäft",
+    "english": "store",
+    "category": "Places",
+    "sourcePage": 15
+  },
+  {
+    "german": "Gestartet",
+    "english": "started",
+    "category": "Verbs",
+    "sourcePage": 23
+  },
+  {
+    "german": "Gestresst",
+    "english": "stressed",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "Gesund",
+    "english": "healthy",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Getrennt",
+    "english": "separately",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "Gleichen",
+    "english": "same",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "Gluck",
+    "english": "lucky",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 19
+  },
+  {
+    "german": "Gluhwein",
+    "english": "mulled wine",
+    "category": "Food",
+    "sourcePage": 5
+  },
+  {
+    "german": "Gläser",
+    "english": "glasses",
+    "category": "Nouns / people / things",
+    "sourcePage": 18
+  },
+  {
+    "german": "Glücklich",
+    "english": "happy",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Grad",
+    "english": "degrees",
+    "category": "Nouns / people / things",
+    "sourcePage": 24
+  },
+  {
+    "german": "Gratulieren",
+    "english": "congratulate / celebrate",
+    "category": "Verbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "Grillen",
+    "english": "",
+    "category": "Verbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Groissartig",
+    "english": "fabulous",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "Grossartige",
+    "english": "great",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 21
+  },
+  {
+    "german": "Großmutter",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 11
+  },
+  {
+    "german": "Grun",
+    "english": "green",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "Gummibarchen",
+    "english": "gummy bears",
+    "category": "Food",
+    "sourcePage": 26
+  },
+  {
+    "german": "Gummibärche n",
+    "english": "gummy bears",
+    "category": "Nouns / people / things",
+    "sourcePage": 19
+  },
+  {
+    "german": "Gut aussehe",
+    "english": "good-looking",
+    "category": "Sayings",
+    "sourcePage": 27
+  },
+  {
+    "german": "Gut gemacht",
+    "english": "well done",
+    "category": "Sayings",
+    "sourcePage": 16
+  },
+  {
+    "german": "Gute Reise",
+    "english": "good travels/ have a good trip",
+    "category": "Sayings",
+    "sourcePage": 17
+  },
+  {
+    "german": "Guten Appetit",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 8
+  },
+  {
+    "german": "Gäste",
+    "english": "guest/ s",
+    "category": "Nouns / people / things",
+    "sourcePage": 17
+  },
+  {
+    "german": "Haare",
+    "english": "hair",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "Habe hat",
+    "english": "have has",
+    "category": "Verbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Habe … erfunden",
+    "english": "made up",
+    "category": "Verbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "Haben Sie kein e Angst have no fear",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 22
+  },
+  {
+    "german": "Haben sie",
+    "english": "do you have",
+    "category": "Sayings",
+    "sourcePage": 1
+  },
+  {
+    "german": "Haben … gesprochen",
+    "english": "spoke",
+    "category": "Verbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "Haben … getroffen",
+    "english": "have met",
+    "category": "Verbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "Haben … zugehört",
+    "english": "listened",
+    "category": "Verbs",
+    "sourcePage": 27
+  },
+  {
+    "german": "Haben …. Gefunden",
+    "english": "found",
+    "category": "Verbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "Haben ….gelacht",
+    "english": "laughed",
+    "category": "Verbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "Haben... abgewaschen",
+    "english": "wash dishes",
+    "category": "Verbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "Haben...gema cht",
+    "english": "made",
+    "category": "Verbs",
+    "sourcePage": 23
+  },
+  {
+    "german": "Haben… gegessen",
+    "english": "to have eaten",
+    "category": "Verbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "Haben… gehört",
+    "english": "did you hear…",
+    "category": "Verbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "Haben… geschnarcht",
+    "english": "",
+    "category": "Verbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "Haben… gesehen",
+    "english": "watched",
+    "category": "Verbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "Habe… gelogen",
+    "english": "have lied",
+    "category": "Verbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "Habe… vor",
+    "english": "planned",
+    "category": "Verbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Haltestellen",
+    "english": "stops",
+    "category": "Nouns / people / things",
+    "sourcePage": 22
+  },
+  {
+    "german": "Handball",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 24
+  },
+  {
+    "german": "Handschrift",
+    "english": "handwriting",
+    "category": "Nouns / people / things",
+    "sourcePage": 13
+  },
+  {
+    "german": "Handtuch",
+    "english": "towel; hand towel",
+    "category": "Nouns / people / things",
+    "sourcePage": 19
+  },
+  {
+    "german": "Handynummer",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 16
+  },
+  {
+    "german": "Hast du Hunger",
+    "english": "hungry?",
+    "category": "Sayings",
+    "sourcePage": 7
+  },
+  {
+    "german": "Hast du Zeit?",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 6
+  },
+  {
+    "german": "Hast du einen/ eine",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 4
+  },
+  {
+    "german": "Hast..getroffen",
+    "english": "to have met",
+    "category": "Verbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Hat Verspatung",
+    "english": "has been delayed",
+    "category": "Sayings",
+    "sourcePage": 7
+  },
+  {
+    "german": "Hat/habe",
+    "english": "have/has",
+    "category": "Verbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "Hattest… Stress",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 26
+  },
+  {
+    "german": "Hat… gedauert",
+    "english": "lasted",
+    "category": "Verbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Hat… getanzt",
+    "english": "danced",
+    "category": "Verbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "Hauptfach",
+    "english": "major (college)",
+    "category": "Nouns / people / things",
+    "sourcePage": 26
+  },
+  {
+    "german": "Haus",
+    "english": "house",
+    "category": "Places",
+    "sourcePage": 1
+  },
+  {
+    "german": "Hausaufgaben",
+    "english": "homework",
+    "category": "Nouns / people / things",
+    "sourcePage": 10
+  },
+  {
+    "german": "Haustiere",
+    "english": "pets",
+    "category": "Nouns / people / things",
+    "sourcePage": 13
+  },
+  {
+    "german": "Heimlich",
+    "english": "secretly",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Hell",
+    "english": "bright",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "Hellgrun",
+    "english": "light green",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 23
+  },
+  {
+    "german": "Herz",
+    "english": "heart",
+    "category": "Nouns / people / things",
+    "sourcePage": 11
+  },
+  {
+    "german": "Herzlichen Glü ckwunsch",
+    "english": "congratulation s",
+    "category": "Sayings",
+    "sourcePage": 18
+  },
+  {
+    "german": "Herzlichen Glü ckwunsch zum Geburtstag",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 15
+  },
+  {
+    "german": "Heute",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 3
+  },
+  {
+    "german": "Hier weg",
+    "english": "get away",
+    "category": "Sayings",
+    "sourcePage": 4
+  },
+  {
+    "german": "Hilfen",
+    "english": "help",
+    "category": "Verbs",
+    "sourcePage": 16
+  },
+  {
+    "german": "Hinten",
+    "english": "in the back",
+    "category": "Sayings",
+    "sourcePage": 7
+  },
+  {
+    "german": "Hinter",
+    "english": "behind; behind/after",
+    "category": "Sayings",
+    "sourcePage": 17
+  },
+  {
+    "german": "Hoch",
+    "english": "tall; tall / high",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "Hohen",
+    "english": "heights",
+    "category": "Nouns / people / things",
+    "sourcePage": 28
+  },
+  {
+    "german": "Hole/holst…ab",
+    "english": "picking up",
+    "category": "Verbs",
+    "sourcePage": 16
+  },
+  {
+    "german": "Hubsch",
+    "english": "pretty",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Hundert",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 12
+  },
+  {
+    "german": "Hungrig",
+    "english": "",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "Hähnchen",
+    "english": "chicken",
+    "category": "Food",
+    "sourcePage": 1
+  },
+  {
+    "german": "Hübsch",
+    "english": "nice/ pretty; pretty",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "I möchte",
+    "english": "i would like",
+    "category": "Sayings",
+    "sourcePage": 6
+  },
+  {
+    "german": "Ich Wir",
+    "english": "I / We",
+    "category": "Nouns / people / things",
+    "sourcePage": 1
+  },
+  {
+    "german": "Ich freue much",
+    "english": "I look forward to it.",
+    "category": "Sayings",
+    "sourcePage": 6
+  },
+  {
+    "german": "Ich habe etwas vor",
+    "english": "I have something else planned",
+    "category": "Sayings",
+    "sourcePage": 22
+  },
+  {
+    "german": "Ich hatte etwas vor",
+    "english": "i had plans",
+    "category": "Sayings",
+    "sourcePage": 23
+  },
+  {
+    "german": "Ich kann nicht",
+    "english": "I cannot",
+    "category": "Sayings",
+    "sourcePage": 6
+  },
+  {
+    "german": "Ich komme aus",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 2
+  },
+  {
+    "german": "Ich liebe sie",
+    "english": "i love them",
+    "category": "Sayings",
+    "sourcePage": 13
+  },
+  {
+    "german": "Ich singe gern",
+    "english": "i like to sing",
+    "category": "Sayings",
+    "sourcePage": 5
+  },
+  {
+    "german": "Ich stimme dir nicht zu",
+    "english": "i don’t agree with you",
+    "category": "Sayings",
+    "sourcePage": 19
+  },
+  {
+    "german": "Ich weiß nicht",
+    "english": "i don’t know - I know not",
+    "category": "Sayings",
+    "sourcePage": 3
+  },
+  {
+    "german": "Ich zeige es dir",
+    "english": "i will show you",
+    "category": "Sayings",
+    "sourcePage": 6
+  },
+  {
+    "german": "Igitt",
+    "english": "yuck",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Ihm",
+    "english": "to him",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "Ihre",
+    "english": "your",
+    "category": "Nouns / people / things",
+    "sourcePage": 3
+  },
+  {
+    "german": "Im",
+    "english": "in the (during)",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "Im Ausland",
+    "english": "abroad",
+    "category": "Sayings",
+    "sourcePage": 17
+  },
+  {
+    "german": "Im Reisezentrum",
+    "english": "travel center",
+    "category": "Places",
+    "sourcePage": 3
+  },
+  {
+    "german": "Im ersatz Stock",
+    "english": "on the first floor",
+    "category": "Sayings",
+    "sourcePage": 23
+  },
+  {
+    "german": "Immer",
+    "english": "always",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "In Der Schule",
+    "english": "in school",
+    "category": "Sayings",
+    "sourcePage": 14
+  },
+  {
+    "german": "In Größe",
+    "english": "in size",
+    "category": "Nouns / people / things",
+    "sourcePage": 6
+  },
+  {
+    "german": "In Minuten",
+    "english": "in minutes",
+    "category": "Nouns / people / things",
+    "sourcePage": 7
+  },
+  {
+    "german": "In den Ferien",
+    "english": "on the break; during the break",
+    "category": "Sayings",
+    "sourcePage": 9
+  },
+  {
+    "german": "In den blumenladen",
+    "english": "to the florist",
+    "category": "Sayings",
+    "sourcePage": 16
+  },
+  {
+    "german": "In den club",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 17
+  },
+  {
+    "german": "In der Nähe",
+    "english": "nearby",
+    "category": "Sayings",
+    "sourcePage": 5
+  },
+  {
+    "german": "In ordung",
+    "english": "alright",
+    "category": "Sayings",
+    "sourcePage": 22
+  },
+  {
+    "german": "In the evenings",
+    "english": "abends",
+    "category": "Sayings",
+    "sourcePage": 11
+  },
+  {
+    "german": "Informationen",
+    "english": "information",
+    "category": "Sayings",
+    "sourcePage": 6
+  },
+  {
+    "german": "Island",
+    "english": "Iceland",
+    "category": "Places",
+    "sourcePage": 25
+  },
+  {
+    "german": "Ist alles in Ord nung?",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 24
+  },
+  {
+    "german": "Ist heute zu",
+    "english": "is closed",
+    "category": "Sayings",
+    "sourcePage": 13
+  },
+  {
+    "german": "Ist... erlaubt",
+    "english": "permitted",
+    "category": "Verbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "Ist… gegangen",
+    "english": "went to",
+    "category": "Verbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "Ist…. Gekommen",
+    "english": "",
+    "category": "Verbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "Ist…erlaubt",
+    "english": "permitted",
+    "category": "Sayings",
+    "sourcePage": 26
+  },
+  {
+    "german": "Jacke",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 16
+  },
+  {
+    "german": "Jahre",
+    "english": "years; year",
+    "category": "Nouns / people / things",
+    "sourcePage": 9
+  },
+  {
+    "german": "Jahrestag",
+    "english": "anniversary",
+    "category": "Sayings",
+    "sourcePage": 18
+  },
+  {
+    "german": "Jede",
+    "english": "every",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Jeden",
+    "english": "every",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 5
+  },
+  {
+    "german": "Jemand",
+    "english": "someone",
+    "category": "Sayings",
+    "sourcePage": 17
+  },
+  {
+    "german": "Jetzt",
+    "english": "just; now",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Joghurt",
+    "english": "yogurt",
+    "category": "Food",
+    "sourcePage": 3
+  },
+  {
+    "german": "K/Meinen/ Einen Onkel/ Bruder/Freund",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 5
+  },
+  {
+    "german": "Kaffeemaschin e",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 19
+  },
+  {
+    "german": "Kanadierin",
+    "english": "canada",
+    "category": "Sayings",
+    "sourcePage": 10
+  },
+  {
+    "german": "Kann ich Ein Glas Wien haben",
+    "english": "can I have glass of wine",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "Kann ich helfe n",
+    "english": "can I help",
+    "category": "Sayings",
+    "sourcePage": 8
+  },
+  {
+    "german": "Kann ich helfen dir",
+    "english": "can I help you",
+    "category": "Sayings",
+    "sourcePage": 2
+  },
+  {
+    "german": "Kannst du mor gen kommen",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 8
+  },
+  {
+    "german": "Kantine",
+    "english": "cafeteria",
+    "category": "Nouns / people / things",
+    "sourcePage": 24
+  },
+  {
+    "german": "Kanzler/in",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 3
+  },
+  {
+    "german": "Kaputt",
+    "english": "broken",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "Karten",
+    "english": "spielen…cards",
+    "category": "Nouns / people / things",
+    "sourcePage": 19
+  },
+  {
+    "german": "Kartoffein",
+    "english": "potatoes",
+    "category": "Food",
+    "sourcePage": 1
+  },
+  {
+    "german": "Kartoffelsalat",
+    "english": "",
+    "category": "Food",
+    "sourcePage": 4
+  },
+  {
+    "german": "Kaufhaus",
+    "english": "department store",
+    "category": "Places",
+    "sourcePage": 1
+  },
+  {
+    "german": "Kaum",
+    "english": "hardly",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Kein / none or no",
+    "english": "",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "Keine Lust",
+    "english": "no want",
+    "category": "Sayings",
+    "sourcePage": 8
+  },
+  {
+    "german": "Keine Panik",
+    "english": "dont panic",
+    "category": "Sayings",
+    "sourcePage": 26
+  },
+  {
+    "german": "Kekse",
+    "english": "cookies",
+    "category": "Food",
+    "sourcePage": 4
+  },
+  {
+    "german": "Keller",
+    "english": "basement",
+    "category": "Nouns / people / things",
+    "sourcePage": 21
+  },
+  {
+    "german": "Kellner",
+    "english": "waiter",
+    "category": "Nouns / people / things",
+    "sourcePage": 1
+  },
+  {
+    "german": "Kennenzuleme n",
+    "english": "meet",
+    "category": "Verbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Koche / Kochst",
+    "english": "cook",
+    "category": "Verbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Komm",
+    "english": "com one",
+    "category": "Sayings",
+    "sourcePage": 26
+  },
+  {
+    "german": "Kommen Sie Rein",
+    "english": "come in",
+    "category": "Sayings",
+    "sourcePage": 22
+  },
+  {
+    "german": "Kommt…an / ankommen",
+    "english": "arrive",
+    "category": "Verbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "Komodie",
+    "english": "comedy",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "Konditorei",
+    "english": "pastry shop",
+    "category": "Places",
+    "sourcePage": 15
+  },
+  {
+    "german": "Konnte",
+    "english": "was able to; able to",
+    "category": "Verbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "Kopf",
+    "english": "head",
+    "category": "Body / Körper",
+    "sourcePage": 9
+  },
+  {
+    "german": "Kopfhörer",
+    "english": "headphones",
+    "category": "Nouns / people / things",
+    "sourcePage": 26
+  },
+  {
+    "german": "Kopfkissen",
+    "english": "pillow",
+    "category": "Nouns / people / things",
+    "sourcePage": 12
+  },
+  {
+    "german": "Kopfschmerze n",
+    "english": "headache",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "Krank",
+    "english": "to be sick; sick",
+    "category": "Verbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "Kunden",
+    "english": "customers; clients",
+    "category": "Nouns / people / things",
+    "sourcePage": 21
+  },
+  {
+    "german": "Kunst",
+    "english": "art",
+    "category": "Sayings",
+    "sourcePage": 17
+  },
+  {
+    "german": "Kunstlehrer",
+    "english": "art teacher",
+    "category": "Nouns / people / things",
+    "sourcePage": 9
+  },
+  {
+    "german": "Kunstunterrich t",
+    "english": "class",
+    "category": "Nouns / people / things",
+    "sourcePage": 17
+  },
+  {
+    "german": "Kurse",
+    "english": "course",
+    "category": "Nouns / people / things",
+    "sourcePage": 27
+  },
+  {
+    "german": "Käsebrot",
+    "english": "cheese sandwich",
+    "category": "Food",
+    "sourcePage": 5
+  },
+  {
+    "german": "Können wir jet zt gehen",
+    "english": "can we go now",
+    "category": "Sayings",
+    "sourcePage": 7
+  },
+  {
+    "german": "Kütz",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 14
+  },
+  {
+    "german": "Lade … ein inviting",
+    "english": "",
+    "category": "Verbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "Lange",
+    "english": "long",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "Langweilig",
+    "english": "boring",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "Langwielig",
+    "english": "boring",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Lass",
+    "english": "let’s",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 12
+  },
+  {
+    "german": "Lass uns",
+    "english": "let us…",
+    "category": "Sayings",
+    "sourcePage": 14
+  },
+  {
+    "german": "Lebenslauf",
+    "english": "resume",
+    "category": "Nouns / people / things",
+    "sourcePage": 15
+  },
+  {
+    "german": "Leer",
+    "english": "dead; empty",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 14
+  },
+  {
+    "german": "Lehrer",
+    "english": "teacher",
+    "category": "Nouns / people / things",
+    "sourcePage": 2
+  },
+  {
+    "german": "Leider",
+    "english": "unfortunately",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "Letzen",
+    "english": "the last; last (the last time)",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "Letzte",
+    "english": "last",
+    "category": "Places",
+    "sourcePage": 27
+  },
+  {
+    "german": "Letzten/tes",
+    "english": "last / ago",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 19
+  },
+  {
+    "german": "Lichten",
+    "english": "bright",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 12
+  },
+  {
+    "german": "Lieber",
+    "english": "prefer",
+    "category": "Verbs",
+    "sourcePage": 5
+  },
+  {
+    "german": "Liebling",
+    "english": "favorite",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "Lieblingsfarbe",
+    "english": "fav color",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "Lieblingsteam",
+    "english": "favorite team",
+    "category": "Sayings",
+    "sourcePage": 18
+  },
+  {
+    "german": "Liebt / st",
+    "english": "loves",
+    "category": "Verbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "Lila",
+    "english": "purple",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 14
+  },
+  {
+    "german": "Linguistik",
+    "english": "linguistics",
+    "category": "Nouns / people / things",
+    "sourcePage": 26
+  },
+  {
+    "german": "Los",
+    "english": "wrong; start; be off",
+    "category": "Places",
+    "sourcePage": 4
+  },
+  {
+    "german": "Lust",
+    "english": "desire",
+    "category": "Verbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Lustig",
+    "english": "funny",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "Lädt",
+    "english": "invite",
+    "category": "Verbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "Machen",
+    "english": "make",
+    "category": "Verbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Macht wirklich Spass",
+    "english": "is really fun",
+    "category": "Sayings",
+    "sourcePage": 6
+  },
+  {
+    "german": "Macht … nickerchen",
+    "english": "tak nape",
+    "category": "Places",
+    "sourcePage": 26
+  },
+  {
+    "german": "Macht….Schlu ss",
+    "english": "to break up",
+    "category": "Verbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "Magst du",
+    "english": "do you like….",
+    "category": "Sayings",
+    "sourcePage": 6
+  },
+  {
+    "german": "Manchmal",
+    "english": "sometimes",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Marmelade",
+    "english": "jam",
+    "category": "Nouns / people / things",
+    "sourcePage": 24
+  },
+  {
+    "german": "Medizin",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 18
+  },
+  {
+    "german": "Mehl",
+    "english": "flour",
+    "category": "Food",
+    "sourcePage": 17
+  },
+  {
+    "german": "Mehrfamilienh aus",
+    "english": "apartment building",
+    "category": "Places",
+    "sourcePage": 3
+  },
+  {
+    "german": "Mein Sakko",
+    "english": "suit",
+    "category": "Nouns / people / things",
+    "sourcePage": 3
+  },
+  {
+    "german": "Mein Schatz",
+    "english": "darling",
+    "category": "Nouns / people / things",
+    "sourcePage": 21
+  },
+  {
+    "german": "Meine Lieblingsband",
+    "english": "my favorite band",
+    "category": "Sayings",
+    "sourcePage": 18
+  },
+  {
+    "german": "Meine Muttersprache",
+    "english": "mother tongue",
+    "category": "Sayings",
+    "sourcePage": 5
+  },
+  {
+    "german": "Meine Pflanzen",
+    "english": "plants",
+    "category": "Nouns / people / things",
+    "sourcePage": 12
+  },
+  {
+    "german": "Meinen Schlüssel",
+    "english": "my key",
+    "category": "Nouns / people / things",
+    "sourcePage": 6
+  },
+  {
+    "german": "Meitwagen",
+    "english": "rental car",
+    "category": "Nouns / people / things",
+    "sourcePage": 23
+  },
+  {
+    "german": "Metzger",
+    "english": "butcher",
+    "category": "Food",
+    "sourcePage": 5
+  },
+  {
+    "german": "Metzgerei",
+    "english": "butcher shop",
+    "category": "Places",
+    "sourcePage": 15
+  },
+  {
+    "german": "Mit euch",
+    "english": "with you",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "Mitbringen",
+    "english": "bring along",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 15
+  },
+  {
+    "german": "Mittag",
+    "english": "midday or noon",
+    "category": "Nouns / people / things",
+    "sourcePage": 15
+  },
+  {
+    "german": "Mitternacht",
+    "english": "midnight",
+    "category": "Sayings",
+    "sourcePage": 15
+  },
+  {
+    "german": "Mobelhaus",
+    "english": "furniture store",
+    "category": "Sayings",
+    "sourcePage": 21
+  },
+  {
+    "german": "Mochte / / mochtest",
+    "english": "would like",
+    "category": "Verbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Mogen sie",
+    "english": "do you like",
+    "category": "Sayings",
+    "sourcePage": 1
+  },
+  {
+    "german": "Monat",
+    "english": "month",
+    "category": "Nouns / people / things",
+    "sourcePage": 17
+  },
+  {
+    "german": "Monate",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 9
+  },
+  {
+    "german": "Morgen",
+    "english": "tomorrow",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "Motiviert",
+    "english": "motivated",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 15
+  },
+  {
+    "german": "Motorradschlü ssel",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 11
+  },
+  {
+    "german": "Museumsbesu ch",
+    "english": "",
+    "category": "Places",
+    "sourcePage": 14
+  },
+  {
+    "german": "Musli",
+    "english": "",
+    "category": "Food",
+    "sourcePage": 3
+  },
+  {
+    "german": "Muss",
+    "english": "have to/must",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "Muss auf Fall",
+    "english": "must be on case",
+    "category": "Sayings",
+    "sourcePage": 3
+  },
+  {
+    "german": "Mussen",
+    "english": "have to or must",
+    "category": "Verbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Musst",
+    "english": "must",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "Mut",
+    "english": "courage",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "Nach",
+    "english": "to / still; to",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "Nachbar /in",
+    "english": "neighbor",
+    "category": "Nouns / people / things",
+    "sourcePage": 11
+  },
+  {
+    "german": "Nachher",
+    "english": "afterwards; aftwards",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "Nachmittags",
+    "english": "afternoon",
+    "category": "Nouns / people / things",
+    "sourcePage": 24
+  },
+  {
+    "german": "Nachname",
+    "english": "last name",
+    "category": "Nouns / people / things",
+    "sourcePage": 15
+  },
+  {
+    "german": "Nachnamen",
+    "english": "surname",
+    "category": "Nouns / people / things",
+    "sourcePage": 27
+  },
+  {
+    "german": "Nachrichten",
+    "english": "the news",
+    "category": "Sayings",
+    "sourcePage": 24
+  },
+  {
+    "german": "Nachsten",
+    "english": "next",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Nacht oder Nachte",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 12
+  },
+  {
+    "german": "Nachts",
+    "english": "at night",
+    "category": "Sayings",
+    "sourcePage": 9
+  },
+  {
+    "german": "Name",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "Natürlich",
+    "english": "of course",
+    "category": "Sayings",
+    "sourcePage": 2
+  },
+  {
+    "german": "Neben",
+    "english": "next to",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "Neben dir",
+    "english": "next to you",
+    "category": "Sayings",
+    "sourcePage": 16
+  },
+  {
+    "german": "Nebenfach",
+    "english": "minor (college)",
+    "category": "Nouns / people / things",
+    "sourcePage": 26
+  },
+  {
+    "german": "Neffe",
+    "english": "nephew",
+    "category": "Nouns / people / things",
+    "sourcePage": 18
+  },
+  {
+    "german": "Nervos",
+    "english": "nervous",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "Nervt",
+    "english": "annoys",
+    "category": "Verbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Neu neues",
+    "english": "new",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "Neue",
+    "english": "new",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "Neuen",
+    "english": "new",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Nicht fur kleine kinder",
+    "english": "not for kids",
+    "category": "Sayings",
+    "sourcePage": 16
+  },
+  {
+    "german": "Nichte",
+    "english": "niece",
+    "category": "Nouns / people / things",
+    "sourcePage": 17
+  },
+  {
+    "german": "Nickerchen",
+    "english": "nap",
+    "category": "Sayings",
+    "sourcePage": 5
+  },
+  {
+    "german": "Nie nicht",
+    "english": "never not",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "Niedlich",
+    "english": "cute",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "Niemand",
+    "english": "nobody",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "Noch",
+    "english": "another; still; still/yet",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "Normal",
+    "english": "",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "Noten",
+    "english": "grades",
+    "category": "Nouns / people / things",
+    "sourcePage": 27
+  },
+  {
+    "german": "Notfäll / en",
+    "english": "emergencies",
+    "category": "Sayings",
+    "sourcePage": 5
+  },
+  {
+    "german": "Notizbücher",
+    "english": "notebook",
+    "category": "Nouns / people / things",
+    "sourcePage": 10
+  },
+  {
+    "german": "Null",
+    "english": "zero",
+    "category": "Nouns / people / things",
+    "sourcePage": 3
+  },
+  {
+    "german": "Number",
+    "english": "number",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "Nur",
+    "english": "only",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "Nussallergie",
+    "english": "nut allergy",
+    "category": "Food",
+    "sourcePage": 3
+  },
+  {
+    "german": "Nussen",
+    "english": "nuts",
+    "category": "Nouns / people / things",
+    "sourcePage": 21
+  },
+  {
+    "german": "Ob",
+    "english": "if",
+    "category": "Sayings",
+    "sourcePage": 11
+  },
+  {
+    "german": "Oben",
+    "english": "upstairs",
+    "category": "Places",
+    "sourcePage": 26
+  },
+  {
+    "german": "Ohne",
+    "english": "without",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "Ohren schmerzen",
+    "english": "ear ache",
+    "category": "Nouns / people / things",
+    "sourcePage": 13
+  },
+  {
+    "german": "Ohrringe",
+    "english": "earrings",
+    "category": "Nouns / people / things",
+    "sourcePage": 18
+  },
+  {
+    "german": "Orangen",
+    "english": "orange",
+    "category": "Food",
+    "sourcePage": 1
+  },
+  {
+    "german": "Orangensaft",
+    "english": "orange juice",
+    "category": "Food",
+    "sourcePage": 5
+  },
+  {
+    "german": "Ordnung",
+    "english": "alright",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 13
+  },
+  {
+    "german": "Packung",
+    "english": "pack",
+    "category": "Nouns / people / things",
+    "sourcePage": 16
+  },
+  {
+    "german": "Pass auf",
+    "english": "look out",
+    "category": "Sayings",
+    "sourcePage": 22
+  },
+  {
+    "german": "Passt",
+    "english": "fits",
+    "category": "Verbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "Pause",
+    "english": "break",
+    "category": "Nouns / people / things",
+    "sourcePage": 15
+  },
+  {
+    "german": "Perfekte",
+    "english": "",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "Personal",
+    "english": "staff",
+    "category": "Nouns / people / things",
+    "sourcePage": 21
+  },
+  {
+    "german": "Pilze",
+    "english": "mushrooms",
+    "category": "Food",
+    "sourcePage": 5
+  },
+  {
+    "german": "Plötzlich",
+    "english": "suddenly",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 24
+  },
+  {
+    "german": "Polnisch",
+    "english": "Polnisch",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 5
+  },
+  {
+    "german": "Portmonnaie",
+    "english": "wallet",
+    "category": "Nouns / people / things",
+    "sourcePage": 10
+  },
+  {
+    "german": "Pro",
+    "english": "per",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Probieren/t",
+    "english": "tries",
+    "category": "Verbs",
+    "sourcePage": 21
+  },
+  {
+    "german": "Prüfung",
+    "english": "test",
+    "category": "Nouns / people / things",
+    "sourcePage": 18
+  },
+  {
+    "german": "Putzen",
+    "english": "clean/ put together; to clean",
+    "category": "Verbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Rauche",
+    "english": "smoke",
+    "category": "Verbs",
+    "sourcePage": 14
+  },
+  {
+    "german": "Reden",
+    "english": "to say; talk",
+    "category": "Verbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Regnen",
+    "english": "to rain",
+    "category": "Verbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "Reich",
+    "english": "rich",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 13
+  },
+  {
+    "german": "Rein",
+    "english": "pure or purely",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 22
+  },
+  {
+    "german": "Rentner",
+    "english": "retiree",
+    "category": "Nouns / people / things",
+    "sourcePage": 25
+  },
+  {
+    "german": "Retten",
+    "english": "to save",
+    "category": "Verbs",
+    "sourcePage": 27
+  },
+  {
+    "german": "Rezepte",
+    "english": "recipes",
+    "category": "Nouns / people / things",
+    "sourcePage": 1
+  },
+  {
+    "german": "Richtig",
+    "english": "correct",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "Riechen",
+    "english": "smell",
+    "category": "Verbs",
+    "sourcePage": 0
+  },
+  {
+    "german": "Riesenrad",
+    "english": "Ferris wheel",
+    "category": "Nouns / people / things",
+    "sourcePage": 10
+  },
+  {
+    "german": "Rollschuhe",
+    "english": "roller skates",
+    "category": "Nouns / people / things",
+    "sourcePage": 23
+  },
+  {
+    "german": "Ruft",
+    "english": "calls or to call for",
+    "category": "Verbs",
+    "sourcePage": 12
+  },
+  {
+    "german": "Ruf… an",
+    "english": "to call",
+    "category": "Verbs",
+    "sourcePage": 19
+  },
+  {
+    "german": "Ruhe",
+    "english": "peace",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 24
+  },
+  {
+    "german": "Ruhig",
+    "english": "quiet; calm",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 12
+  },
+  {
+    "german": "Russisch",
+    "english": "russian",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "Sachen",
+    "english": "things",
+    "category": "Verbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "Sag Bescheid",
+    "english": "let me know",
+    "category": "Sayings",
+    "sourcePage": 20
+  },
+  {
+    "german": "Sag Bitte nichts",
+    "english": "please don’t say anything",
+    "category": "Sayings",
+    "sourcePage": 19
+  },
+  {
+    "german": "Sag einfach",
+    "english": "just say",
+    "category": "Sayings",
+    "sourcePage": 4
+  },
+  {
+    "german": "Samstagaben d",
+    "english": "Saturday evening",
+    "category": "Sayings",
+    "sourcePage": 23
+  },
+  {
+    "german": "Sandalen",
+    "english": "sandles",
+    "category": "Nouns / people / things",
+    "sourcePage": 16
+  },
+  {
+    "german": "Schade",
+    "english": "Too bad",
+    "category": "Sayings",
+    "sourcePage": 6
+  },
+  {
+    "german": "Schalter",
+    "english": "counter",
+    "category": "Nouns / people / things",
+    "sourcePage": 14
+  },
+  {
+    "german": "Scharf",
+    "english": "spicy",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 13
+  },
+  {
+    "german": "Schatz",
+    "english": "sweetheart",
+    "category": "Nouns / people / things",
+    "sourcePage": 15
+  },
+  {
+    "german": "Schauspieler oder Schauspielerin",
+    "english": "actor",
+    "category": "Nouns / people / things",
+    "sourcePage": 1
+  },
+  {
+    "german": "Schick",
+    "english": "stylish",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "Schickst/ schicken du",
+    "english": "are you sending",
+    "category": "Verbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "Schinken",
+    "english": "ham",
+    "category": "Food",
+    "sourcePage": 3
+  },
+  {
+    "german": "Schlafen",
+    "english": "sleep",
+    "category": "Verbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Schlagzeug",
+    "english": "drums",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "Schlecht",
+    "english": "bad",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "Schlimm",
+    "english": "bad",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "Schlucken",
+    "english": "swallow",
+    "category": "Verbs",
+    "sourcePage": 0
+  },
+  {
+    "german": "Schluss",
+    "english": "break up",
+    "category": "Sayings",
+    "sourcePage": 25
+  },
+  {
+    "german": "Schmecken",
+    "english": "tastes",
+    "category": "Verbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Schmutzig",
+    "english": "dirty",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "Schmutzig/e",
+    "english": "dirty",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Schneit",
+    "english": "to snow",
+    "category": "Verbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Schnell",
+    "english": "fast; quickly",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "Schon",
+    "english": "schonen -beuatiful; already",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Schonem",
+    "english": "beautiful",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 23
+  },
+  {
+    "german": "Schreiben",
+    "english": "",
+    "category": "Verbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "Schuld",
+    "english": "guilty",
+    "category": "Nouns / people / things",
+    "sourcePage": 28
+  },
+  {
+    "german": "Schwarze",
+    "english": "black",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "Schwedisch",
+    "english": "Swedish",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 5
+  },
+  {
+    "german": "Schwer",
+    "english": "difficult; heavy or difficult",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 5
+  },
+  {
+    "german": "Schwierig",
+    "english": "difficult",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "Schwimme",
+    "english": "schwimmst - schwimmt - swim",
+    "category": "Verbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "See",
+    "english": "Lake",
+    "category": "Places",
+    "sourcePage": 21
+  },
+  {
+    "german": "Segeln",
+    "english": "sailing",
+    "category": "Verbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "Sehe ich gut a us?",
+    "english": "do i look good",
+    "category": "Sayings",
+    "sourcePage": 10
+  },
+  {
+    "german": "Sehen… aus",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 22
+  },
+  {
+    "german": "Sei nicht so un glücklich",
+    "english": "dont be so unhappy",
+    "category": "Sayings",
+    "sourcePage": 26
+  },
+  {
+    "german": "Seid ihr",
+    "english": "are you; are you all",
+    "category": "Sayings",
+    "sourcePage": 10
+  },
+  {
+    "german": "Seien Sie",
+    "english": "be",
+    "category": "Sayings",
+    "sourcePage": 22
+  },
+  {
+    "german": "Sein",
+    "english": "be; to be",
+    "category": "Verbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Seine",
+    "english": "his",
+    "category": "Sayings",
+    "sourcePage": 10
+  },
+  {
+    "german": "Sekt",
+    "english": "champagne",
+    "category": "Sayings",
+    "sourcePage": 19
+  },
+  {
+    "german": "Sie leben",
+    "english": "you live…",
+    "category": "Verbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "Siebten",
+    "english": "seventh",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "Sieh mal",
+    "english": "look",
+    "category": "Sayings",
+    "sourcePage": 4
+  },
+  {
+    "german": "Siehst… aus",
+    "english": "looking",
+    "category": "Verbs",
+    "sourcePage": 23
+  },
+  {
+    "german": "Siehst…aus",
+    "english": "to look",
+    "category": "Verbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "Sieht zu",
+    "english": "looks at",
+    "category": "Verbs",
+    "sourcePage": 14
+  },
+  {
+    "german": "Sieht … aus",
+    "english": "",
+    "category": "Verbs",
+    "sourcePage": 22
+  },
+  {
+    "german": "Silvester",
+    "english": "New Years eve",
+    "category": "Sayings",
+    "sourcePage": 20
+  },
+  {
+    "german": "Sind … Gefahren",
+    "english": "did travel",
+    "category": "Verbs",
+    "sourcePage": 21
+  },
+  {
+    "german": "Sind … Gegangen",
+    "english": "went",
+    "category": "Verbs",
+    "sourcePage": 21
+  },
+  {
+    "german": "Sind … gesurft",
+    "english": "surfed",
+    "category": "Verbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "Sind … gewandert",
+    "english": "went hiking",
+    "category": "Verbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "Sitze",
+    "english": "seats",
+    "category": "Nouns / people / things",
+    "sourcePage": 3
+  },
+  {
+    "german": "Sogar",
+    "english": "even",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "Sonnig vs bewolkt vs regnet vs Schneit vs neblig",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 4
+  },
+  {
+    "german": "Spanisch",
+    "english": "Spanish",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "Spazieren",
+    "english": "walk",
+    "category": "Verbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Spazieren gehen",
+    "english": "go for a walk",
+    "category": "Sayings",
+    "sourcePage": 10
+  },
+  {
+    "german": "Spaß",
+    "english": "fun",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 5
+  },
+  {
+    "german": "Speise",
+    "english": "dining",
+    "category": "Food",
+    "sourcePage": 2
+  },
+  {
+    "german": "Spinat",
+    "english": "spinach",
+    "category": "Food",
+    "sourcePage": 4
+  },
+  {
+    "german": "Sport",
+    "english": "exercise",
+    "category": "Nouns / people / things",
+    "sourcePage": 10
+  },
+  {
+    "german": "Sprachen",
+    "english": "languages",
+    "category": "Nouns / people / things",
+    "sourcePage": 5
+  },
+  {
+    "german": "Spreche ich zu schnell",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 5
+  },
+  {
+    "german": "Sprich mit ihm",
+    "english": "talk to him",
+    "category": "Verbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "Stadion",
+    "english": "stadium",
+    "category": "Places",
+    "sourcePage": 15
+  },
+  {
+    "german": "Stadtviertel",
+    "english": "neighborhood/ quarter",
+    "category": "Places",
+    "sourcePage": 15
+  },
+  {
+    "german": "Stifte",
+    "english": "pen",
+    "category": "Nouns / people / things",
+    "sourcePage": 10
+  },
+  {
+    "german": "Stimmen",
+    "english": "voices; agree",
+    "category": "Nouns / people / things",
+    "sourcePage": 2
+  },
+  {
+    "german": "Stirn",
+    "english": "forehead",
+    "category": "Nouns / people / things",
+    "sourcePage": 13
+  },
+  {
+    "german": "Stock",
+    "english": "floor/ level",
+    "category": "Nouns / people / things",
+    "sourcePage": 23
+  },
+  {
+    "german": "Storen",
+    "english": "to disturb",
+    "category": "Verbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "Stornieren",
+    "english": "to cancel",
+    "category": "Verbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "Stunde",
+    "english": "hour",
+    "category": "Nouns / people / things",
+    "sourcePage": 13
+  },
+  {
+    "german": "Stunde/n",
+    "english": "hours",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "Stück",
+    "english": "pieces",
+    "category": "Nouns / people / things",
+    "sourcePage": 16
+  },
+  {
+    "german": "Süßigkeiten",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 25
+  },
+  {
+    "german": "Tagen",
+    "english": "days",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "Tausend",
+    "english": "thousand",
+    "category": "Sayings",
+    "sourcePage": 23
+  },
+  {
+    "german": "Teig",
+    "english": "dough",
+    "category": "Food",
+    "sourcePage": 17
+  },
+  {
+    "german": "Teuer",
+    "english": "expensive",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Tiefe",
+    "english": "deep",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 12
+  },
+  {
+    "german": "Toll",
+    "english": "great",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 5
+  },
+  {
+    "german": "Tomaten",
+    "english": "",
+    "category": "Food",
+    "sourcePage": 1
+  },
+  {
+    "german": "Tor",
+    "english": "gate",
+    "category": "Nouns / people / things",
+    "sourcePage": 14
+  },
+  {
+    "german": "Total",
+    "english": "really; totally",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "Trainieren",
+    "english": "to practice; to practice or train",
+    "category": "Verbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "Traurig",
+    "english": "sad; sadly",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "Trinken",
+    "english": "to drink",
+    "category": "Verbs",
+    "sourcePage": 5
+  },
+  {
+    "german": "Träume",
+    "english": "dreams",
+    "category": "Nouns / people / things",
+    "sourcePage": 27
+  },
+  {
+    "german": "Tun",
+    "english": "hands; are",
+    "category": "Nouns / people / things",
+    "sourcePage": 1
+  },
+  {
+    "german": "Tut weh",
+    "english": "hurts",
+    "category": "Sayings",
+    "sourcePage": 13
+  },
+  {
+    "german": "Tut … weh",
+    "english": "is hurtigg",
+    "category": "Sayings",
+    "sourcePage": 20
+  },
+  {
+    "german": "Type bedeutet Mann",
+    "english": "guy means man",
+    "category": "Sayings",
+    "sourcePage": 8
+  },
+  {
+    "german": "Uber",
+    "english": "at",
+    "category": "Places",
+    "sourcePage": 25
+  },
+  {
+    "german": "Uberall",
+    "english": "everywhere",
+    "category": "Nouns / people / things",
+    "sourcePage": 1
+  },
+  {
+    "german": "Ubermorgen",
+    "english": "day after tomorrow",
+    "category": "Places",
+    "sourcePage": 27
+  },
+  {
+    "german": "Um",
+    "english": "at",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "Um die Ecke",
+    "english": "around the corner",
+    "category": "Places",
+    "sourcePage": 1
+  },
+  {
+    "german": "Um half",
+    "english": "at half past…",
+    "category": "Verbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "Um uns zu unterhalten",
+    "english": "to chat with each other",
+    "category": "Sayings",
+    "sourcePage": 24
+  },
+  {
+    "german": "Um wie viel Uh r können Sie k ommen",
+    "english": "at what time can you come",
+    "category": "Sayings",
+    "sourcePage": 9
+  },
+  {
+    "german": "Umgezogen",
+    "english": "moved; has moved",
+    "category": "Verbs",
+    "sourcePage": 21
+  },
+  {
+    "german": "Unhöflich",
+    "english": "rude; impolite",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 16
+  },
+  {
+    "german": "Unordentlich",
+    "english": "messy",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Uns",
+    "english": "us",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "Unser /e",
+    "english": "our",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Unser-our",
+    "english": "",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 5
+  },
+  {
+    "german": "Unsere",
+    "english": "our",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "Unter",
+    "english": "under",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "Urlaub",
+    "english": "vacation",
+    "category": "Nouns / people / things",
+    "sourcePage": 3
+  },
+  {
+    "german": "Urlaubskleidu ng",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 3
+  },
+  {
+    "german": "Vegetales",
+    "english": "vegetables",
+    "category": "Nouns / people / things",
+    "sourcePage": 25
+  },
+  {
+    "german": "Vegetarierin",
+    "english": "vegetarian",
+    "category": "Sayings",
+    "sourcePage": 23
+  },
+  {
+    "german": "Vergessen",
+    "english": "to forget; forget",
+    "category": "Verbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "Vergiss nicht wieder",
+    "english": "dont forget again",
+    "category": "Sayings",
+    "sourcePage": 15
+  },
+  {
+    "german": "Verwandten",
+    "english": "relatives",
+    "category": "Nouns / people / things",
+    "sourcePage": 14
+  },
+  {
+    "german": "Videospiele",
+    "english": "video games",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "Viel besser",
+    "english": "much better",
+    "category": "Sayings",
+    "sourcePage": 8
+  },
+  {
+    "german": "Viele",
+    "english": "many",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "Vielen Dank",
+    "english": "thanks a lot",
+    "category": "Sayings",
+    "sourcePage": 3
+  },
+  {
+    "german": "Vielleicht",
+    "english": "maybe",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "Viertel",
+    "english": "quarter",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "Visum",
+    "english": "visa",
+    "category": "Nouns / people / things",
+    "sourcePage": 14
+  },
+  {
+    "german": "Voll",
+    "english": "crowded; full",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 14
+  },
+  {
+    "german": "Volzeit",
+    "english": "full time",
+    "category": "Sayings",
+    "sourcePage": 26
+  },
+  {
+    "german": "Von vs aus",
+    "english": "",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Vor",
+    "english": "in front of; till; ago; before",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Vorlesung",
+    "english": "lecture",
+    "category": "Nouns / people / things",
+    "sourcePage": 27
+  },
+  {
+    "german": "Vorname",
+    "english": "first name Handynummer",
+    "category": "Nouns / people / things",
+    "sourcePage": 15
+  },
+  {
+    "german": "Vorne",
+    "english": "in the front",
+    "category": "Sayings",
+    "sourcePage": 22
+  },
+  {
+    "german": "WG",
+    "english": "shared apartment",
+    "category": "Places",
+    "sourcePage": 3
+  },
+  {
+    "german": "Wacht .. aug",
+    "english": "wake up",
+    "category": "Verbs",
+    "sourcePage": 27
+  },
+  {
+    "german": "Wagen",
+    "english": "car",
+    "category": "Nouns / people / things",
+    "sourcePage": 23
+  },
+  {
+    "german": "Wandere/ Wanderst",
+    "english": "",
+    "category": "Verbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "Wann gehen wir ?",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 6
+  },
+  {
+    "german": "Wann hast du Zeit",
+    "english": "when are you free / have time",
+    "category": "Sayings",
+    "sourcePage": 5
+  },
+  {
+    "german": "War",
+    "english": "was/ warst/were",
+    "category": "Verbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "War weg",
+    "english": "was missing",
+    "category": "Sayings",
+    "sourcePage": 26
+  },
+  {
+    "german": "Waren",
+    "english": "were",
+    "category": "Verbs",
+    "sourcePage": 15
+  },
+  {
+    "german": "Warten sie",
+    "english": "wait",
+    "category": "Sayings",
+    "sourcePage": 4
+  },
+  {
+    "german": "Was brauchen wir",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 3
+  },
+  {
+    "german": "Was gibt’s Neues",
+    "english": "what’s new",
+    "category": "Sayings",
+    "sourcePage": 25
+  },
+  {
+    "german": "Was ist dein Beruf",
+    "english": "what is your work",
+    "category": "Sayings",
+    "sourcePage": 2
+  },
+  {
+    "german": "Was ist los",
+    "english": "what is wrong/ matter",
+    "category": "Sayings",
+    "sourcePage": 9
+  },
+  {
+    "german": "Was its das",
+    "english": "what is that",
+    "category": "Sayings",
+    "sourcePage": 4
+  },
+  {
+    "german": "Was machst du gern?",
+    "english": "what do you like to do (du jetzt - doing now)",
+    "category": "Sayings",
+    "sourcePage": 4
+  },
+  {
+    "german": "Was mochtest du",
+    "english": "what would you like…",
+    "category": "Sayings",
+    "sourcePage": 2
+  },
+  {
+    "german": "Was passiert",
+    "english": "wat happened",
+    "category": "Sayings",
+    "sourcePage": 25
+  },
+  {
+    "german": "Waschen ab",
+    "english": "do the dishes",
+    "category": "Sayings",
+    "sourcePage": 16
+  },
+  {
+    "german": "Wascht …ab",
+    "english": "washes dishes",
+    "category": "Verbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "Wecker",
+    "english": "alarm",
+    "category": "Nouns / people / things",
+    "sourcePage": 24
+  },
+  {
+    "german": "Weg",
+    "english": "gone/ away; missing",
+    "category": "Sayings",
+    "sourcePage": 20
+  },
+  {
+    "german": "Weich",
+    "english": "soft",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 12
+  },
+  {
+    "german": "Weihnachten",
+    "english": "Christmas",
+    "category": "Sayings",
+    "sourcePage": 20
+  },
+  {
+    "german": "Weil",
+    "english": "because",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 23
+  },
+  {
+    "german": "Weint",
+    "english": "crying",
+    "category": "Verbs",
+    "sourcePage": 24
+  },
+  {
+    "german": "Weit weg",
+    "english": "far away",
+    "category": "Sayings",
+    "sourcePage": 2
+  },
+  {
+    "german": "Weiß",
+    "english": "know; white",
+    "category": "Verbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Weißbier",
+    "english": "white beer",
+    "category": "Food",
+    "sourcePage": 2
+  },
+  {
+    "german": "Welche (which)",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 4
+  },
+  {
+    "german": "Welche Sprachen",
+    "english": "which languages",
+    "category": "Sayings",
+    "sourcePage": 5
+  },
+  {
+    "german": "Welche sprachen sprichst du",
+    "english": "which languages do you speak.",
+    "category": "Sayings",
+    "sourcePage": 5
+  },
+  {
+    "german": "Wen Hole ich ab",
+    "english": "whom I am picking up",
+    "category": "Sayings",
+    "sourcePage": 16
+  },
+  {
+    "german": "Wenig",
+    "english": "little; a little/few",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 15
+  },
+  {
+    "german": "Weniger",
+    "english": "less; fewer",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 13
+  },
+  {
+    "german": "Weniger als",
+    "english": "less than",
+    "category": "Sayings",
+    "sourcePage": 15
+  },
+  {
+    "german": "Wenigstens",
+    "english": "at least",
+    "category": "Sayings",
+    "sourcePage": 1
+  },
+  {
+    "german": "Wer hat/mag",
+    "english": "who has/likes",
+    "category": "Sayings",
+    "sourcePage": 6
+  },
+  {
+    "german": "Wer ist das",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 3
+  },
+  {
+    "german": "Wessen",
+    "english": "whose",
+    "category": "Sayings",
+    "sourcePage": 20
+  },
+  {
+    "german": "Wie",
+    "english": "what (or like a); like",
+    "category": "Sayings",
+    "sourcePage": 1
+  },
+  {
+    "german": "Wie alt bist du",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 10
+  },
+  {
+    "german": "Wie alt sind sei ne Eltern",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 10
+  },
+  {
+    "german": "Wie ein Bar",
+    "english": "like a bear",
+    "category": "Sayings",
+    "sourcePage": 15
+  },
+  {
+    "german": "Wie gehts",
+    "english": "how are you",
+    "category": "Sayings",
+    "sourcePage": 1
+  },
+  {
+    "german": "Wie geht’s",
+    "english": "how are you",
+    "category": "Sayings",
+    "sourcePage": 4
+  },
+  {
+    "german": "Wie heißen Sie?",
+    "english": "What is your name",
+    "category": "Sayings",
+    "sourcePage": 3
+  },
+  {
+    "german": "Wie ist das Wetter",
+    "english": "how is the weather",
+    "category": "Sayings",
+    "sourcePage": 3
+  },
+  {
+    "german": "Wie ist es",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 3
+  },
+  {
+    "german": "Wie ist es in …",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 2
+  },
+  {
+    "german": "Wie ist ihr Name?",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 11
+  },
+  {
+    "german": "Wie sieht sie aus? Wie sieht er aus?",
+    "english": "what does she/he look like",
+    "category": "Sayings",
+    "sourcePage": 3
+  },
+  {
+    "german": "Wie viel",
+    "english": "how much",
+    "category": "Sayings",
+    "sourcePage": 3
+  },
+  {
+    "german": "Wie viel kostet der / die",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 4
+  },
+  {
+    "german": "Wiederholen Sie",
+    "english": "repeat",
+    "category": "Sayings",
+    "sourcePage": 8
+  },
+  {
+    "german": "Wiederholen Sie bitte",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 4
+  },
+  {
+    "german": "Willkommen",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 3
+  },
+  {
+    "german": "Willst",
+    "english": "to want",
+    "category": "Verbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "Wir brauchen",
+    "english": "(we need)",
+    "category": "Verbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "Wir chen us",
+    "english": "we check",
+    "category": "Sayings",
+    "sourcePage": 26
+  },
+  {
+    "german": "Wir haben am nächsten Tag nur geschlafen.",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 25
+  },
+  {
+    "german": "Wir möchten zusammen zahlen, danke.",
+    "english": "we wouldlike to pay together thank you",
+    "category": "Sayings",
+    "sourcePage": 4
+  },
+  {
+    "german": "Wirft",
+    "english": "throws",
+    "category": "Verbs",
+    "sourcePage": 24
+  },
+  {
+    "german": "Wirklich",
+    "english": "Really?",
+    "category": "Sayings",
+    "sourcePage": 3
+  },
+  {
+    "german": "Wirklich oder sehr",
+    "english": "really or very",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Wissen",
+    "english": "to know",
+    "category": "Verbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "Wissen Sie",
+    "english": "do you know",
+    "category": "Sayings",
+    "sourcePage": 4
+  },
+  {
+    "german": "Witz",
+    "english": "joke",
+    "category": "Nouns / people / things",
+    "sourcePage": 25
+  },
+  {
+    "german": "Witze",
+    "english": "jokes",
+    "category": "Nouns / people / things",
+    "sourcePage": 24
+  },
+  {
+    "german": "Wo / Wohin",
+    "english": "where",
+    "category": "Sayings",
+    "sourcePage": 1
+  },
+  {
+    "german": "Wo ist",
+    "english": "where is",
+    "category": "Sayings",
+    "sourcePage": 3
+  },
+  {
+    "german": "Wo ist der Aufzug ? Where is the elevator",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 7
+  },
+  {
+    "german": "Wo leben Sie / Wo lebst du",
+    "english": "where do you live",
+    "category": "Sayings",
+    "sourcePage": 3
+  },
+  {
+    "german": "Wochen",
+    "english": "weeks",
+    "category": "Nouns / people / things",
+    "sourcePage": 16
+  },
+  {
+    "german": "Woher",
+    "english": "where",
+    "category": "Sayings",
+    "sourcePage": 2
+  },
+  {
+    "german": "Woher kommst du",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 2
+  },
+  {
+    "german": "Wohin gehst du?",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 13
+  },
+  {
+    "german": "Wohin geht sie",
+    "english": "where is she going",
+    "category": "Sayings",
+    "sourcePage": 13
+  },
+  {
+    "german": "Wollen Sie",
+    "english": "do you want",
+    "category": "Sayings",
+    "sourcePage": 10
+  },
+  {
+    "german": "Wort",
+    "english": "word",
+    "category": "Nouns / people / things",
+    "sourcePage": 19
+  },
+  {
+    "german": "Worter",
+    "english": "words",
+    "category": "Nouns / people / things",
+    "sourcePage": 10
+  },
+  {
+    "german": "Worterbuch",
+    "english": "dictionary",
+    "category": "Nouns / people / things",
+    "sourcePage": 14
+  },
+  {
+    "german": "Woruber",
+    "english": "about what ?; what about?",
+    "category": "Sayings",
+    "sourcePage": 23
+  },
+  {
+    "german": "Wusstest",
+    "english": "did you know",
+    "category": "Verbs",
+    "sourcePage": 23
+  },
+  {
+    "german": "You don’t have to go alone. I can go with you",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 19
+  },
+  {
+    "german": "Zahlen/st",
+    "english": "paying",
+    "category": "Verbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "Zahnschmerze n",
+    "english": "tooth ache",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "Zehnten",
+    "english": "tenth",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "Zeichnung",
+    "english": "drawing",
+    "category": "Nouns / people / things",
+    "sourcePage": 13
+  },
+  {
+    "german": "Zeitungen",
+    "english": "newpapers",
+    "category": "Nouns / people / things",
+    "sourcePage": 26
+  },
+  {
+    "german": "Ziemlich",
+    "english": "fairly; quite",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 16
+  },
+  {
+    "german": "Zu spat",
+    "english": "too late",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "Zuerst",
+    "english": "first",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "Zufrieden",
+    "english": "content; satisfied",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Zum",
+    "english": "to; for",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "Zur Party mit",
+    "english": "along to the party",
+    "category": "Sayings",
+    "sourcePage": 16
+  },
+  {
+    "german": "Zurzeit",
+    "english": "currently",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "Zusammen",
+    "english": "together",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "Zweiten",
+    "english": "second",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "Zwiebeln",
+    "english": "onions",
+    "category": "Food",
+    "sourcePage": 5
+  },
+  {
+    "german": "Zwischen",
+    "english": "between",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "airpPünktlich",
+    "english": "punctual",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 14
+  },
+  {
+    "german": "alpen",
+    "english": "alps",
+    "category": "Nouns / people / things",
+    "sourcePage": 20
+  },
+  {
+    "german": "also",
+    "english": "so",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 19
+  },
+  {
+    "german": "am See",
+    "english": "at the lake",
+    "category": "Sayings",
+    "sourcePage": 17
+  },
+  {
+    "german": "an",
+    "english": "at",
+    "category": "Places",
+    "sourcePage": 26
+  },
+  {
+    "german": "an komischen Orten.",
+    "english": "in strange places",
+    "category": "Sayings",
+    "sourcePage": 11
+  },
+  {
+    "german": "andere",
+    "english": "other",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "anders",
+    "english": "different",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 23
+  },
+  {
+    "german": "anfangen",
+    "english": "start to start",
+    "category": "Verbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "angebot",
+    "english": "on sale",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "angeln gegangen",
+    "english": "to go fishing",
+    "category": "Verbs",
+    "sourcePage": 23
+  },
+  {
+    "german": "ankommen",
+    "english": "arrive",
+    "category": "Verbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "anmachen",
+    "english": "turn off",
+    "category": "Verbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "anrufen",
+    "english": "to call",
+    "category": "Verbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "antworte",
+    "english": "answering",
+    "category": "Verbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "asexuell",
+    "english": "asexual",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "atmen",
+    "english": "breathe",
+    "category": "Verbs",
+    "sourcePage": 0
+  },
+  {
+    "german": "aufgeben",
+    "english": "give up",
+    "category": "Verbs",
+    "sourcePage": 27
+  },
+  {
+    "german": "aufhören",
+    "english": "to end",
+    "category": "Verbs",
+    "sourcePage": 14
+  },
+  {
+    "german": "ausschlafen",
+    "english": "sleep in",
+    "category": "Verbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "backen",
+    "english": "bake; baking",
+    "category": "Verbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "baden",
+    "english": "take a bath; bathe /take a bath",
+    "category": "Verbs",
+    "sourcePage": 15
+  },
+  {
+    "german": "bald",
+    "english": "soon",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 12
+  },
+  {
+    "german": "bastelt",
+    "english": "to do arts and crafts",
+    "category": "Verbs",
+    "sourcePage": 27
+  },
+  {
+    "german": "beantworten",
+    "english": "answered/ responded; will answer",
+    "category": "Verbs",
+    "sourcePage": 19
+  },
+  {
+    "german": "bedeuten",
+    "english": "to mean something; meaning",
+    "category": "Verbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "bei Notfällen",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 19
+  },
+  {
+    "german": "bei schönem Wetter",
+    "english": "during good weather",
+    "category": "Sayings",
+    "sourcePage": 10
+  },
+  {
+    "german": "beider",
+    "english": "both",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "beige",
+    "english": "beige",
+    "category": "Colors / Farben",
+    "sourcePage": 0
+  },
+  {
+    "german": "bekannen / Bekannt",
+    "english": "known",
+    "category": "Verbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "bekannt",
+    "english": "well-known",
+    "category": "Places",
+    "sourcePage": 27
+  },
+  {
+    "german": "bekommen",
+    "english": "getting; receive; gets",
+    "category": "Verbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "belegen",
+    "english": "taking ( kurse); taking (courses)",
+    "category": "Verbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "benutzen",
+    "english": "uses; to use",
+    "category": "Verbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "bequem",
+    "english": "comfortable",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "berühmt",
+    "english": "famous",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "beschweren",
+    "english": "complain",
+    "category": "Verbs",
+    "sourcePage": 27
+  },
+  {
+    "german": "bestehen",
+    "english": "to pass",
+    "category": "Verbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "besuchen",
+    "english": "visit; visits",
+    "category": "Verbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "bevor",
+    "english": "before",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 23
+  },
+  {
+    "german": "billig",
+    "english": "cheap",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 13
+  },
+  {
+    "german": "billingsten",
+    "english": "cheapest",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "bisexuell",
+    "english": "bisexual",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "braun",
+    "english": "brown",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 15
+  },
+  {
+    "german": "briefe",
+    "english": "letters",
+    "category": "Nouns / people / things",
+    "sourcePage": 22
+  },
+  {
+    "german": "bringen / Bringt",
+    "english": "bring",
+    "category": "Verbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "buchstabieren",
+    "english": "spell; to spell",
+    "category": "Verbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "buscan",
+    "english": "look (for)",
+    "category": "Verbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "cisgeschlechtlich",
+    "english": "cisgender",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "clar",
+    "english": "clear",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "dachte",
+    "english": "thought",
+    "category": "Verbs",
+    "sourcePage": 27
+  },
+  {
+    "german": "danken",
+    "english": "to thank",
+    "category": "Verbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "das Bein",
+    "english": "leg",
+    "category": "Body / Körper",
+    "sourcePage": 0
+  },
+  {
+    "german": "das Coming-out",
+    "english": "coming out",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "das Echt",
+    "english": "real / that really; really",
+    "category": "Places",
+    "sourcePage": 2
+  },
+  {
+    "german": "das Fenster",
+    "english": "window",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "das Fleisch",
+    "english": "meat; the meat",
+    "category": "Food",
+    "sourcePage": 1
+  },
+  {
+    "german": "das Geschlecht",
+    "english": "gender / sex",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "das Haar",
+    "english": "hair",
+    "category": "Body / Körper",
+    "sourcePage": 0
+  },
+  {
+    "german": "das Knie",
+    "english": "knee",
+    "category": "Body / Körper",
+    "sourcePage": 0
+  },
+  {
+    "german": "das Mehrfamili enhaus",
+    "english": "",
+    "category": "Places",
+    "sourcePage": 15
+  },
+  {
+    "german": "das Mittagessen",
+    "english": "lunch",
+    "category": "Food",
+    "sourcePage": 2
+  },
+  {
+    "german": "das Ohr",
+    "english": "ear",
+    "category": "Body / Körper",
+    "sourcePage": 0
+  },
+  {
+    "german": "das Picknick",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 7
+  },
+  {
+    "german": "das Pronomen",
+    "english": "pronoun",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "das Schloss",
+    "english": "castle; palace",
+    "category": "Places",
+    "sourcePage": 14
+  },
+  {
+    "german": "das Semestere nde",
+    "english": "end of semester",
+    "category": "Nouns / people / things",
+    "sourcePage": 17
+  },
+  {
+    "german": "das Stadtzentrum",
+    "english": "city center",
+    "category": "Places",
+    "sourcePage": 2
+  },
+  {
+    "german": "das boot",
+    "english": "boat",
+    "category": "Nouns / people / things",
+    "sourcePage": 24
+  },
+  {
+    "german": "dasfeuer",
+    "english": "fire",
+    "category": "Nouns / people / things",
+    "sourcePage": 20
+  },
+  {
+    "german": "den/ der Kühlschra nk",
+    "english": "fridge",
+    "category": "Nouns / people / things",
+    "sourcePage": 11
+  },
+  {
+    "german": "denken",
+    "english": "TO THINK; thinks/ thinking",
+    "category": "Verbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "der Bademeisterin",
+    "english": "life guard = swim guard; lifeguard",
+    "category": "Places",
+    "sourcePage": 4
+  },
+  {
+    "german": "der Bauch",
+    "english": "belly / stomach",
+    "category": "Body / Körper",
+    "sourcePage": 0
+  },
+  {
+    "german": "der Bleistift",
+    "english": "pencil",
+    "category": "Nouns / people / things",
+    "sourcePage": 22
+  },
+  {
+    "german": "der Bühne",
+    "english": "stage",
+    "category": "Nouns / people / things",
+    "sourcePage": 7
+  },
+  {
+    "german": "der Christopher Street Day",
+    "english": "Pride march (CSD)",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "der Finger",
+    "english": "finger",
+    "category": "Body / Körper",
+    "sourcePage": 0
+  },
+  {
+    "german": "der Hals",
+    "english": "neck / throat",
+    "category": "Body / Körper",
+    "sourcePage": 0
+  },
+  {
+    "german": "der Hochzeit",
+    "english": "wedding",
+    "category": "Sayings",
+    "sourcePage": 23
+  },
+  {
+    "german": "der Kaffeetisch",
+    "english": "coffee table",
+    "category": "Nouns / people / things",
+    "sourcePage": 11
+  },
+  {
+    "german": "der Klasse",
+    "english": "grade level",
+    "category": "Nouns / people / things",
+    "sourcePage": 13
+  },
+  {
+    "german": "der Mantel",
+    "english": "coat",
+    "category": "Nouns / people / things",
+    "sourcePage": 2
+  },
+  {
+    "german": "der Mund",
+    "english": "mouth",
+    "category": "Body / Körper",
+    "sourcePage": 0
+  },
+  {
+    "german": "der Rucksack",
+    "english": "backpack",
+    "category": "Nouns / people / things",
+    "sourcePage": 11
+  },
+  {
+    "german": "der Schreibtisch",
+    "english": "desk",
+    "category": "Nouns / people / things",
+    "sourcePage": 6
+  },
+  {
+    "german": "der Schublade",
+    "english": "drawer",
+    "category": "Nouns / people / things",
+    "sourcePage": 2
+  },
+  {
+    "german": "der Stuhl",
+    "english": "the chair/stool; chair",
+    "category": "Nouns / people / things",
+    "sourcePage": 16
+  },
+  {
+    "german": "der schlechtes te",
+    "english": "the worst",
+    "category": "Places",
+    "sourcePage": 27
+  },
+  {
+    "german": "die Ahnung",
+    "english": "idea",
+    "category": "Nouns / people / things",
+    "sourcePage": 7
+  },
+  {
+    "german": "die Akzeptanz",
+    "english": "acceptance",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "die Ausrede.",
+    "english": "excuse",
+    "category": "Nouns / people / things",
+    "sourcePage": 26
+  },
+  {
+    "german": "die Backwaren",
+    "english": "baked goods",
+    "category": "Food",
+    "sourcePage": 5
+  },
+  {
+    "german": "die Brust",
+    "english": "chest",
+    "category": "Body / Körper",
+    "sourcePage": 0
+  },
+  {
+    "german": "die Decke",
+    "english": "ceiling",
+    "category": "Nouns / people / things",
+    "sourcePage": 18
+  },
+  {
+    "german": "die Dusche",
+    "english": "shower; the shower",
+    "category": "Nouns / people / things",
+    "sourcePage": 12
+  },
+  {
+    "german": "die Ehe für alle",
+    "english": "marriage equality",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "die Eltern",
+    "english": "parents",
+    "category": "Nouns / people / things",
+    "sourcePage": 9
+  },
+  {
+    "german": "die Geschlechtsidentität",
+    "english": "gender identity",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "die Hand",
+    "english": "hand",
+    "category": "Body / Körper",
+    "sourcePage": 0
+  },
+  {
+    "german": "die Hausarbeit",
+    "english": "chores",
+    "category": "Nouns / people / things",
+    "sourcePage": 17
+  },
+  {
+    "german": "die Homophobie",
+    "english": "homophobia",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "die Kleidung",
+    "english": "clothes",
+    "category": "Nouns / people / things",
+    "sourcePage": 3
+  },
+  {
+    "german": "die Lebensmittel",
+    "english": "food; groceries",
+    "category": "Food",
+    "sourcePage": 4
+  },
+  {
+    "german": "die Nase",
+    "english": "nose",
+    "category": "Body / Körper",
+    "sourcePage": 0
+  },
+  {
+    "german": "die Regenbogenfahne",
+    "english": "rainbow flag",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "die Schule",
+    "english": "school",
+    "category": "Places",
+    "sourcePage": 3
+  },
+  {
+    "german": "die Schulter",
+    "english": "shoulder",
+    "category": "Body / Körper",
+    "sourcePage": 0
+  },
+  {
+    "german": "die Suppe",
+    "english": "soup",
+    "category": "Food",
+    "sourcePage": 0
+  },
+  {
+    "german": "die Teller",
+    "english": "plate; plates",
+    "category": "Nouns / people / things",
+    "sourcePage": 9
+  },
+  {
+    "german": "die Uhr",
+    "english": "o clock; clock",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "die Vielfalt",
+    "english": "diversity",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "die Zähne",
+    "english": "teeth",
+    "category": "Nouns / people / things",
+    "sourcePage": 22
+  },
+  {
+    "german": "die ganze Zeit",
+    "english": "all the time",
+    "category": "Sayings",
+    "sourcePage": 19
+  },
+  {
+    "german": "die queere Gemeinschaft",
+    "english": "the queer community",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "die sexuelle Orientierung",
+    "english": "sexual orientation",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "diese/s/n",
+    "english": "this",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 14
+  },
+  {
+    "german": "divertido",
+    "english": "fun",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "draußen",
+    "english": "outside",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "dritten",
+    "english": "third",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "dunkelblau",
+    "english": "dark blue",
+    "category": "Colors / Farben",
+    "sourcePage": 0
+  },
+  {
+    "german": "duschen",
+    "english": "to shower",
+    "category": "Verbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "eigentlich",
+    "english": "actually",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "eile",
+    "english": "hurry",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "ein Geist",
+    "english": "ghost",
+    "category": "Nouns / people / things",
+    "sourcePage": 25
+  },
+  {
+    "german": "einpacken",
+    "english": "to pack",
+    "category": "Verbs",
+    "sourcePage": 15
+  },
+  {
+    "german": "eiskaffee",
+    "english": "ice cream coffee",
+    "category": "Food",
+    "sourcePage": 4
+  },
+  {
+    "german": "elektrisch",
+    "english": "electric",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 22
+  },
+  {
+    "german": "endlich",
+    "english": "finally",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 12
+  },
+  {
+    "german": "eng",
+    "english": "tight",
+    "category": "Sayings",
+    "sourcePage": 4
+  },
+  {
+    "german": "enspannt",
+    "english": "relaxed",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "enttäuscht",
+    "english": "disappointed",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "erinnern",
+    "english": "remind",
+    "category": "Verbs",
+    "sourcePage": 22
+  },
+  {
+    "german": "erlaubt",
+    "english": "permitted",
+    "category": "Verbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "erzähl/ t",
+    "english": "tells",
+    "category": "Verbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "erzählt hat",
+    "english": "told",
+    "category": "Verbs",
+    "sourcePage": 27
+  },
+  {
+    "german": "etwas",
+    "english": "something",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "etwas über Flosse erzählen .",
+    "english": "say something about “Flosse”",
+    "category": "Sayings",
+    "sourcePage": 24
+  },
+  {
+    "german": "euren",
+    "english": "your",
+    "category": "Sayings",
+    "sourcePage": 20
+  },
+  {
+    "german": "fahren",
+    "english": "drive; take; ride; drives; riding / travel",
+    "category": "Verbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "fand",
+    "english": "found",
+    "category": "Verbs",
+    "sourcePage": 27
+  },
+  {
+    "german": "fantastischer",
+    "english": "fantastic",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 24
+  },
+  {
+    "german": "federball",
+    "english": "badminton",
+    "category": "Nouns / people / things",
+    "sourcePage": 15
+  },
+  {
+    "german": "fehlt",
+    "english": "missing",
+    "category": "Verbs",
+    "sourcePage": 21
+  },
+  {
+    "german": "feiern",
+    "english": "celebrating; celebrate",
+    "category": "Verbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "fern",
+    "english": "tv",
+    "category": "Nouns / people / things",
+    "sourcePage": 15
+  },
+  {
+    "german": "fernsehen",
+    "english": "watch TV",
+    "category": "Verbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "fotografieren",
+    "english": "take photos; take photo; take photos",
+    "category": "Verbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "freizeit",
+    "english": "free time",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 13
+  },
+  {
+    "german": "frisch",
+    "english": "fresh",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 13
+  },
+  {
+    "german": "frischsten",
+    "english": "freshest",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "froh",
+    "english": "glad",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 19
+  },
+  {
+    "german": "früher",
+    "english": "earlier",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 16
+  },
+  {
+    "german": "fühlen",
+    "english": "feel",
+    "category": "Verbs",
+    "sourcePage": 0
+  },
+  {
+    "german": "gans",
+    "english": "goose",
+    "category": "Nouns / people / things",
+    "sourcePage": 21
+  },
+  {
+    "german": "ganz",
+    "english": "really",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 22
+  },
+  {
+    "german": "gearbeitet",
+    "english": "worked",
+    "category": "Verbs",
+    "sourcePage": 27
+  },
+  {
+    "german": "geben",
+    "english": "to give; give; is giving; gives / to give",
+    "category": "Verbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "geduldig",
+    "english": "patient",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "gefullt",
+    "english": "to have put",
+    "category": "Verbs",
+    "sourcePage": 23
+  },
+  {
+    "german": "gefunden",
+    "english": "found",
+    "category": "Verbs",
+    "sourcePage": 22
+  },
+  {
+    "german": "gefährlicher",
+    "english": "dangerous",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "gegessen",
+    "english": "eaten",
+    "category": "Verbs",
+    "sourcePage": 21
+  },
+  {
+    "german": "gegrillt",
+    "english": "grilled",
+    "category": "Verbs",
+    "sourcePage": 22
+  },
+  {
+    "german": "gehen",
+    "english": "go; goes",
+    "category": "Verbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "gehören",
+    "english": "belongs to; heard; belongs; belongs to; belongs",
+    "category": "Verbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "gemietet",
+    "english": "rented",
+    "category": "Verbs",
+    "sourcePage": 23
+  },
+  {
+    "german": "gemütlich",
+    "english": "comfortable",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "genießen",
+    "english": "enjoy",
+    "category": "Verbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "genug",
+    "english": "enough",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 16
+  },
+  {
+    "german": "geredet",
+    "english": "to have talked",
+    "category": "Verbs",
+    "sourcePage": 23
+  },
+  {
+    "german": "gesagt",
+    "english": "said",
+    "category": "Verbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "gesamten",
+    "english": "entire",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "gesegelt",
+    "english": "sailed",
+    "category": "Verbs",
+    "sourcePage": 22
+  },
+  {
+    "german": "gespielt",
+    "english": "played",
+    "category": "Verbs",
+    "sourcePage": 22
+  },
+  {
+    "german": "gesprochen",
+    "english": "spoken",
+    "category": "Verbs",
+    "sourcePage": 21
+  },
+  {
+    "german": "gestern",
+    "english": "yesterday",
+    "category": "Sayings",
+    "sourcePage": 20
+  },
+  {
+    "german": "geöffnet",
+    "english": "open",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "gießen",
+    "english": "to water; pours",
+    "category": "Verbs",
+    "sourcePage": 19
+  },
+  {
+    "german": "glauben",
+    "english": "believe",
+    "category": "Verbs",
+    "sourcePage": 16
+  },
+  {
+    "german": "gleich",
+    "english": "shortly",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 15
+  },
+  {
+    "german": "glück",
+    "english": "lucky",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 21
+  },
+  {
+    "german": "grau",
+    "english": "grey",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 14
+  },
+  {
+    "german": "großer",
+    "english": "big",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "grün",
+    "english": "green",
+    "category": "Colors / Farben",
+    "sourcePage": 0
+  },
+  {
+    "german": "gute Besserun g",
+    "english": "feel better",
+    "category": "Sayings",
+    "sourcePage": 10
+  },
+  {
+    "german": "gutschein",
+    "english": "gift certificate",
+    "category": "Nouns / people / things",
+    "sourcePage": 21
+  },
+  {
+    "german": "haben schon e twas vor.",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 7
+  },
+  {
+    "german": "hassen",
+    "english": "to hate",
+    "category": "Verbs",
+    "sourcePage": 23
+  },
+  {
+    "german": "hasslich",
+    "english": "ugly",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "hatte",
+    "english": "had",
+    "category": "Verbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "heiraten",
+    "english": "to marry",
+    "category": "Verbs",
+    "sourcePage": 16
+  },
+  {
+    "german": "heiße",
+    "english": "called",
+    "category": "Verbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "hellblau",
+    "english": "light blue",
+    "category": "Colors / Farben",
+    "sourcePage": 0
+  },
+  {
+    "german": "herrlich",
+    "english": "lovely",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 19
+  },
+  {
+    "german": "heterosexuell",
+    "english": "heterosexual / straight",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "hilfreich",
+    "english": "helpful",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "hochsten",
+    "english": "tallest",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 23
+  },
+  {
+    "german": "hoffe",
+    "english": "hope",
+    "category": "Verbs",
+    "sourcePage": 16
+  },
+  {
+    "german": "hoffentlich",
+    "english": "hopefully",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 19
+  },
+  {
+    "german": "hoflich",
+    "english": "polite",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "hoher",
+    "english": "taller",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 23
+  },
+  {
+    "german": "holen",
+    "english": "getting; get",
+    "category": "Verbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "homosexuell",
+    "english": "homosexual",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "hubsich",
+    "english": "",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "hässlich",
+    "english": "ugly",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "höchsten",
+    "english": "highest",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 16
+  },
+  {
+    "german": "hören",
+    "english": "hear",
+    "category": "Verbs",
+    "sourcePage": 0
+  },
+  {
+    "german": "hört gern",
+    "english": "likes to listen…",
+    "category": "Sayings",
+    "sourcePage": 9
+  },
+  {
+    "german": "ich habe nicht s zu tun",
+    "english": "i have nothing to do",
+    "category": "Sayings",
+    "sourcePage": 9
+  },
+  {
+    "german": "ihn",
+    "english": "him",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "in dem Stadtviertel",
+    "english": "in the neighborhood",
+    "category": "Sayings",
+    "sourcePage": 18
+  },
+  {
+    "german": "intergeschlechtlich",
+    "english": "intersex",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "joggst /joggen",
+    "english": "to jog",
+    "category": "Verbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "kann ich reink ommen",
+    "english": "can i come in",
+    "category": "Sayings",
+    "sourcePage": 22
+  },
+  {
+    "german": "kaputtgeht",
+    "english": "breaks",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 16
+  },
+  {
+    "german": "kaufen",
+    "english": "buy; to buy",
+    "category": "Verbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "kennen",
+    "english": "know; to know; do youknow",
+    "category": "Verbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "klassische",
+    "english": "classic",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "kleider",
+    "english": "dresses",
+    "category": "Sayings",
+    "sourcePage": 23
+  },
+  {
+    "german": "kleinsten",
+    "english": "smallest",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "klettert",
+    "english": "to climb",
+    "category": "Verbs",
+    "sourcePage": 15
+  },
+  {
+    "german": "klopft",
+    "english": "knocks /to knock",
+    "category": "Verbs",
+    "sourcePage": 22
+  },
+  {
+    "german": "kollege/in",
+    "english": "colleague",
+    "category": "Nouns / people / things",
+    "sourcePage": 15
+  },
+  {
+    "german": "komisch",
+    "english": "strange",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "komisches",
+    "english": "strange",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 24
+  },
+  {
+    "german": "kostet",
+    "english": "costs",
+    "category": "Verbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "krug",
+    "english": "mug",
+    "category": "Nouns / people / things",
+    "sourcePage": 14
+  },
+  {
+    "german": "kurz",
+    "english": "short",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 13
+  },
+  {
+    "german": "lachen",
+    "english": "to laugh; laughing",
+    "category": "Verbs",
+    "sourcePage": 16
+  },
+  {
+    "german": "lang",
+    "english": "long",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 15
+  },
+  {
+    "german": "langsam",
+    "english": "slowly",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 13
+  },
+  {
+    "german": "laufen",
+    "english": "run Läufst du; runs; run",
+    "category": "Verbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "lauter",
+    "english": "louder",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "leben",
+    "english": "to live; lays; to live",
+    "category": "Verbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "leer/e",
+    "english": "empty",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 27
+  },
+  {
+    "german": "legst",
+    "english": "put",
+    "category": "Verbs",
+    "sourcePage": 21
+  },
+  {
+    "german": "leise",
+    "english": "quiet",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "leiser",
+    "english": "quieter",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 16
+  },
+  {
+    "german": "lernen",
+    "english": "learn or study; to study",
+    "category": "Verbs",
+    "sourcePage": 5
+  },
+  {
+    "german": "lesbisch",
+    "english": "lesbian",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "lesen",
+    "english": "do reading; read; reads",
+    "category": "Verbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "letzter",
+    "english": "lately",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "lieb",
+    "english": "nice",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "lieblingfarbe",
+    "english": "favorite color",
+    "category": "Nouns / people / things",
+    "sourcePage": 27
+  },
+  {
+    "german": "liegen",
+    "english": "to lay / are on; lying",
+    "category": "Verbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "luftballons",
+    "english": "",
+    "category": "Nouns / people / things",
+    "sourcePage": 16
+  },
+  {
+    "german": "löffel",
+    "english": "spoon s",
+    "category": "Nouns / people / things",
+    "sourcePage": 2
+  },
+  {
+    "german": "lügen",
+    "english": "to lie",
+    "category": "Verbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "malen",
+    "english": "painting; drawing",
+    "category": "Verbs",
+    "sourcePage": 9
+  },
+  {
+    "german": "man",
+    "english": "one",
+    "category": "Sayings",
+    "sourcePage": 23
+  },
+  {
+    "german": "mehr",
+    "english": "more",
+    "category": "Places",
+    "sourcePage": 26
+  },
+  {
+    "german": "meine Einladu ng",
+    "english": "my invitation",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "meistens",
+    "english": "usually",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "mit der Straße nbahn",
+    "english": "by streetcar",
+    "category": "Sayings",
+    "sourcePage": 19
+  },
+  {
+    "german": "muss eigentlich",
+    "english": "have to actually",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 5
+  },
+  {
+    "german": "mögen",
+    "english": "like; to like; likes",
+    "category": "Verbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "müde",
+    "english": "tired",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "nass",
+    "english": "wet",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 15
+  },
+  {
+    "german": "nehmen",
+    "english": "take; take a …; take; takes; takes (out); take (out)",
+    "category": "Verbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "neimand",
+    "english": "nobody",
+    "category": "Sayings",
+    "sourcePage": 9
+  },
+  {
+    "german": "nervös.",
+    "english": "",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 24
+  },
+  {
+    "german": "neuschwanstei n",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 15
+  },
+  {
+    "german": "nicht-binär",
+    "english": "non-binary",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "nichts",
+    "english": "nothing",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 13
+  },
+  {
+    "german": "niemend",
+    "english": "nobody",
+    "category": "Sayings",
+    "sourcePage": 24
+  },
+  {
+    "german": "niesen",
+    "english": "sneeze",
+    "category": "Sayings",
+    "sourcePage": 14
+  },
+  {
+    "german": "nächste /n",
+    "english": "next",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "nächste Woch e",
+    "english": "next week",
+    "category": "Sayings",
+    "sourcePage": 6
+  },
+  {
+    "german": "nächstes Mal",
+    "english": "next time",
+    "category": "Sayings",
+    "sourcePage": 16
+  },
+  {
+    "german": "ordentlich",
+    "english": "tidy",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "paar",
+    "english": "pair",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "pansexuell",
+    "english": "pansexual",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "passiert",
+    "english": "happened",
+    "category": "Verbs",
+    "sourcePage": 22
+  },
+  {
+    "german": "planen",
+    "english": "planning; is planning",
+    "category": "Verbs",
+    "sourcePage": 16
+  },
+  {
+    "german": "platz",
+    "english": "space",
+    "category": "Nouns / people / things",
+    "sourcePage": 17
+  },
+  {
+    "german": "praktisch",
+    "english": "",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "prima",
+    "english": "great",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "quarter",
+    "english": "",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "queer",
+    "english": "queer",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "rechnen",
+    "english": "do math; does math",
+    "category": "Verbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "rechnungen",
+    "english": "bills",
+    "category": "Nouns / people / things",
+    "sourcePage": 17
+  },
+  {
+    "german": "recht",
+    "english": "right/ correct",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "recht.",
+    "english": "correct",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 12
+  },
+  {
+    "german": "reinkommen",
+    "english": "come in",
+    "category": "Verbs",
+    "sourcePage": 22
+  },
+  {
+    "german": "reisen",
+    "english": "traveling",
+    "category": "Verbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "reiten",
+    "english": "ride (horses)",
+    "category": "Verbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "rosa",
+    "english": "pink",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 22
+  },
+  {
+    "german": "rosafarbenen",
+    "english": "pink",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 14
+  },
+  {
+    "german": "rot",
+    "english": "red",
+    "category": "Colors / Farben",
+    "sourcePage": 0
+  },
+  {
+    "german": "sagen",
+    "english": "to say; says; tells",
+    "category": "Verbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "salzig",
+    "english": "salty",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 16
+  },
+  {
+    "german": "sauber",
+    "english": "clean",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "sauer",
+    "english": "mad",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "scheint",
+    "english": "shines",
+    "category": "Verbs",
+    "sourcePage": 16
+  },
+  {
+    "german": "schenken",
+    "english": "gifting",
+    "category": "Verbs",
+    "sourcePage": 21
+  },
+  {
+    "german": "schickes",
+    "english": "stylish",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 14
+  },
+  {
+    "german": "schlechtesten",
+    "english": "worst",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "schließt",
+    "english": "closes",
+    "category": "Verbs",
+    "sourcePage": 13
+  },
+  {
+    "german": "schnarcht",
+    "english": "snore",
+    "category": "Verbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "schneller",
+    "english": "faster",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "schonen",
+    "english": "nice",
+    "category": "Food",
+    "sourcePage": 3
+  },
+  {
+    "german": "schreien",
+    "english": "to yell",
+    "category": "Verbs",
+    "sourcePage": 15
+  },
+  {
+    "german": "schulfreund",
+    "english": "friend from school",
+    "category": "Nouns / people / things",
+    "sourcePage": 16
+  },
+  {
+    "german": "schurze",
+    "english": "apron",
+    "category": "Nouns / people / things",
+    "sourcePage": 23
+  },
+  {
+    "german": "schwarz",
+    "english": "black",
+    "category": "Colors / Farben",
+    "sourcePage": 0
+  },
+  {
+    "german": "schwul",
+    "english": "gay (male)",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "schöne",
+    "english": "pretty",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 14
+  },
+  {
+    "german": "sehen",
+    "english": "to see; looks; sight/sees",
+    "category": "Verbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "sei",
+    "english": "be",
+    "category": "Verbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "seife",
+    "english": "soap",
+    "category": "Nouns / people / things",
+    "sourcePage": 22
+  },
+  {
+    "german": "seine haare",
+    "english": "hair",
+    "category": "Nouns / people / things",
+    "sourcePage": 22
+  },
+  {
+    "german": "seit",
+    "english": "since",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "senf",
+    "english": "mustard",
+    "category": "Food",
+    "sourcePage": 4
+  },
+  {
+    "german": "sicher",
+    "english": "sure",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "silber",
+    "english": "silver",
+    "category": "Colors / Farben",
+    "sourcePage": 0
+  },
+  {
+    "german": "sofort",
+    "english": "immediately",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "spielen",
+    "english": "play; to play",
+    "category": "Verbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "spielplatz",
+    "english": "playground",
+    "category": "Places",
+    "sourcePage": 16
+  },
+  {
+    "german": "spinnen",
+    "english": "crazy; being ridiculous; crazy",
+    "category": "Verbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "spitze",
+    "english": "excellent",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 19
+  },
+  {
+    "german": "sportlich",
+    "english": "athletic",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 15
+  },
+  {
+    "german": "sportverein",
+    "english": "sports club",
+    "category": "Places",
+    "sourcePage": 2
+  },
+  {
+    "german": "sprechen",
+    "english": "speak",
+    "category": "Verbs",
+    "sourcePage": 0
+  },
+  {
+    "german": "stark",
+    "english": "hard",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "steht",
+    "english": "standing",
+    "category": "Verbs",
+    "sourcePage": 21
+  },
+  {
+    "german": "stellen",
+    "english": "put",
+    "category": "Verbs",
+    "sourcePage": 21
+  },
+  {
+    "german": "stirbt",
+    "english": "dies",
+    "category": "Verbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "streng",
+    "english": "strict",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "strengt",
+    "english": "strict",
+    "category": "Places",
+    "sourcePage": 26
+  },
+  {
+    "german": "studuent/ studiert",
+    "english": "to study",
+    "category": "Verbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "stärker",
+    "english": "stronger",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "stürzt ab",
+    "english": "crashes",
+    "category": "Verbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "suchen",
+    "english": "looking; search; looking for…",
+    "category": "Verbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "supermercad o",
+    "english": "super market",
+    "category": "Places",
+    "sourcePage": 25
+  },
+  {
+    "german": "suß",
+    "english": "sweet",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 7
+  },
+  {
+    "german": "sußesten",
+    "english": "sweetest",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "süß",
+    "english": "cute",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "tanzen",
+    "english": "to dance; dance",
+    "category": "Verbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "tennisbälle",
+    "english": "tennis ball",
+    "category": "Nouns / people / things",
+    "sourcePage": 15
+  },
+  {
+    "german": "teurer",
+    "english": "more expensive",
+    "category": "Sayings",
+    "sourcePage": 23
+  },
+  {
+    "german": "tierarzt",
+    "english": "vet",
+    "category": "Places",
+    "sourcePage": 25
+  },
+  {
+    "german": "tot",
+    "english": "dead",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 23
+  },
+  {
+    "german": "tragen",
+    "english": "wearing; wear; carry/ hold; carries; wears; wear",
+    "category": "Verbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "transgeschlechtlich",
+    "english": "transgender",
+    "category": "Queer / LGBTQ+",
+    "sourcePage": 0
+  },
+  {
+    "german": "treffen",
+    "english": "to meet / meets; meet",
+    "category": "Verbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "tut",
+    "english": "does",
+    "category": "Verbs",
+    "sourcePage": 15
+  },
+  {
+    "german": "täglich",
+    "english": "daily",
+    "category": "Sayings",
+    "sourcePage": 18
+  },
+  {
+    "german": "türkis",
+    "english": "turquoise",
+    "category": "Colors / Farben",
+    "sourcePage": 0
+  },
+  {
+    "german": "umheimlich",
+    "english": "eerie",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "umziehen",
+    "english": "to move or ziehe … um",
+    "category": "Verbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "ungefähr",
+    "english": "approximately",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "unser Gast",
+    "english": "our guest",
+    "category": "Nouns / people / things",
+    "sourcePage": 18
+  },
+  {
+    "german": "unten",
+    "english": "downstairs",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "unterschreiben",
+    "english": "sign",
+    "category": "Verbs",
+    "sourcePage": 14
+  },
+  {
+    "german": "untersucht",
+    "english": "examine",
+    "category": "Verbs",
+    "sourcePage": 13
+  },
+  {
+    "german": "verargere",
+    "english": "to annoy",
+    "category": "Verbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "verboten",
+    "english": "forbidden",
+    "category": "Sayings",
+    "sourcePage": 14
+  },
+  {
+    "german": "vergiss nicht",
+    "english": "forget not",
+    "category": "Verbs",
+    "sourcePage": 15
+  },
+  {
+    "german": "verheiratet",
+    "english": "married",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "verlassen",
+    "english": "to leave; leaves; to leave/ leaving; leaves",
+    "category": "Verbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "verlieren",
+    "english": "to lose",
+    "category": "Verbs",
+    "sourcePage": 5
+  },
+  {
+    "german": "verlängern",
+    "english": "renewing",
+    "category": "Verbs",
+    "sourcePage": 19
+  },
+  {
+    "german": "verstehst",
+    "english": "understand",
+    "category": "Verbs",
+    "sourcePage": 19
+  },
+  {
+    "german": "verärgert",
+    "english": "angry",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 8
+  },
+  {
+    "german": "viel zu tun",
+    "english": "a lot to do",
+    "category": "Sayings",
+    "sourcePage": 19
+  },
+  {
+    "german": "violett",
+    "english": "violet",
+    "category": "Colors / Farben",
+    "sourcePage": 0
+  },
+  {
+    "german": "vorbei",
+    "english": "over",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 19
+  },
+  {
+    "german": "vorgestern",
+    "english": "day before yesterday",
+    "category": "Sayings",
+    "sourcePage": 9
+  },
+  {
+    "german": "vorher",
+    "english": "beforehand",
+    "category": "Sayings",
+    "sourcePage": 21
+  },
+  {
+    "german": "vorsichtig",
+    "english": "careful",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 22
+  },
+  {
+    "german": "wahrscheinlich",
+    "english": "probably",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 19
+  },
+  {
+    "german": "warten",
+    "english": "wait; waiting",
+    "category": "Verbs",
+    "sourcePage": 5
+  },
+  {
+    "german": "warum",
+    "english": "why",
+    "category": "Sayings",
+    "sourcePage": 5
+  },
+  {
+    "german": "waschen",
+    "english": "wash",
+    "category": "Verbs",
+    "sourcePage": 16
+  },
+  {
+    "german": "weißen",
+    "english": "know",
+    "category": "Verbs",
+    "sourcePage": 4
+  },
+  {
+    "german": "weißes",
+    "english": "white",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 2
+  },
+  {
+    "german": "welche Größe brauchen Sie?",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 7
+  },
+  {
+    "german": "welchem",
+    "english": "which",
+    "category": "Sayings",
+    "sourcePage": 21
+  },
+  {
+    "german": "wen",
+    "english": "whom",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 15
+  },
+  {
+    "german": "wer",
+    "english": "who",
+    "category": "Sayings",
+    "sourcePage": 9
+  },
+  {
+    "german": "wichtig",
+    "english": "important",
+    "category": "Places",
+    "sourcePage": 27
+  },
+  {
+    "german": "wichtiger",
+    "english": "important",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 16
+  },
+  {
+    "german": "widerlich",
+    "english": "disgusting",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 1
+  },
+  {
+    "german": "wie spät ist es",
+    "english": "what time is it",
+    "category": "Sayings",
+    "sourcePage": 8
+  },
+  {
+    "german": "wieder",
+    "english": "again",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 15
+  },
+  {
+    "german": "wiederholen",
+    "english": "repeat",
+    "category": "Verbs",
+    "sourcePage": 27
+  },
+  {
+    "german": "wiederkomme n",
+    "english": "come back",
+    "category": "Verbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "winke",
+    "english": "waved",
+    "category": "Verbs",
+    "sourcePage": 21
+  },
+  {
+    "german": "wohnen",
+    "english": "live/reside; lives/ resides",
+    "category": "Verbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "wunderschon",
+    "english": "lovely",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 23
+  },
+  {
+    "german": "wunderschön",
+    "english": "beautiful",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 17
+  },
+  {
+    "german": "wärmer",
+    "english": "warmer",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 18
+  },
+  {
+    "german": "zeichnen",
+    "english": "to draw",
+    "category": "Verbs",
+    "sourcePage": 10
+  },
+  {
+    "german": "zeigen",
+    "english": "show/to show; show; show/ bisten; shows",
+    "category": "Verbs",
+    "sourcePage": 6
+  },
+  {
+    "german": "ziehe",
+    "english": "moving",
+    "category": "Verbs",
+    "sourcePage": 20
+  },
+  {
+    "german": "zu Fuß",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 15
+  },
+  {
+    "german": "zu Hause",
+    "english": "at home",
+    "category": "Nouns / people / things",
+    "sourcePage": 8
+  },
+  {
+    "german": "zuhören",
+    "english": "listen to; listen to; listens to",
+    "category": "Verbs",
+    "sourcePage": 3
+  },
+  {
+    "german": "zuletzt",
+    "english": "last (time)",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "zur Botschaft?",
+    "english": "",
+    "category": "Sayings",
+    "sourcePage": 19
+  },
+  {
+    "german": "zustimmen",
+    "english": "agree with",
+    "category": "Verbs",
+    "sourcePage": 19
+  },
+  {
+    "german": "zweimal",
+    "english": "twice",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 16
+  },
+  {
+    "german": "züuruck",
+    "english": "back (from)",
+    "category": "Places",
+    "sourcePage": 28
+  },
+  {
+    "german": "Überweisen",
+    "english": "transfer",
+    "category": "Verbs",
+    "sourcePage": 19
+  },
+  {
+    "german": "älter",
+    "english": "older",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 26
+  },
+  {
+    "german": "ältesten",
+    "english": "oldest",
+    "category": "Sayings",
+    "sourcePage": 17
+  },
+  {
+    "german": "ändern",
+    "english": "change",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 27
+  },
+  {
+    "german": "öffnen",
+    "english": "open; opens",
+    "category": "Verbs",
+    "sourcePage": 11
+  },
+  {
+    "german": "über",
+    "english": "about",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 23
+  },
+  {
+    "german": "überraschend",
+    "english": "surprising",
+    "category": "Adjectives / adverbs",
+    "sourcePage": 12
+  },
+  {
+    "german": "übt",
+    "english": "practice",
+    "category": "Verbs",
+    "sourcePage": 25
+  },
+  {
+    "german": "übt gern mit dem Pferd Deutsch.",
+    "english": "like to practice german with my horse",
+    "category": "Sayings",
+    "sourcePage": 25
+  },
+  {
+    "german": "… sind dort",
+    "english": "are there",
+    "category": "Sayings",
+    "sourcePage": 11
+  }
+]
