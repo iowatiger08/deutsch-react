@@ -28,4 +28,4 @@ aws lambda update-function-code \
   --zip-file fileb:///tmp/deutsch-api.zip \
   --region "$REGION" >/dev/null
 
-echo "==> Done. Test the Function URL:  curl <function-url>/api/wetter"
+echo "==> Done. Test via API Gateway:  curl https://<api-id>.execute-api.$REGION.amazonaws.com/api/wetter"

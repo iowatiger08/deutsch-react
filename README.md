@@ -45,7 +45,8 @@ Migration in progress:
       NetworkFirst runtime cache for `/api/*`, installable manifest + icons.
 - [x] `/api/*` weather + news Lambda (`infra/lambda/`) — ports WeatherService +
       NewsService; verified against live Open-Meteo + RSS feeds.
-- [ ] AWS provisioning + deploy (scripts + runbook in `infra/`; needs credentials).
+- [x] Deployed to AWS — **live at https://deutsch.tigersndragons.com/** (S3 +
+      CloudFront, Lambda behind API Gateway; scripts + runbook in `infra/`).
 
 ## Architecture
 
