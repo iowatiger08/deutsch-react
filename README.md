@@ -31,7 +31,12 @@ Migration in progress:
 
 - [x] Search (`/`) — search, category chips, sortable columns, limit toggle, inline
       add/edit/delete with article-aware dedup on add, Export/Import.
-- [ ] Vokabeln, Quiz, Grammar, Wetter (stubbed, ported in later steps).
+- [x] Vokabeln (`/vokabeln`) — days/months/seasons/weather/colors tables, the
+      "Der Körper" body figure (verbatim inline-styled SVG), Queer & LGBTQ+ panel,
+      and the sticky anchor menubar.
+- [x] Quiz (`/quiz`) — flashcards from the local store: shuffle, flip, grade,
+      practice-missed, keyboard 1/2/Space, direction + category filter.
+- [ ] Grammar, Wetter (stubbed, ported in later steps).
 - [ ] PWA offline service worker + installable manifest.
 - [ ] `/api/*` weather + news Lambda; S3 + CloudFront deploy.
 
