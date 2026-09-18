@@ -10,6 +10,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { useStore } from '../store/StoreContext';
 import { categoriesOf, search } from '../lib/search';
 import { exportEntries, parseImport, type EntryForm } from '../lib/store';
+import { currentAllowedUser, signIn, signOut } from '../lib/auth';
 import type { SortDir, SortField } from '../lib/types';
 
 const OTHER = '__other';
@@ -28,6 +29,15 @@ export default function Search() {
   const [limit, setLimit] = useState('all');
   const [editingId, setEditingId] = useState<EditingId>(null);
   const [draft, setDraft] = useState<EntryForm>(emptyDraft);
+  // Edit guard: locked by default. Unlocking requires signing in as the allowed
+  // Cognito user; once authenticated the lock toggles freely for the session.
+  const [unlocked, setUnlocked] = useState(false);
+  const [authed, setAuthed] = useState(false);
+  const [showLogin, setShowLogin] = useState(false);
+  const [loginEmail, setLoginEmail] = useState('');
+  const [loginPassword, setLoginPassword] = useState('');
+  const [loginError, setLoginError] = useState('');
+  const [loginBusy, setLoginBusy] = useState(false);
 
   const fileRef = useRef<HTMLInputElement>(null);
   const firstEditRef = useRef<HTMLInputElement>(null);
@@ -57,12 +67,53 @@ export default function Search() {
     if (editingId !== null) firstEditRef.current?.focus();
   }, [editingId]);
 
+  // On load, note whether a valid session for the allowed user already exists.
+  useEffect(() => {
+    currentAllowedUser().then(setAuthed);
+  }, []);
+
+  function toggleLock() {
+    if (unlocked) {
+      setUnlocked(false);
+      setEditingId(null); // locking cancels any in-progress edit
+      return;
+    }
+    if (authed) setUnlocked(true);
+    else setShowLogin(true); // must sign in to unlock
+  }
+
+  async function submitLogin(e: React.FormEvent) {
+    e.preventDefault();
+    setLoginBusy(true);
+    setLoginError('');
+    try {
+      await signIn(loginEmail, loginPassword);
+      setAuthed(true);
+      setUnlocked(true);
+      setShowLogin(false);
+      setLoginPassword('');
+    } catch (err) {
+      setLoginError((err as Error).message || 'Anmeldung fehlgeschlagen.');
+    } finally {
+      setLoginBusy(false);
+    }
+  }
+
+  function logout() {
+    signOut();
+    setAuthed(false);
+    setUnlocked(false);
+    setEditingId(null);
+  }
+
   function startAdd() {
+    if (!unlocked) return;
     setDraft({ ...emptyDraft, category: categories[0] ?? '' });
     setEditingId('new');
   }
 
   function startEdit(id: number) {
+    if (!unlocked) return;
     const e = entries.find((x) => x.id === id);
     if (!e) return;
     setDraft({ german: e.german, english: e.english, category: e.category, sourcePage: e.sourcePage });
@@ -88,6 +139,7 @@ export default function Search() {
   }
 
   async function del(id: number) {
+    if (!unlocked) return;
     if (!confirm('Delete this entry?')) return;
     await remove(id);
   }
@@ -103,7 +155,7 @@ export default function Search() {
   async function onImportFile(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
     e.target.value = ''; // allow re-importing the same file
-    if (!file) return;
+    if (!file || !unlocked) return;
     if (!confirm('Import replaces all current entries. Continue?')) return;
     try {
       const imported = await parseImport(file);
@@ -228,6 +280,44 @@ export default function Search() {
             {meta}
           </p>
           <div className="controls">
+            <div className="action-buttons">
+              <button
+                className={`btn lock${unlocked ? ' unlocked' : ''}`}
+                onClick={toggleLock}
+                title={unlocked ? 'Bearbeiten sperren' : 'Bearbeiten entsperren'}
+              >
+                {unlocked ? '🔓' : '🔒'} Bearbeiten
+              </button>
+              <button className="btn add" onClick={startAdd} disabled={!unlocked}>
+                + Add entry
+              </button>
+              <button
+                className="btn"
+                onClick={() => exportEntries(entries)}
+                disabled={!unlocked}
+              >
+                ⬇ Export
+              </button>
+              <button
+                className="btn"
+                onClick={() => fileRef.current?.click()}
+                disabled={!unlocked}
+              >
+                ⬆ Import
+              </button>
+              <input
+                ref={fileRef}
+                type="file"
+                accept="application/json,.json"
+                hidden
+                onChange={onImportFile}
+              />
+              {authed && (
+                <button className="btn" onClick={logout} title="Abmelden">
+                  ⎋ Abmelden
+                </button>
+              )}
+            </div>
             <div className="limit-toggle" id="limit-toggle">
               <span className="limit-label">Show</span>
               {['200', '500', 'all'].map((l) => (
@@ -240,22 +330,6 @@ export default function Search() {
                 </button>
               ))}
             </div>
-            <button className="btn add" onClick={startAdd}>
-              + Add entry
-            </button>
-            <button className="btn" onClick={() => exportEntries(entries)}>
-              ⬇ Export
-            </button>
-            <button className="btn" onClick={() => fileRef.current?.click()}>
-              ⬆ Import
-            </button>
-            <input
-              ref={fileRef}
-              type="file"
-              accept="application/json,.json"
-              hidden
-              onChange={onImportFile}
-            />
           </div>
         </div>
         <div className="table-scroll">
@@ -294,10 +368,20 @@ export default function Search() {
                     <td className="cat">{e.category}</td>
                     <td className="pg">{e.sourcePage}</td>
                     <td className="act">
-                      <button className="icon-btn edit" title="Edit" onClick={() => startEdit(e.id)}>
+                      <button
+                        className="icon-btn edit"
+                        title="Edit"
+                        onClick={() => startEdit(e.id)}
+                        disabled={!unlocked}
+                      >
                         ✎
                       </button>
-                      <button className="icon-btn del" title="Delete" onClick={() => del(e.id)}>
+                      <button
+                        className="icon-btn del"
+                        title="Delete"
+                        onClick={() => del(e.id)}
+                        disabled={!unlocked}
+                      >
                         🗑
                       </button>
                     </td>
@@ -308,6 +392,67 @@ export default function Search() {
           </table>
         </div>
       </section>
+
+      {/* Sign-in gate for the edit lock. */}
+      {showLogin && (
+        <div
+          className="login-overlay"
+          onClick={() => {
+            if (!loginBusy) setShowLogin(false);
+          }}
+        >
+          <form className="login-card" onClick={(e) => e.stopPropagation()} onSubmit={submitLogin}>
+            <h3>🔒 Bearbeiten entsperren</h3>
+            <p className="hint">Melde dich an, um Einträge zu bearbeiten.</p>
+            <label>
+              E-Mail
+              <input
+                type="email"
+                autoComplete="username"
+                autoFocus
+                value={loginEmail}
+                onChange={(e) => setLoginEmail(e.target.value)}
+                required
+              />
+            </label>
+            <label>
+              Passwort
+              <input
+                type="password"
+                autoComplete="current-password"
+                value={loginPassword}
+                onChange={(e) => setLoginPassword(e.target.value)}
+                required
+              />
+            </label>
+            {loginError && <p className="login-error">{loginError}</p>}
+            <div className="login-actions">
+              <button
+                type="button"
+                className="btn"
+                onClick={() => setShowLogin(false)}
+                disabled={loginBusy}
+              >
+                Abbrechen
+              </button>
+              <button type="submit" className="btn add" disabled={loginBusy}>
+                {loginBusy ? 'Anmelden…' : 'Anmelden'}
+              </button>
+            </div>
+          </form>
+        </div>
+      )}
+
+      {/* Floating add button — stays reachable while scrolling the list. */}
+      <button
+        className="fab-add"
+        onClick={startAdd}
+        disabled={!unlocked}
+        aria-label="Add entry"
+        title={unlocked ? 'Eintrag hinzufügen' : 'Zum Bearbeiten oben entsperren'}
+      >
+        +
+      </button>
     </main>
   );
 }

@@ -3,6 +3,8 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
+  // amazon-cognito-identity-js pulls in `buffer`, which references `global`.
+  define: { global: 'globalThis' },
   plugins: [
     react(),
     VitePWA({
