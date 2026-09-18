@@ -330,6 +330,14 @@ table.chart .ending { color: var(--accent-2); font-family: ui-monospace, Menlo, 
 .body-figure .dot { fill: var(--accent); }
 .body-figure .lbl-de { fill: var(--de); font-weight: 600; font-size: 15px; }
 .body-figure .lbl-en { fill: var(--muted); font-size: 12px; }
+.body-figure .lbl-act { fill: var(--accent); font-size: 12.5px; font-style: italic; font-weight: 500; }
+
+/* Farben — color swatch (dimensions here, per-color background inlined per row) */
+.swatch {
+    display: inline-block; width: 18px; height: 18px; border-radius: 4px;
+    border: 1px solid var(--border); vertical-align: middle;
+}
+td.sw { width: 26px; }
 
 .grammar h2 { font-size: 1.4rem; margin: 0 0 4px; }
 .grammar-grid {

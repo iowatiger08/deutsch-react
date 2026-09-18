@@ -2,6 +2,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { StoreProvider, useStore } from './store/StoreContext';
 import AppHeader from './components/AppHeader';
 import Search from './routes/Search';
+import Vokabeln from './routes/Vokabeln';
+import Quiz from './routes/Quiz';
 import Placeholder from './routes/Placeholder';
 
 function Shell() {
@@ -16,8 +18,8 @@ function Shell() {
       ) : (
         <Routes>
           <Route path="/" element={<Search />} />
-          <Route path="/vokabeln" element={<Placeholder title="Vokabeln" />} />
-          <Route path="/quiz" element={<Placeholder title="Quiz" />} />
+          <Route path="/vokabeln" element={<Vokabeln />} />
+          <Route path="/quiz" element={<Quiz />} />
           <Route path="/grammar" element={<Placeholder title="Grammatik" />} />
           <Route path="/wetter" element={<Placeholder title="Wetter & Nachrichten" />} />
           <Route path="/about" element={<Placeholder title="Über" />} />
