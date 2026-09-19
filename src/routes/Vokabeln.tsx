@@ -7,6 +7,7 @@
  */
 import { Link } from 'react-router-dom';
 import BodyFigure from '../components/BodyFigure';
+import TableSetting from '../components/TableSetting';
 
 const TAGE: [string, string][] = [
   ['Montag', 'Monday'],
@@ -108,6 +109,7 @@ export default function Vokabeln() {
         <a href="#wetter">🌦️ Wetter</a>
         <a href="#farben">🎨 Farben</a>
         <a href="#koerper">🧍 Körper</a>
+        <a href="#gedeck">🍽️ Gedeck</a>
         <a href="#queer">🏳️‍🌈 Queer</a>
       </nav>
 
@@ -203,6 +205,17 @@ export default function Vokabeln() {
           <p className="hint">
             Frage: „Wo tut es weh?“ = Where does it hurt? — „Mein Kopf tut weh.“ = My head hurts.
             Merke die Artikel: <b>der</b> (m.), <b>die</b> (f.), <b>das</b> (n.).
+          </p>
+        </section>
+
+        <section className="vocab-panel wide" id="gedeck">
+          <h2>
+            🍽️ Das Gedeck <span className="gloss">(a table setting)</span>
+          </h2>
+          <TableSetting />
+          <p className="hint">
+            „Der Tisch ist gedeckt.“ = The table is set. Merke: <b>der Teller</b> = the plate you
+            eat from; <b>die Platte</b> = a serving platter („kalte Platte"). „Guten Appetit!“
           </p>
         </section>
 
