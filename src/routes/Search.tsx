@@ -72,13 +72,18 @@ export default function Search() {
     currentAllowedUser().then(setAuthed);
   }, []);
 
-  function toggleLock() {
+  async function toggleLock() {
     if (unlocked) {
       setUnlocked(false);
       setEditingId(null); // locking cancels any in-progress edit
       return;
     }
-    if (authed) setUnlocked(true);
+    // Re-validate the session live at unlock time. This avoids trusting a stale
+    // `authed` flag (token may have expired) and sidesteps the mount-time race
+    // where a valid cached session hasn't been checked yet.
+    const ok = await currentAllowedUser();
+    setAuthed(ok);
+    if (ok) setUnlocked(true);
     else setShowLogin(true); // must sign in to unlock
   }
 

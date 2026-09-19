@@ -109,7 +109,12 @@ async function fetchWeather(loc) {
       return weatherError(loc, `Wetterdienst nicht erreichbar (HTTP ${res.status}).`);
     }
     const root = await res.json();
-    const cur = root.current ?? {};
+    // A 200 with no current block means the payload is unusable — surface it as
+    // an error rather than fabricating a "0 °C, Klarer Himmel" card.
+    if (!root.current || root.current.temperature_2m == null) {
+      return weatherError(loc, 'Unvollständige Wetterdaten vom Wetterdienst.');
+    }
+    const cur = root.current;
     const daily = root.daily ?? {};
     const times = daily.time ?? [];
     const vorhersage = times.map((t, i) => {
@@ -155,8 +160,10 @@ const FEEDS = [
 const MAX_ITEMS = 8;
 
 // removeNSPrefix maps rdf:RDF→RDF and dc:date→date so RSS 1.0 (DW) and RSS 2.0
-// (Google News) parse the same way; text nodes come through as plain strings.
-const parser = new XMLParser({ ignoreAttributes: true, removeNSPrefix: true, trimValues: true });
+// (Google News) parse the same way. Attributes are kept (attributeNamePrefix
+// "@_") so Atom <link href="…"> can be read; elements without attributes still
+// come through as plain strings, and asText handles the "#text" wrapper.
+const parser = new XMLParser({ ignoreAttributes: false, removeNSPrefix: true, trimValues: true });
 
 const asText = (v) => {
   if (v == null) return '';
@@ -166,6 +173,24 @@ const asText = (v) => {
 };
 
 const firstNonBlank = (...vals) => vals.map(asText).find((s) => s) ?? '';
+
+// Link extraction that covers RSS (<link>text</link>) and Atom
+// (<link href="…" rel="alternate"/>, possibly several per entry).
+function linkOne(l) {
+  if (l == null) return '';
+  if (typeof l === 'string') return l.trim();
+  if (typeof l === 'object') return String(l['@_href'] ?? l['#text'] ?? '').trim();
+  return String(l).trim();
+}
+
+function linkOf(it) {
+  const l = it.link;
+  if (Array.isArray(l)) {
+    const alt = l.find((x) => x && x['@_rel'] === 'alternate') ?? l.find((x) => linkOne(x)) ?? l[0];
+    return linkOne(alt);
+  }
+  return linkOne(l);
+}
 
 function parseItems(xml) {
   const doc = parser.parse(xml);
@@ -178,7 +203,7 @@ function parseItems(xml) {
     if (!titel) continue;
     out.push({
       titel,
-      link: asText(it.link),
+      link: linkOf(it),
       datum: firstNonBlank(it.pubDate, it.date),
     });
   }
@@ -211,25 +236,25 @@ const getNews = () => Promise.all(FEEDS.map(fetchFeed));
 
 // ---- Lambda Function URL handler ------------------------------------------
 
-const json = (body) => ({
-  statusCode: 200,
-  headers: {
-    'Content-Type': 'application/json; charset=utf-8',
-    // Short cache; CloudFront also fronts this. Permissive CORS so the raw
-    // Function URL can be curl-tested directly during setup.
-    'Cache-Control': 'public, max-age=300',
-    'Access-Control-Allow-Origin': '*',
-  },
+// Shared response headers. no-store keeps browsers/intermediaries from serving
+// stale weather/news; the PWA's own NetworkFirst cache (Cache Storage, not the
+// HTTP cache) still holds the last response for offline. Permissive CORS so the
+// endpoint can be curl-tested directly and error bodies are readable.
+const CORS_JSON = {
+  'Content-Type': 'application/json; charset=utf-8',
+  'Cache-Control': 'no-store',
+  'Access-Control-Allow-Origin': '*',
+};
+
+const respond = (statusCode, body) => ({
+  statusCode,
+  headers: CORS_JSON,
   body: JSON.stringify(body),
 });
 
 export async function handler(event) {
   const path = event?.requestContext?.http?.path ?? event?.rawPath ?? '';
-  if (path.endsWith('/api/wetter')) return json(await getWeather());
-  if (path.endsWith('/api/nachrichten')) return json(await getNews());
-  return {
-    statusCode: 404,
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ error: `Not found: ${path}` }),
-  };
+  if (path.endsWith('/api/wetter')) return respond(200, await getWeather());
+  if (path.endsWith('/api/nachrichten')) return respond(200, await getNews());
+  return respond(404, { error: `Not found: ${path}` });
 }
