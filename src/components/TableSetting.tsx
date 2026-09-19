@@ -6,8 +6,8 @@
  * correctly even if the stylesheet is cached/stale.
  */
 const SVG = `
-<svg class="body-figure" viewBox="0 0 660 390" role="img"
-     aria-label="Gedeck mit beschrifteten Teilen: Serviette, Gabel, Teller, Messer, Löffel, Glas"
+<svg class="body-figure" viewBox="0 0 700 390" role="img"
+     aria-label="Gedeck mit beschrifteten Teilen: Serviette, Gabel, Teller, Messer, Löffel, Glas, Tasse"
      font-family="inherit">
   <defs>
     <marker id="arrowT" markerWidth="9" markerHeight="9" refX="7" refY="3"
@@ -48,6 +48,12 @@ const SVG = `
   <rect x="498" y="118" width="4" height="26" fill="var(--muted, #8b93a4)"></rect>
   <ellipse cx="500" cy="148" rx="16" ry="4.5" fill="none" stroke="var(--muted, #8b93a4)" stroke-width="1.6"></ellipse>
 
+  <!-- Tasse (cup) + saucer -->
+  <ellipse cx="585" cy="312" rx="36" ry="9" fill="var(--panel-2, #1e222b)" stroke="var(--muted, #8b93a4)" stroke-width="1.6"></ellipse>
+  <path d="M563 268 L607 268 L601 300 Q585 311 569 300 Z" fill="var(--panel-2, #1e222b)" stroke="var(--muted, #8b93a4)" stroke-width="1.6"></path>
+  <path d="M606 276 C624 277 624 299 606 298" fill="none" stroke="var(--muted, #8b93a4)" stroke-width="2.4"></path>
+  <ellipse cx="585" cy="269" rx="22" ry="5" fill="none" stroke="var(--muted, #8b93a4)" stroke-width="1.2"></ellipse>
+
   <!-- Leader lines -->
   <g stroke="var(--accent, #ffcc4d)" stroke-width="1.6">
     <line class="leader" x1="108" y1="74" x2="108" y2="164" marker-end="url(#arrowT)"></line>
@@ -56,6 +62,7 @@ const SVG = `
     <line class="leader" x1="548" y1="205" x2="506" y2="205" marker-end="url(#arrowT)"></line>
     <line class="leader" x1="320" y1="340" x2="320" y2="308" marker-end="url(#arrowT)"></line>
     <line class="leader" x1="452" y1="340" x2="452" y2="326" marker-end="url(#arrowT)"></line>
+    <line class="leader" x1="585" y1="340" x2="585" y2="322" marker-end="url(#arrowT)"></line>
   </g>
 
   <!-- Labels -->
@@ -64,6 +71,7 @@ const SVG = `
     <text class="lbl-de" x="196" y="50">die Gabel <tspan class="lbl-en" x="196" dy="16" fill="var(--muted, #8b93a4)" font-size="12">fork</tspan></text>
     <text class="lbl-de" x="320" y="360">der Teller <tspan class="lbl-en" x="320" dy="16" fill="var(--muted, #8b93a4)" font-size="12">plate</tspan></text>
     <text class="lbl-de" x="452" y="360">das Messer <tspan class="lbl-en" x="452" dy="16" fill="var(--muted, #8b93a4)" font-size="12">knife</tspan></text>
+    <text class="lbl-de" x="585" y="360">die Tasse <tspan class="lbl-en" x="585" dy="16" fill="var(--muted, #8b93a4)" font-size="12">cup</tspan></text>
   </g>
   <g fill="var(--de, #ffd97a)" font-weight="600" font-size="15" text-anchor="start">
     <text class="lbl-de" x="556" y="92">das Glas <tspan class="lbl-en" x="556" dy="16" fill="var(--muted, #8b93a4)" font-size="12">glass</tspan></text>
