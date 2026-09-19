@@ -171,6 +171,13 @@ main { padding: 28px 0 60px; }
 .login-error { margin: 0; color: var(--accent-2); font-size: 0.82rem; }
 .login-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 4px; }
 
+/* Back-to-top link in the footer */
+.to-top {
+    background: none; border: none; padding: 0; cursor: pointer;
+    color: var(--accent); font: inherit; text-decoration: none;
+}
+.to-top:hover { text-decoration: underline; }
+
 th.act, td.act { width: 74px; text-align: right; white-space: nowrap; }
 .icon-btn {
     background: none;

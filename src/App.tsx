@@ -31,6 +31,15 @@ function Shell() {
       )}
       <footer className="wrap">
         <p>
+          <button
+            type="button"
+            className="to-top"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          >
+            ↑ Nach oben
+          </button>
+        </p>
+        <p>
           Data extracted from <code>germanTableList.pdf</code> · stored locally in your browser
           (IndexedDB)
         </p>

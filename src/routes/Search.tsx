@@ -10,6 +10,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { useStore } from '../store/StoreContext';
 import { categoriesOf, search } from '../lib/search';
 import { exportEntries, parseImport, type EntryForm } from '../lib/store';
+import { key as normKey } from '../lib/normalize';
 import { currentAllowedUser, signIn, signOut } from '../lib/auth';
 import type { SortDir, SortField } from '../lib/types';
 
@@ -135,8 +136,24 @@ export default function Search() {
       return;
     }
     try {
-      if (editingId === 'new') await add(draft);
-      else if (typeof editingId === 'number') await update(editingId, draft);
+      if (editingId === 'new') {
+        // Warn on a likely duplicate (same article-/case-/whitespace-normalized
+        // German). Confirm merges the gloss into the existing row; cancel aborts.
+        const k = normKey(draft.german);
+        const dup = entries.find((e) => normKey(e.german) === k);
+        if (
+          dup &&
+          !confirm(
+            `This looks like an existing entry:\n\n„${dup.german}" — ${dup.english || '—'}\n\n` +
+              `Merge your gloss into it?`,
+          )
+        ) {
+          return;
+        }
+        await add(draft);
+      } else if (typeof editingId === 'number') {
+        await update(editingId, draft);
+      }
       setEditingId(null);
     } catch (err) {
       alert('Save failed: ' + (err as Error).message);
