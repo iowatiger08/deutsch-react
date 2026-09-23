@@ -458,6 +458,22 @@ footer code { color: var(--accent); }
     color: var(--border);
     pointer-events: none;
 }
+.footer-colophon {
+    margin-top: 18px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.footer-copyright { margin: 0; font-size: 0.72rem; }
+.footer-cat {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    opacity: 0.8;
+}
 
 /* Multi-link header nav */
 .nav-links { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }

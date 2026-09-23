@@ -52,6 +52,17 @@ function Shell() {
           Data extracted from <code>germanTableList.pdf</code> · served from the API, cached in your
           browser for offline use
         </p>
+        <div className="footer-colophon">
+          <p className="footer-copyright">
+            &copy; Copyright 2012&ndash;{new Date().getFullYear()} TigersnDragons.com. All Rights
+            Reserved. A BigKittyMeows Production
+          </p>
+          <img
+            src="/sleepingmarquis_bw.jpg"
+            alt="Sleeping Marquis"
+            className="footer-cat"
+          />
+        </div>
       </footer>
     </>
   );
