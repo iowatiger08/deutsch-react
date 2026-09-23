@@ -10,6 +10,8 @@
  * /api/*. Per-feed try/catch so one bad feed doesn't sink the page.
  */
 import { XMLParser } from 'fast-xml-parser';
+import { DynamoDBClient, GetItemCommand, PutItemCommand } from '@aws-sdk/client-dynamodb';
+import { CognitoJwtVerifier } from 'aws-jwt-verify';
 
 // ---- Weather (ports WeatherService) ---------------------------------------
 
@@ -234,16 +236,122 @@ async function fetchFeed(feed) {
 
 const getNews = () => Promise.all(FEEDS.map(fetchFeed));
 
-// ---- Lambda Function URL handler ------------------------------------------
+// ---- Vocabulary entries (DynamoDB-backed, owner-only writes) ---------------
+//
+// The whole entry array (~1.6k rows, ~200 KB) lives in a single DynamoDB item
+// (pk="entries") — well under the 400 KB item limit — mirroring the client's
+// "whole array in memory" model. GET is public (the data is public by design);
+// PUT requires a valid Cognito ID token for the one allowed owner, closing the
+// gap where the edit-lock allow-list was only enforced in the browser.
+
+const TABLE = process.env.ENTRIES_TABLE ?? 'deutsch-entries';
+const ENTRIES_PK = 'entries';
+const USER_POOL_ID = process.env.USER_POOL_ID ?? 'us-west-2_OMwj6Yfpn';
+const CLIENT_ID = process.env.COGNITO_CLIENT_ID ?? '5p01qepq8kh9qfuji1occiud19';
+const ALLOWED_SUB = process.env.ALLOWED_SUB ?? 'c831f380-7071-7082-6ecc-6110e068d744';
+
+const ddb = new DynamoDBClient({});
+// Verifies signature, expiry, audience (clientId) and token_use=id against the
+// pool's JWKS (fetched and cached on first use).
+const jwtVerifier = CognitoJwtVerifier.create({
+  userPoolId: USER_POOL_ID,
+  tokenUse: 'id',
+  clientId: CLIENT_ID,
+});
+
+async function readEntriesItem() {
+  const res = await ddb.send(new GetItemCommand({
+    TableName: TABLE,
+    Key: { pk: { S: ENTRIES_PK } },
+  }));
+  if (!res.Item) return { entries: [], updatedAt: null };
+  const entries = JSON.parse(res.Item.data?.S ?? '[]');
+  return { entries, updatedAt: res.Item.updatedAt?.S ?? null };
+}
+
+async function writeEntriesItem(entries) {
+  const updatedAt = new Date().toISOString();
+  await ddb.send(new PutItemCommand({
+    TableName: TABLE,
+    Item: {
+      pk: { S: ENTRIES_PK },
+      data: { S: JSON.stringify(entries) },
+      updatedAt: { S: updatedAt },
+      count: { N: String(entries.length) },
+    },
+  }));
+  return updatedAt;
+}
+
+/** Extract the bearer token from either header casing. */
+function bearer(event) {
+  const h = event?.headers ?? {};
+  const raw = h.authorization ?? h.Authorization ?? '';
+  const m = /^Bearer\s+(.+)$/i.exec(raw.trim());
+  return m ? m[1] : null;
+}
+
+/** Resolve only if the caller presents a valid ID token for the allowed owner. */
+async function requireOwner(event) {
+  const token = bearer(event);
+  if (!token) throw new HttpError(401, 'Missing bearer token');
+  let payload;
+  try {
+    payload = await jwtVerifier.verify(token);
+  } catch {
+    throw new HttpError(401, 'Invalid or expired token');
+  }
+  if (payload.sub !== ALLOWED_SUB) throw new HttpError(403, 'Not authorized to edit');
+}
+
+class HttpError extends Error {
+  constructor(status, message) {
+    super(message);
+    this.status = status;
+  }
+}
+
+/** Coerce one incoming row to the stored shape; throws if German is blank. */
+function cleanEntry(e, i) {
+  const german = String(e?.german ?? '').trim();
+  if (german === '') throw new HttpError(400, `Entry ${i}: german is required`);
+  return {
+    id: Number.isInteger(e?.id) ? e.id : i,
+    german,
+    english: String(e?.english ?? '').trim(),
+    category: String(e?.category ?? '').trim(),
+    sourcePage: Number(e?.sourcePage ?? 0) || 0,
+  };
+}
+
+async function putEntries(event) {
+  await requireOwner(event);
+  let body;
+  try {
+    body = JSON.parse(event?.body ?? '{}');
+  } catch {
+    throw new HttpError(400, 'Body must be JSON');
+  }
+  const incoming = body?.entries;
+  if (!Array.isArray(incoming)) throw new HttpError(400, 'Expected { entries: [...] }');
+  const entries = incoming.map(cleanEntry);
+  const updatedAt = await writeEntriesItem(entries);
+  return { ok: true, count: entries.length, updatedAt };
+}
+
+// ---- Lambda (API Gateway HTTP API) handler --------------------------------
 
 // Shared response headers. no-store keeps browsers/intermediaries from serving
 // stale weather/news; the PWA's own NetworkFirst cache (Cache Storage, not the
 // HTTP cache) still holds the last response for offline. Permissive CORS so the
-// endpoint can be curl-tested directly and error bodies are readable.
+// endpoint can be curl-tested directly and error bodies are readable. (The SPA
+// itself calls /api/* same-origin, so it never triggers a CORS preflight.)
 const CORS_JSON = {
   'Content-Type': 'application/json; charset=utf-8',
   'Cache-Control': 'no-store',
   'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'GET, PUT, OPTIONS',
+  'Access-Control-Allow-Headers': 'authorization, content-type',
 };
 
 const respond = (statusCode, body) => ({
@@ -254,7 +362,22 @@ const respond = (statusCode, body) => ({
 
 export async function handler(event) {
   const path = event?.requestContext?.http?.path ?? event?.rawPath ?? '';
-  if (path.endsWith('/api/wetter')) return respond(200, await getWeather());
-  if (path.endsWith('/api/nachrichten')) return respond(200, await getNews());
-  return respond(404, { error: `Not found: ${path}` });
+  const method = event?.requestContext?.http?.method ?? 'GET';
+
+  if (method === 'OPTIONS') return { statusCode: 204, headers: CORS_JSON, body: '' };
+
+  try {
+    if (path.endsWith('/api/wetter')) return respond(200, await getWeather());
+    if (path.endsWith('/api/nachrichten')) return respond(200, await getNews());
+    if (path.endsWith('/api/entries')) {
+      if (method === 'GET') return respond(200, await readEntriesItem());
+      if (method === 'PUT') return respond(200, await putEntries(event));
+      return respond(405, { error: `Method not allowed: ${method}` });
+    }
+    return respond(404, { error: `Not found: ${path}` });
+  } catch (ex) {
+    if (ex instanceof HttpError) return respond(ex.status, { error: ex.message });
+    console.error('Unhandled error:', ex);
+    return respond(500, { error: 'Internal error' });
+  }
 }

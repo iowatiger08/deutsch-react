@@ -33,8 +33,9 @@ export default defineConfig({
         ],
       },
       workbox: {
-        // Precache the app shell, seed (bundled into JS), icons, the flag, and the
-        // 33 grammar PNGs (~5.8 MB) so the whole reference works fully offline.
+        // Precache the app shell, icons, the flag, and the 33 grammar PNGs
+        // (~5.8 MB) so the reference UI works fully offline. Vocabulary itself is
+        // fetched from /api/entries and mirrored to IndexedDB (see lib/store.ts).
         globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2}'],
         // Client-side routes deep-link to index.html.
         navigateFallback: '/index.html',
@@ -50,6 +51,20 @@ export default defineConfig({
               cacheName: 'api-wetter-nachrichten',
               networkTimeoutSeconds: 5,
               expiration: { maxEntries: 8, maxAgeSeconds: 60 * 60 * 24 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
+          {
+            // Vocabulary: network-first so edits show immediately, with the last
+            // good response kept for offline reads. The store also mirrors to
+            // IndexedDB, so this is a belt-and-suspenders offline layer.
+            urlPattern: /\/api\/entries\b/,
+            method: 'GET',
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'api-entries',
+              networkTimeoutSeconds: 5,
+              expiration: { maxEntries: 2, maxAgeSeconds: 60 * 60 * 24 * 30 },
               cacheableResponse: { statuses: [0, 200] },
             },
           },

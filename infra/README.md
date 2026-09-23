@@ -2,16 +2,52 @@
 
 Deploys the static React app to **S3 + CloudFront** at
 `deutsch.tigersndragons.com`, with a small **Lambda** (behind an **API Gateway
-HTTP API**) serving `/api/wetter` and `/api/nachrichten` as a second CloudFront
-origin. No EC2, no always-on JVM.
+HTTP API**) serving `/api/wetter`, `/api/nachrichten`, and the vocabulary
+`/api/entries` API as a second CloudFront origin. Vocabulary lives in a
+**DynamoDB** table (`deutsch-entries`), so edits sync across every device. No
+EC2, no always-on JVM.
 
 ```
 infra/
-  lambda/handler.mjs   weather + news proxy (ports WeatherService + NewsService)
-  lambda/package.json  fast-xml-parser
+  lambda/handler.mjs   weather + news proxy + /api/entries CRUD (DynamoDB, JWT-gated writes)
+  lambda/package.json  fast-xml-parser, aws-jwt-verify (@aws-sdk/client-dynamodb from the runtime)
   deploy.sh            build web/ + s3 sync + CloudFront invalidation
   deploy-lambda.sh     zip + update the Lambda function code
 ```
+
+### Vocabulary data model (`/api/entries`)
+
+The whole entry array (~1.6k rows, ~200 KB) is stored as a **single DynamoDB
+item** (`pk="entries"`, attrs `data` = JSON array string, `updatedAt`, `count`)
+— well under the 400 KB item limit, mirroring the client's "whole array in
+memory" model. If it ever approaches ~4× today's size, switch to one item per
+entry.
+
+- `GET /api/entries` → `{ entries, updatedAt }` — **public** read (the data is
+  public by design). The client mirrors the response to IndexedDB for offline.
+- `PUT /api/entries` (body `{ entries: [...] }`) → **owner-only**. The Lambda
+  verifies the Cognito **ID token** (`aws-jwt-verify` against the pool's JWKS)
+  and requires `sub === <allowed owner>`, closing the gap where the edit-lock
+  allow-list was only enforced in the browser. Offline edits are queued in the
+  client (IndexedDB "dirty" flag) and replayed on reconnect.
+
+Table + IAM (one-time):
+
+```bash
+aws dynamodb create-table --table-name deutsch-entries \
+  --attribute-definitions AttributeName=pk,AttributeType=S \
+  --key-schema AttributeName=pk,KeyType=HASH \
+  --billing-mode PAY_PER_REQUEST --region us-west-2
+# grant the Lambda role GetItem/PutItem on the table:
+aws iam put-role-policy --role-name <lambda-basic-exec-role> \
+  --policy-name deutsch-entries-rw --policy-document '{"Version":"2012-10-17",
+  "Statement":[{"Effect":"Allow","Action":["dynamodb:GetItem","dynamodb:PutItem"],
+  "Resource":"arn:aws:dynamodb:us-west-2:<account>:table/deutsch-entries"}]}'
+```
+
+Seed the item once from a JSON array (`[{german,english,category,sourcePage}]`)
+by wrapping it as `{pk:{S:"entries"}, data:{S:<json>}, updatedAt:{S:<iso>},
+count:{N:<n>}}` and `aws dynamodb put-item`.
 
 Reuses the existing `tigersndragons.com` setup: hosted zone `Z1WSE25C5PWLRP`,
 app region **us-west-2** (CloudFront certs must be in **us-east-1**).
@@ -97,8 +133,11 @@ Add the returned CNAME to zone `Z1WSE25C5PWLRP` and wait for `ISSUED`.
   `index.html` / `sw.js` short TTL (the deploy script sets these headers).
 - **`/api/*` behavior** → the API Gateway origin; caching disabled (managed
   `CachingDisabled` + `AllViewerExceptHostHeader`) so `/api/wetter` /
-  `/api/nachrichten` reach the function. (The SW also NetworkFirst-caches these
-  for offline.)
+  `/api/nachrichten` / `/api/entries` reach the function. (The SW also
+  NetworkFirst-caches these for offline.) **AllowedMethods must include the
+  write verbs** (GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE) — otherwise a
+  `PUT /api/entries` is rejected by CloudFront as a disallowed method and the
+  `403 → /index.html` SPA fallback masks it as a 200 HTML page.
 - **Alternate domain**: `deutsch.tigersndragons.com` + the ACM cert.
 - **SPA fallback**: custom error responses map **403 and 404 → `/index.html`**
   (200) so client-side routes deep-link and refresh without 404.
@@ -125,5 +164,9 @@ FUNCTION=deutsch-api REGION=us-west-2 ./infra/deploy-lambda.sh
 - `https://deutsch.tigersndragons.com/` loads with a valid cert (phone + laptop).
 - Deep-link `/grammar` refreshes without 404 (SPA fallback).
 - `/api/wetter` returns via CloudFront; Wetter page shows live data.
+- `GET /api/entries` returns the full array; a **signed-in** owner can add/edit
+  and see it persist across a hard reload and on a second device.
+- `PUT /api/entries` without a valid owner token returns **401 JSON** (not the
+  SPA HTML — confirms CloudFront forwards write methods to the function).
 - Install the PWA and relaunch **offline**: search / quiz / grammar work; Wetter
-  shows the last-cached data.
+  and vocabulary show the last-cached data.

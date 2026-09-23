@@ -62,3 +62,21 @@ export function currentAllowedUser(): Promise<boolean> {
 export function signOut(): void {
   pool.getCurrentUser()?.signOut();
 }
+
+/**
+ * The current owner's Cognito **ID token** (JWT) for authorizing writes, or null
+ * if there is no valid session. Resolves without a network call while the cached
+ * token is still valid; amazon-cognito-identity-js refreshes it if needed.
+ */
+export function getIdToken(): Promise<string | null> {
+  return new Promise((resolve) => {
+    const user = pool.getCurrentUser();
+    if (!user) return resolve(null);
+    user.getSession((err: Error | null, session: CognitoUserSession | null) => {
+      if (err || !session || !session.isValid() || subOf(session) !== ALLOWED_SUB) {
+        return resolve(null);
+      }
+      resolve(session.getIdToken().getJwtToken());
+    });
+  });
+}

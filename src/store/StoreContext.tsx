@@ -16,6 +16,7 @@ import type { Entry } from '../lib/types';
 import {
   addEntry,
   deleteEntry,
+  flushOutbox,
   loadEntries,
   saveEntries,
   updateEntry,
@@ -48,6 +49,18 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     return () => {
       cancelled = true;
     };
+  }, []);
+
+  // When connectivity returns, replay any queued offline edit, then re-sync from
+  // the server so the view reflects the authoritative copy.
+  useEffect(() => {
+    async function onOnline() {
+      await flushOutbox();
+      const fresh = await loadEntries();
+      setEntries(fresh);
+    }
+    window.addEventListener('online', onOnline);
+    return () => window.removeEventListener('online', onOnline);
   }, []);
 
   const commit = useCallback(async (next: Entry[]) => {

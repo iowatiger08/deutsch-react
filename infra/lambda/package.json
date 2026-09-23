@@ -3,9 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "description": "Weather + news proxy for the Deutsch offline app (Lambda Function URL).",
+  "description": "Weather/news proxy + vocabulary entries API for the Deutsch offline app (behind API Gateway).",
   "main": "handler.mjs",
   "dependencies": {
+    "aws-jwt-verify": "^4.0.1",
     "fast-xml-parser": "^4.5.1"
   }
 }
