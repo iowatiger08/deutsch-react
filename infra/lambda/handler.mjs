@@ -269,9 +269,16 @@ async function readEntriesItem() {
   return { entries, updatedAt: res.Item.updatedAt?.S ?? null };
 }
 
-async function writeEntriesItem(entries) {
+/**
+ * Overwrite the entries item, guarded by optimistic concurrency: the write only
+ * succeeds if the stored `updatedAt` still equals the `expectedUpdatedAt` the
+ * caller loaded (or, when the caller has no base, only if the item doesn't yet
+ * exist). A stale caller gets a 409 instead of silently clobbering a newer write
+ * from another device.
+ */
+async function writeEntriesItem(entries, expectedUpdatedAt) {
   const updatedAt = new Date().toISOString();
-  await ddb.send(new PutItemCommand({
+  const params = {
     TableName: TABLE,
     Item: {
       pk: { S: ENTRIES_PK },
@@ -279,7 +286,22 @@ async function writeEntriesItem(entries) {
       updatedAt: { S: updatedAt },
       count: { N: String(entries.length) },
     },
-  }));
+  };
+  if (expectedUpdatedAt) {
+    params.ConditionExpression = 'updatedAt = :base';
+    params.ExpressionAttributeValues = { ':base': { S: expectedUpdatedAt } };
+  }
+  // No base (a client that never synced, or an older bundle that predates this
+  // field) → unconditional write, i.e. last-writer-wins, exactly as before the
+  // concurrency guard. Clients that send a base get the 409 protection.
+  try {
+    await ddb.send(new PutItemCommand(params));
+  } catch (ex) {
+    if (ex?.name === 'ConditionalCheckFailedException') {
+      throw new HttpError(409, 'Entries changed on the server since you loaded them — reload and retry.');
+    }
+    throw ex;
+  }
   return updatedAt;
 }
 
@@ -335,7 +357,8 @@ async function putEntries(event) {
   const incoming = body?.entries;
   if (!Array.isArray(incoming)) throw new HttpError(400, 'Expected { entries: [...] }');
   const entries = incoming.map(cleanEntry);
-  const updatedAt = await writeEntriesItem(entries);
+  const base = typeof body?.baseUpdatedAt === 'string' ? body.baseUpdatedAt : null;
+  const updatedAt = await writeEntriesItem(entries, base);
   return { ok: true, count: entries.length, updatedAt };
 }
 

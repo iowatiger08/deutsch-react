@@ -12,14 +12,14 @@
  * writes the whole array back after each mutation.
  */
 import { get, set } from 'idb-keyval';
-import type { Entry } from './types';
-import type { SeedEntry } from './types';
+import type { Entry, SeedEntry } from './types';
 import { key as normKey, merge as normMerge } from './normalize';
-import { fetchEntries, putEntries, AuthError } from './api';
+import { fetchEntries, putEntries, ApiError, AuthError, ConflictError } from './api';
 import { getIdToken } from './auth';
 
 const ENTRIES_KEY = 'entries'; // last-synced offline mirror
 const DIRTY_KEY = 'entriesDirty'; // set when a local change hasn't reached the server
+const UPDATED_AT_KEY = 'entriesUpdatedAt'; // server version we last synced (optimistic-concurrency base)
 
 /** Editable fields sent from the UI. Mirrors the server's entry shape. */
 export interface EntryForm {
@@ -36,15 +36,17 @@ export interface EntryForm {
  * so an offline edit isn't lost on the next load before it flushes.
  */
 export async function loadEntries(): Promise<Entry[]> {
-  const cached = (await get<Entry[]>(ENTRIES_KEY)) ?? [];
-  const dirty = (await get<boolean>(DIRTY_KEY)) ?? false;
-  if (dirty && cached.length > 0) {
+  const [cached, dirty] = await Promise.all([
+    get<Entry[]>(ENTRIES_KEY).then((v) => v ?? []),
+    get<boolean>(DIRTY_KEY).then((v) => v ?? false),
+  ]);
+  if (dirty) {
     void flushOutbox(); // try to push the pending change; keep showing local meanwhile
-    return cached;
+    return cached; // may be empty (e.g. a queued delete-all) — that's the pending truth
   }
   try {
-    const { entries } = await fetchEntries();
-    await set(ENTRIES_KEY, entries);
+    const { entries, updatedAt } = await fetchEntries();
+    await Promise.all([set(ENTRIES_KEY, entries), set(UPDATED_AT_KEY, updatedAt)]);
     return entries;
   } catch {
     return cached; // offline: show the last-synced copy (may be empty)
@@ -52,21 +54,30 @@ export async function loadEntries(): Promise<Entry[]> {
 }
 
 /**
- * Persist the whole array. Writes through to the server with the owner's token;
- * always mirrors to IndexedDB. A network failure is swallowed and queued (dirty);
- * an auth/validation rejection throws so the UI can surface it.
+ * Persist the whole array. Attempts the server write first (owner token + the
+ * `updatedAt` we last synced, for optimistic concurrency), and only mirrors to
+ * IndexedDB on success or on a genuine offline failure — never for a rejected
+ * write, so the mirror always reflects a saved-or-queued state.
+ *
+ * - Success → mirror + advance the version + clear dirty.
+ * - `ApiError` (auth / conflict / other HTTP rejection) → rethrow untouched so
+ *   the caller can revert the optimistic UI and alert.
+ * - Bare network failure → mirror + set dirty (queued for reconnect).
  */
 export async function saveEntries(entries: Entry[]): Promise<void> {
-  await set(ENTRIES_KEY, entries); // optimistic local mirror
   const token = await getIdToken();
   if (!token) throw new AuthError('Nicht angemeldet — bitte anmelden, um zu speichern.');
+  const base = (await get<string>(UPDATED_AT_KEY)) ?? null;
   try {
-    await putEntries(entries, token);
-    await set(DIRTY_KEY, false);
+    const { updatedAt } = await putEntries(entries, token, base);
+    await Promise.all([
+      set(ENTRIES_KEY, entries),
+      set(UPDATED_AT_KEY, updatedAt),
+      set(DIRTY_KEY, false),
+    ]);
   } catch (err) {
-    if (err instanceof AuthError) throw err; // real rejection — let the UI alert
-    if (err instanceof Error && err.message.startsWith('PUT /api/entries failed')) throw err;
-    await set(DIRTY_KEY, true); // network failure → queue for reconnect
+    if (err instanceof ApiError) throw err; // server rejected — surface it, leave the mirror alone
+    await Promise.all([set(ENTRIES_KEY, entries), set(DIRTY_KEY, true)]); // offline → queue
   }
 }
 
@@ -75,12 +86,30 @@ export async function flushOutbox(): Promise<void> {
   if (!(await get<boolean>(DIRTY_KEY))) return;
   const token = await getIdToken();
   if (!token) return; // only the owner can flush; try again next time
-  const entries = (await get<Entry[]>(ENTRIES_KEY)) ?? [];
+  const [entries, base] = await Promise.all([
+    get<Entry[]>(ENTRIES_KEY).then((v) => v ?? []),
+    get<string>(UPDATED_AT_KEY).then((v) => v ?? null),
+  ]);
   try {
-    await putEntries(entries, token);
-    await set(DIRTY_KEY, false);
-  } catch {
-    /* still offline or rejected — leave dirty for the next attempt */
+    const { updatedAt } = await putEntries(entries, token, base);
+    await Promise.all([set(UPDATED_AT_KEY, updatedAt), set(DIRTY_KEY, false)]);
+  } catch (err) {
+    if (err instanceof ConflictError) {
+      // The server moved while we were offline. We can't safely merge a whole-array
+      // overwrite, so adopt the server copy (dropping this queued edit) rather than
+      // clobber newer data — a rare single-owner edge. Better than an infinite retry.
+      try {
+        const { entries: fresh, updatedAt } = await fetchEntries();
+        await Promise.all([
+          set(ENTRIES_KEY, fresh),
+          set(UPDATED_AT_KEY, updatedAt),
+          set(DIRTY_KEY, false),
+        ]);
+      } catch {
+        /* still offline — leave dirty and retry later */
+      }
+    }
+    /* network/auth failure → leave dirty for the next attempt */
   }
 }
 

@@ -54,18 +54,36 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   // When connectivity returns, replay any queued offline edit, then re-sync from
   // the server so the view reflects the authoritative copy.
   useEffect(() => {
+    let cancelled = false;
     async function onOnline() {
       await flushOutbox();
       const fresh = await loadEntries();
-      setEntries(fresh);
+      if (!cancelled) setEntries(fresh);
     }
     window.addEventListener('online', onOnline);
-    return () => window.removeEventListener('online', onOnline);
+    return () => {
+      cancelled = true;
+      window.removeEventListener('online', onOnline);
+    };
   }, []);
 
   const commit = useCallback(async (next: Entry[]) => {
-    setEntries(next);
-    await saveEntries(next);
+    setEntries(next); // optimistic
+    try {
+      await saveEntries(next);
+    } catch (err) {
+      // The server rejected the write (auth / conflict / other HTTP error). Drop
+      // the optimistic change by re-syncing to the authoritative copy, then let
+      // the caller surface the error. (A bare offline failure does not throw —
+      // saveEntries queues it — so the optimistic state stays put in that case.)
+      try {
+        const fresh = await loadEntries();
+        setEntries(fresh);
+      } catch {
+        /* offline: keep the optimistic state until reconnect */
+      }
+      throw err;
+    }
   }, []);
 
   const add = useCallback(
