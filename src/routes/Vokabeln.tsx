@@ -84,6 +84,69 @@ const QUEER: [string, string, string, string][] = [
   ['heterosexuell', 'heterosexual / straight', 'die Homophobie', 'homophobia'],
 ];
 
+// [de, en] pairs for the "An der Bar" panel — ordering phrases and drinks/snacks.
+const BAR_PHRASEN: [string, string][] = [
+  ['Was darf es sein?', "What can I get you?"],
+  ['Ich hätte gern ein Bier.', "I'd like a beer."],
+  ['Ein Glas Wein, bitte.', 'A glass of wine, please.'],
+  ['Was haben Sie vom Fass?', 'What do you have on tap?'],
+  ['Was können Sie empfehlen?', 'What do you recommend?'],
+  ['Ich nehme dasselbe.', "I'll have the same."],
+  ['Noch eins, bitte!', 'One more, please!'],
+  ['Eine Runde für alle!', 'A round for everyone!'],
+  ['Zahlen, bitte!', 'The bill, please!'],
+  ['Stimmt so.', 'Keep the change.'],
+  ['Prost! / Zum Wohl!', 'Cheers!'],
+  ['Auf ex!', 'Bottoms up!'],
+];
+
+const BIER: [string, string][] = [
+  ['das Bier', 'beer'],
+  ['das Pils', 'pilsner'],
+  ['das Helle', 'pale lager'],
+  ['das Weizen / Weißbier', 'wheat beer'],
+  ['das Dunkle', 'dark lager'],
+  ['vom Fass', 'on tap / draft'],
+  ['die Maß', 'one-litre mug'],
+  ['das Radler', 'shandy (beer + lemonade)'],
+  ['das alkoholfreie Bier', 'non-alcoholic beer'],
+];
+
+const WEIN: [string, string][] = [
+  ['der Rotwein', 'red wine'],
+  ['der Weißwein', 'white wine'],
+  ['der Roséwein', 'rosé wine'],
+  ['der Sekt', 'sparkling wine'],
+  ['die Weinschorle', 'wine spritzer'],
+  ['trocken', 'dry'],
+  ['halbtrocken', 'medium-dry'],
+  ['lieblich / süß', 'sweet'],
+  ['das Glas / die Flasche', 'glass / bottle'],
+];
+
+const SCHNAPS: [string, string][] = [
+  ['der Schnaps', 'schnapps / spirit'],
+  ['der Kurze', 'a shot'],
+  ['der Wodka', 'vodka'],
+  ['der Korn', 'grain schnapps'],
+  ['Berliner Luft', 'peppermint schnapps (Berlin)'],
+  ['Rumpleminze', 'strong peppermint schnapps'],
+  ['der Jägermeister', 'herbal liqueur (Jägermeister)'],
+  ['der Obstler', 'fruit schnapps'],
+  ['der Kräuterlikör', 'herbal liqueur'],
+];
+
+const SNACKS: [string, string][] = [
+  ['die Vorspeise', 'appetizer / starter'],
+  ['die Brezel', 'pretzel'],
+  ['die Currywurst', 'curried sausage'],
+  ['die Pommes (frites)', 'fries'],
+  ['die Nüsse', 'nuts'],
+  ['die Oliven', 'olives'],
+  ['der Käseteller', 'cheese plate'],
+  ['die Brotzeit', 'cold snack platter'],
+];
+
 function PairTable({ rows }: { rows: [string, string][] }) {
   return (
     <table className="chart">
@@ -110,6 +173,7 @@ export default function Vokabeln() {
         <a href="#farben">🎨 Farben</a>
         <a href="#koerper">🧍 Körper</a>
         <a href="#gedeck">🍽️ Gedeck</a>
+        <a href="#bar">🍻 An der Bar</a>
         <a href="#queer">🏳️‍🌈 Queer</a>
       </nav>
 
@@ -216,6 +280,43 @@ export default function Vokabeln() {
           <p className="hint">
             „Der Tisch ist gedeckt.“ = The table is set. Merke: <b>der Teller</b> = the plate you
             eat from; <b>die Platte</b> = a serving platter („kalte Platte"). „Guten Appetit!“
+          </p>
+        </section>
+
+        <section className="vocab-panel wide" id="bar">
+          <h2>
+            🍻 An der Bar <span className="gloss">(at the bar — ordering drinks)</span>
+          </h2>
+
+          <h3>
+            Bestellen &amp; Fragen <span className="gloss">(ordering &amp; questions)</span>
+          </h3>
+          <PairTable rows={BAR_PHRASEN} />
+
+          <h3>
+            🍺 Bier <span className="gloss">(beer)</span>
+          </h3>
+          <PairTable rows={BIER} />
+
+          <h3>
+            🍷 Wein <span className="gloss">(wine)</span>
+          </h3>
+          <PairTable rows={WEIN} />
+
+          <h3>
+            🥃 Schnaps &amp; Kurze <span className="gloss">(shots &amp; spirits)</span>
+          </h3>
+          <PairTable rows={SCHNAPS} />
+
+          <h3>
+            🥨 Vorspeisen &amp; Snacks <span className="gloss">(appetizers &amp; snacks)</span>
+          </h3>
+          <PairTable rows={SNACKS} />
+
+          <p className="hint">
+            „Prost!“ / „Zum Wohl!“ = Cheers! — beim Anstoßen in die Augen schauen (look each other in
+            the eye when clinking glasses). „Was darf es sein?“ = What'll it be? „Zahlen, bitte!“ =
+            The bill, please! „Stimmt so.“ = Keep the change.
           </p>
         </section>
 

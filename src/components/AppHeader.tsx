@@ -3,7 +3,8 @@
 import { NavLink } from 'react-router-dom';
 import { useStore } from '../store/StoreContext';
 
-const NAV = [
+const NAV: { to: string; label: string; end?: boolean }[] = [
+  { to: '/', label: '🔍 Suche', end: true },
   { to: '/vokabeln', label: 'Vokabeln' },
   { to: '/quiz', label: 'Quiz' },
   { to: '/wetter', label: 'Wetter & Nachrichten' },
@@ -29,7 +30,7 @@ export default function AppHeader() {
         </div>
         <nav className="nav-links">
           {NAV.map((n) => (
-            <NavLink key={n.to} className="nav-link" to={n.to}>
+            <NavLink key={n.to} className="nav-link" to={n.to} end={n.end}>
               {n.label}
             </NavLink>
           ))}

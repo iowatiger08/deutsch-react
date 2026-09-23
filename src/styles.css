@@ -347,6 +347,8 @@ table.chart .ending { color: var(--accent-2); font-family: ui-monospace, Menlo, 
 }
 .vocab-panel.wide { grid-column: 1 / -1; }
 .vocab-panel h2 { font-size: 1.1rem; margin: 0 0 12px; color: var(--accent); }
+.vocab-panel h3 { font-size: 0.95rem; margin: 18px 0 6px; color: var(--de); }
+.vocab-panel h3 .gloss { color: var(--muted); font-weight: 400; font-size: 0.82rem; }
 .vocab-panel .chart { min-width: 0; }
 .vocab-panel .chart td { white-space: normal; }
 .vocab-panel .hint { color: var(--muted); font-size: 0.82rem; margin: 12px 0 0; }
@@ -434,6 +436,28 @@ td.sw { width: 26px; }
 
 footer { color: var(--muted); font-size: 0.8rem; padding: 20px 0 40px; text-align: center; }
 footer code { color: var(--accent); }
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px 18px;
+    margin: 0 0 12px;
+}
+.footer-links a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+}
+.footer-links a:hover { text-decoration: underline; }
+.footer-links a:not(:last-child)::after {
+    content: "·";
+    position: absolute;
+    right: -11px;
+    color: var(--border);
+    pointer-events: none;
+}
 
 /* Multi-link header nav */
 .nav-links { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
