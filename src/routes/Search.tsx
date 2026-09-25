@@ -1,7 +1,7 @@
 /**
  * Search page (route "/") — ports index.html + its inline JS + app.js.
  *
- * Search box (150 ms debounce), category chips, sortable headers, limit toggle,
+ * Search box (150 ms debounce), a category dropdown, sortable headers, limit toggle,
  * and inline add/edit/delete against the local IndexedDB store. The server-only
  * "⏻ Beenden" button is gone; an Export / Import control takes its place as the
  * backup story.
@@ -280,22 +280,23 @@ export default function Search() {
           value={rawQ}
           onChange={(e) => setRawQ(e.target.value)}
         />
-        <div className="chips" id="chips">
-          <button
-            className={`chip${activeCategory === '' ? ' active' : ''}`}
-            onClick={() => setActiveCategory('')}
+        <div className="cat-filter">
+          <label className="cat-label" htmlFor="cat-select">
+            Category
+          </label>
+          <select
+            className="cat-select"
+            id="cat-select"
+            value={activeCategory}
+            onChange={(e) => setActiveCategory(e.target.value)}
           >
-            All
-          </button>
-          {categories.map((c) => (
-            <button
-              key={c}
-              className={`chip${activeCategory === c ? ' active' : ''}`}
-              onClick={() => setActiveCategory(c)}
-            >
-              {c}
-            </button>
-          ))}
+            <option value="">All categories</option>
+            {categories.map((c) => (
+              <option key={c} value={c}>
+                {c}
+              </option>
+            ))}
+          </select>
         </div>
         <div className="result-bar">
           <p className="result-meta" id="meta">

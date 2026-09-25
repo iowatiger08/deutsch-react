@@ -31,7 +31,7 @@ export default function Grammar() {
         <nav className="chart-nav">
           <a href="#artikel">Artikel &amp; Genus</a>
           <a href="#regelmaessig">Regelmäßige Verben</a>
-          <a href="#unregelmaessig">sein · haben · werden</a>
+          <a href="#unregelmaessig">sein · haben · werden · möchten</a>
           <a href="#praeteritum">Präteritum</a>
           <a href="#modal">Modalverben</a>
           <a href="#stark">Starke Verben</a>
@@ -284,12 +284,13 @@ export default function Grammar() {
         {/* IRREGULAR: sein / haben / werden */}
         <div className="chart-block" id="unregelmaessig">
           <h3>
-            Unregelmäßig: <i>sein</i>, <i>haben</i> und <i>werden</i>{' '}
+            Unregelmäßig: <i>sein</i>, <i>haben</i>, <i>werden</i> und <i>möchten</i>{' '}
             <span className="gloss">(the essential irregulars — present)</span>
           </h3>
           <p className="hint">
-            The three most common irregular verbs. <i>sein</i> = to be, <i>haben</i> = to have,{' '}
-            <i>werden</i> = to become / will.
+            The most common irregular verbs. <i>sein</i> = to be, <i>haben</i> = to have,{' '}
+            <i>werden</i> = to become / will, <i>möchten</i> = would like (the polite Konjunktiv II
+            of <i>mögen</i> — see <a href="#modal">Modalverben</a>).
           </p>
           <div className="chart-wrap">
             <table className="chart">
@@ -305,6 +306,9 @@ export default function Grammar() {
                   <th>
                     werden <span className="gloss">(to become)</span>
                   </th>
+                  <th>
+                    möchten <span className="gloss">(would like)</span>
+                  </th>
                 </tr>
               </thead>
               <tbody>
@@ -313,36 +317,42 @@ export default function Grammar() {
                   <td className="de-form">bin</td>
                   <td className="de-form">habe</td>
                   <td className="de-form">werde</td>
+                  <td className="de-form">möchte</td>
                 </tr>
                 <tr>
                   <th scope="row">du</th>
                   <td className="de-form">bist</td>
                   <td className="de-form">hast</td>
                   <td className="de-form">wirst</td>
+                  <td className="de-form">möchtest</td>
                 </tr>
                 <tr>
                   <th scope="row">er/sie/es</th>
                   <td className="de-form">ist</td>
                   <td className="de-form">hat</td>
                   <td className="de-form">wird</td>
+                  <td className="de-form">möchte</td>
                 </tr>
                 <tr>
                   <th scope="row">wir</th>
                   <td className="de-form">sind</td>
                   <td className="de-form">haben</td>
                   <td className="de-form">werden</td>
+                  <td className="de-form">möchten</td>
                 </tr>
                 <tr>
                   <th scope="row">ihr</th>
                   <td className="de-form">seid</td>
                   <td className="de-form">habt</td>
                   <td className="de-form">werdet</td>
+                  <td className="de-form">möchtet</td>
                 </tr>
                 <tr>
                   <th scope="row">sie/Sie</th>
                   <td className="de-form">sind</td>
                   <td className="de-form">haben</td>
                   <td className="de-form">werden</td>
+                  <td className="de-form">möchten</td>
                 </tr>
               </tbody>
             </table>
