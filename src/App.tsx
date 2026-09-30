@@ -38,6 +38,7 @@ function Shell() {
           <a href="https://tigersndragons.com/" target="_blank" rel="noopener noreferrer">
             Main site
           </a>
+          <Link to="/studienblaetter">Studienblätter</Link>
           <Link to="/about">About</Link>
           <Link to="/terms">Terms</Link>
         </nav>

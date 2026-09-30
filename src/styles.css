@@ -31,7 +31,7 @@ body {
 .accent { color: var(--accent); }
 .tagline { color: var(--muted); margin: 6px 0 0; }
 
-.header-row { display: flex; align-items: center; gap: 18px; }
+.header-row { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
 .header-row > div { flex: 1; }
 .flag {
     width: 60px; height: 36px;
@@ -493,7 +493,15 @@ footer code { color: var(--accent); }
 }
 
 /* Multi-link header nav */
-.nav-links { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+/* The nav sits on its own row beneath the flag and title: flex-basis 100% forces
+   the wrap, so the buttons no longer compete with the heading for width and stop
+   re-flowing into a ragged second line as the title grows. */
+.nav-links {
+    display: flex; gap: 8px; flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-basis: 100%;
+    margin-top: 2px;
+}
 
 /* Shut-down button — a nav-link styled in the flag red */
 .nav-link.danger {
