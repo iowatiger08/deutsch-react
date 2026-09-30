@@ -5,6 +5,7 @@ import Search from './routes/Search';
 import Vokabeln from './routes/Vokabeln';
 import Quiz from './routes/Quiz';
 import Grammar from './routes/Grammar';
+import StudySheets from './routes/StudySheets';
 import Wetter from './routes/Wetter';
 import About from './routes/About';
 import Terms from './routes/Terms';
@@ -25,6 +26,7 @@ function Shell() {
           <Route path="/vokabeln" element={<Vokabeln />} />
           <Route path="/quiz" element={<Quiz />} />
           <Route path="/grammar" element={<Grammar />} />
+          <Route path="/studienblaetter" element={<StudySheets />} />
           <Route path="/wetter" element={<Wetter />} />
           <Route path="/about" element={<About />} />
           <Route path="/terms" element={<Terms />} />

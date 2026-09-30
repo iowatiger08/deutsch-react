@@ -9,6 +9,7 @@ const NAV: { to: string; label: string; end?: boolean }[] = [
   { to: '/quiz', label: 'Quiz' },
   { to: '/wetter', label: 'Wetter & Nachrichten' },
   { to: '/grammar', label: 'Grammatik' },
+  { to: '/studienblaetter', label: '📄 Studienblätter' },
   { to: '/about', label: 'ℹ️ Über' },
 ];
 

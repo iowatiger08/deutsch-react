@@ -284,6 +284,16 @@ table.chart .de-form { color: var(--de); font-weight: 600; }
 table.chart .de-form.hl { color: var(--accent); }   /* highlight the stem-changed forms */
 table.chart .ending { color: var(--accent-2); font-family: ui-monospace, Menlo, monospace; font-size: 0.85rem; }
 
+/* Wortbildung / Satzbau charts carry whole example sentences — let those wrap
+   instead of forcing the whole table into a horizontal scroll. */
+table.chart.wordy td, table.chart.wordy th { white-space: normal; }
+table.chart.wordy td { line-height: 1.45; }
+/* the finite verb inside an example sentence — shows where it lands */
+table.chart.wordy .vb {
+    color: var(--accent-2); font-weight: 600;
+    text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 3px;
+}
+
 /* Flashcard quiz */
 .quiz-controls {
     background: var(--panel);
