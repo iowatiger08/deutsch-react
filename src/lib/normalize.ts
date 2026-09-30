@@ -9,23 +9,32 @@ import type { SeedEntry } from './types';
 
 /** Leading definite article ("der ", "Die ", "das " …), with its trailing space. */
 const LEADING_ARTICLE = /^(der|die|das)\s+/i;
+/**
+ * Trailing definite article — the current convention, "Haus, das". Both forms are
+ * recognized because the two stores disagree: the live vocabulary was migrated to
+ * the trailing form, while older rows (and the local H2 database) still carry the
+ * leading one. Stripping either yields the same key, so the same word never
+ * splits into two entries just because of where its article sits.
+ */
+const TRAILING_ARTICLE = /,\s*(der|die|das)\s*$/i;
 const WHITESPACE = /\s+/g;
 
 /**
  * Grouping key: two German terms collapse into one entry when their keys match.
- * Lower-cased, whitespace-collapsed, with any leading der/die/das stripped.
+ * Lower-cased, whitespace-collapsed, with a der/die/das stripped from either end.
  */
 export function key(german: string | null | undefined): string {
   if (german == null) return '';
   let g = german.trim().replace(WHITESPACE, ' ');
-  g = g.replace(LEADING_ARTICLE, '');
-  return g.toLocaleLowerCase('de');
+  g = g.replace(LEADING_ARTICLE, '').replace(TRAILING_ARTICLE, '');
+  return g.trim().toLocaleLowerCase('de');
 }
 
-/** The lower-cased definite article (der/die/das) if the term starts with one, else null. */
+/** The lower-cased definite article (der/die/das) if the term carries one, else null. */
 export function article(german: string | null | undefined): string | null {
   if (german == null) return null;
-  const m = german.trim().match(LEADING_ARTICLE);
+  const g = german.trim();
+  const m = g.match(LEADING_ARTICLE) ?? g.match(TRAILING_ARTICLE);
   return m ? m[1].toLocaleLowerCase('de') : null;
 }
 
@@ -57,7 +66,7 @@ function startsUpper(s: string): boolean {
 
 function bareNounOf(german: string): string {
   const g = german.trim().replace(WHITESPACE, ' ');
-  return g.replace(LEADING_ARTICLE, '');
+  return g.replace(LEADING_ARTICLE, '').replace(TRAILING_ARTICLE, '').trim();
 }
 
 /** The bare noun taken from the most carefully-cased variant in the group. */
@@ -74,7 +83,10 @@ function capitalizeNoun(noun: string): string {
 
 /**
  * Canonical German term. If any variant carries an article, use the articled form
- * ("<lowercase article> <Capitalized noun>") to preserve gender; else the best bare form.
+ * ("<Capitalized noun>, <lowercase article>") to preserve gender; else the best bare
+ * form. Emitting the trailing form matters: a merge is the one moment that rewrites
+ * `german`, so producing the old "das Haus" shape here would silently walk the
+ * vocabulary back to the leading-article convention one duplicate at a time.
  * Conflicting articles are merged (warned) preferring the variant with a capitalized noun.
  */
 function canonicalGerman(group: GermanRow[]): string {
@@ -94,12 +106,12 @@ function canonicalGerman(group: GermanRow[]): string {
     chosen = preferred ? preferred[0] : byArticle.keys().next().value!;
     console.warn(
       `Conflicting articles [${[...byArticle.keys()].join(', ')}] for '${noun}' — ` +
-        `merged as '${chosen} ${noun}'; verify gender manually.`,
+        `merged as '${noun}, ${chosen}'; verify gender manually.`,
     );
   } else {
     chosen = byArticle.keys().next().value!;
   }
-  return `${chosen} ${noun}`;
+  return `${noun}, ${chosen}`;
 }
 
 /** Union of distinct non-blank English glosses (case-insensitive), joined with "; ". */
