@@ -7,7 +7,7 @@
  */
 import type { Entry, Limit, SearchParams, SortDir, SortField } from './types';
 
-const SORTABLE: readonly SortField[] = ['german', 'english', 'category', 'sourcePage'];
+const SORTABLE: readonly SortField[] = ['german', 'english', 'category', 'sourcePage', 'id'];
 const ALL = 100_000;
 
 function parseLimit(limit: Limit | undefined): number {
@@ -19,8 +19,8 @@ function parseLimit(limit: Limit | undefined): number {
 
 function compare(a: Entry, b: Entry, field: SortField, dir: SortDir): number {
   let cmp: number;
-  if (field === 'sourcePage') {
-    cmp = a.sourcePage - b.sourcePage;
+  if (field === 'sourcePage' || field === 'id') {
+    cmp = a[field] - b[field];
   } else {
     cmp = (a[field] ?? '').localeCompare(b[field] ?? '', 'de', { sensitivity: 'base' });
   }

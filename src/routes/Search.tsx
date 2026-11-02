@@ -1,7 +1,8 @@
 /**
  * Search page (route "/") — ports index.html + its inline JS + app.js.
  *
- * Search box (150 ms debounce), a category dropdown, sortable headers, limit toggle,
+ * Search box (150 ms debounce), a category dropdown, sortable headers, an A–Z /
+ * newest-first toggle, limit toggle,
  * and inline add/edit/delete against the local IndexedDB store. The server-only
  * "⏻ Beenden" button is gone; an Export / Import control takes its place as the
  * backup story.
@@ -340,6 +341,26 @@ export default function Search() {
                   ⎋ Abmelden
                 </button>
               )}
+            </div>
+            <div className="limit-toggle">
+              <span className="limit-label">Sort</span>
+              {(
+                [
+                  ['german', 'asc', 'A–Z'],
+                  ['id', 'desc', 'Neueste'],
+                ] as [SortField, SortDir, string][]
+              ).map(([field, dir, label]) => (
+                <button
+                  key={field}
+                  className={`lim${sortField === field && sortDir === dir ? ' active' : ''}`}
+                  onClick={() => {
+                    setSortField(field);
+                    setSortDir(dir);
+                  }}
+                >
+                  {label}
+                </button>
+              ))}
             </div>
             <div className="limit-toggle" id="limit-toggle">
               <span className="limit-label">Show</span>

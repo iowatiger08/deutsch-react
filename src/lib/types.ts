@@ -11,7 +11,8 @@ export interface Entry {
 /** The seed/export shape — same as `entries.json`, without the client id. */
 export type SeedEntry = Omit<Entry, 'id'>;
 
-export type SortField = 'german' | 'english' | 'category' | 'sourcePage';
+/** 'id' = order added (ids are assigned max+1), i.e. newest when descending. */
+export type SortField = 'german' | 'english' | 'category' | 'sourcePage' | 'id';
 export type SortDir = 'asc' | 'desc';
 /** '200' | '500' | 'all' — matches the limit toggle. */
 export type Limit = string;

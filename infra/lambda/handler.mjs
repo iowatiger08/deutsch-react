@@ -155,7 +155,8 @@ const googleNews = (query) =>
 
 const FEEDS = [
   { titel: 'Deutsche Welle (dw.de)', url: 'https://rss.dw.com/rdf/rss-de-all' },
-  { titel: 'Des Moines, Iowa', url: googleNews('"Des Moines" Iowa') },
+  // German coverage of Des Moines alone is too sparse; search all of Iowa, past week.
+  { titel: 'Iowa, USA', url: googleNews('Iowa when:7d') },
   { titel: 'Hamburg, Deutschland', url: googleNews('Hamburg') },
 ];
 
@@ -200,7 +201,6 @@ function parseItems(xml) {
   const items = Array.isArray(raw) ? raw : [raw];
   const out = [];
   for (const it of items) {
-    if (out.length >= MAX_ITEMS) break;
     const titel = asText(it.title);
     if (!titel) continue;
     out.push({
@@ -209,7 +209,10 @@ function parseItems(xml) {
       datum: firstNonBlank(it.pubDate, it.date),
     });
   }
-  return out;
+  // Newest first (Google News ranks by relevance). Stable sort: undated items
+  // keep feed order, after the dated ones.
+  const ts = (s) => Date.parse(s) || -Infinity;
+  return out.sort((a, b) => ts(b.datum) - ts(a.datum) || 0).slice(0, MAX_ITEMS);
 }
 
 async function fetchFeed(feed) {
