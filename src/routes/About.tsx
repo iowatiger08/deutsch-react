@@ -15,6 +15,14 @@ export default function About() {
           <b>solely for educational and language-learning purposes — no other intent.</b>
         </p>
         <p>
+          Herzstück der App ist eine Vokabeltabelle, die in Apple Notizen geführt wurde. Daraus ist
+          eine durchsuchbare Website geworden, ergänzt um zusätzliche Nachschlagematerialien.
+        </p>
+        <p className="gloss">
+          The core of this app is a vocabulary table kept in Apple Notes, converted into a searchable
+          site with additional reference materials.
+        </p>
+        <p>
           Es handelt sich um eine persönliche Referenz zum Deutschlernen: Wortschatz,
           Grammatik-Übersichten, ein Flashcard-Quiz sowie Wetter- und Nachrichten-Übungen. Alle
           Inhalte sind als sachliche Lernmaterialien gedacht — Vokabellisten und Erklärungen, nicht
